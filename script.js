@@ -290,10 +290,11 @@ function initializeFilters() {
 
     const typesHeader = document.createElement('h5');
     typesHeader.textContent = 'Facility Types';
+    typesHeader.className = 'collapsed'; // Start collapsed
     typesFilterDiv.appendChild(typesHeader);
 
     const typesList = document.createElement('div');
-    typesList.className = 'facility-types-list';
+    typesList.className = 'facility-types-list collapsed'; // Start collapsed
 
     // Add Select All / Remove All buttons
     const actionsDiv = document.createElement('div');
