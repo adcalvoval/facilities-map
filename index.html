@@ -341,6 +341,27 @@
             font-weight: bold;
             font-size: 18px;
         }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px 20px;
+            border-radius: 8px 8px 0 0;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            font-size: 12px;
+            color: #555;
+            text-align: center;
+        }
+        .footer a {
+            color: #1976D2;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
         .loading-indicator {
             position: fixed;
             top: 50%;
@@ -468,6 +489,11 @@
         <div class="spinner"></div>
         <div class="loading-text">Loading Schools...</div>
         <div class="loading-subtext" id="loading-subtext">Please wait</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Created by Adrián Calvo-Valderrama (IFRC) with data from <a href="https://gigamaps.io/" target="_blank" rel="noopener noreferrer">GigaMaps</a> and its contributors
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
