@@ -480,6 +480,9 @@ map.on('overlayadd', async function(e) {
             }
         }
 
+        // Show loading indicator while adding markers
+        showLoading('Adding Schools to Map...', `Displaying ${allSchools.length} schools`);
+
         // Add all schools to layer
         allSchools.forEach(schoolData => {
             if (!schoolsLayer.hasLayer(schoolData.marker)) {
@@ -488,6 +491,9 @@ map.on('overlayadd', async function(e) {
         });
         console.log(`Added ${allSchools.length} schools to layer`);
         updateSchoolsCount();
+
+        // Hide loading indicator
+        hideLoading();
     }
 });
 
