@@ -734,6 +734,7 @@ function initializeFilters() {
 
         applyFilters();
         zoomToCountry();
+        updateCountryStats();
     });
 
     document.querySelectorAll('.type-filter').forEach(checkbox => {
@@ -845,6 +846,68 @@ function calculateDistance(lat1, lng1, lat2, lng2) {
               Math.sin(dLng / 2) * Math.sin(dLng / 2);
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     return R * c;
+}
+
+// Update country statistics box
+function updateCountryStats() {
+    const countrySelect = document.getElementById('country-select');
+    const selectedCountry = countrySelect ? countrySelect.value : 'all';
+    const statsBox = document.getElementById('country-stats');
+
+    if (selectedCountry === 'all') {
+        statsBox.classList.remove('active');
+        return;
+    }
+
+    // Show the stats box
+    statsBox.classList.add('active');
+
+    // Update country name
+    const countryNameElement = document.getElementById('stats-country-name');
+    if (countryNameElement) {
+        countryNameElement.textContent = `${selectedCountry} Statistics`;
+    }
+
+    // Get ISO3 code for school filtering
+    const countryISO3 = countryNameToISO3[selectedCountry] || selectedCountry;
+
+    // Count schools for this country
+    const countrySchools = allSchools.filter(s => s.country === countryISO3);
+    const totalSchools = countrySchools.length;
+
+    // Count facilities for this country
+    const countryFacilities = allFacilities.filter(f => f.country === selectedCountry);
+    const totalFacilities = countryFacilities.length;
+
+    // Calculate schools within different radii
+    const schoolsWithin5km = new Set();
+    const schoolsWithin10km = new Set();
+    const schoolsWithin50km = new Set();
+
+    countryFacilities.forEach(facilityData => {
+        const facilityLatLng = facilityData.marker.getLatLng();
+
+        countrySchools.forEach(school => {
+            const distance = calculateDistance(
+                facilityLatLng.lat,
+                facilityLatLng.lng,
+                school.lat,
+                school.lng
+            );
+
+            const schoolKey = `${school.lat},${school.lng}`;
+            if (distance <= 5) schoolsWithin5km.add(schoolKey);
+            if (distance <= 10) schoolsWithin10km.add(schoolKey);
+            if (distance <= 50) schoolsWithin50km.add(schoolKey);
+        });
+    });
+
+    // Update the display
+    document.getElementById('stats-total-schools').textContent = totalSchools.toLocaleString();
+    document.getElementById('stats-total-facilities').textContent = totalFacilities.toLocaleString();
+    document.getElementById('stats-within-5km').textContent = schoolsWithin5km.size.toLocaleString();
+    document.getElementById('stats-within-10km').textContent = schoolsWithin10km.size.toLocaleString();
+    document.getElementById('stats-within-50km').textContent = schoolsWithin50km.size.toLocaleString();
 }
 
 // Update the count of schools within and outside buffer zones

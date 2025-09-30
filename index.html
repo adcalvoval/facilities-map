@@ -200,6 +200,65 @@
             color: #dc2626;
             margin-top: 5px;
         }
+        .country-stats {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            z-index: 1000;
+            min-width: 280px;
+            display: none;
+        }
+        .country-stats.active {
+            display: block;
+        }
+        .country-stats h3 {
+            margin: 0 0 15px 0;
+            font-size: 16px;
+            color: #333;
+            border-bottom: 2px solid #1976D2;
+            padding-bottom: 8px;
+        }
+        .stat-row {
+            margin-bottom: 12px;
+            font-size: 13px;
+            color: #555;
+        }
+        .stat-row label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .stat-row .value {
+            font-size: 20px;
+            color: #1976D2;
+            font-weight: bold;
+        }
+        .stat-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .stat-section h4 {
+            margin: 0 0 10px 0;
+            font-size: 13px;
+            color: #666;
+        }
+        .radius-stat {
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        .radius-stat .label {
+            font-weight: bold;
+        }
+        .radius-stat .count {
+            float: right;
+            color: #1976D2;
+            font-weight: bold;
+        }
         .loading-indicator {
             position: fixed;
             top: 50%;
@@ -280,6 +339,34 @@
 </head>
 <body>
     <div id="map"></div>
+
+    <!-- Country Statistics Box -->
+    <div id="country-stats" class="country-stats">
+        <h3 id="stats-country-name">Country Statistics</h3>
+        <div class="stat-row">
+            <label>Total Schools:</label>
+            <span class="value" id="stats-total-schools">0</span>
+        </div>
+        <div class="stat-row">
+            <label>Total Health Facilities:</label>
+            <span class="value" id="stats-total-facilities">0</span>
+        </div>
+        <div class="stat-section">
+            <h4>Schools within radius of Health Facilities:</h4>
+            <div class="radius-stat">
+                <span class="label">Within 5 km:</span>
+                <span class="count" id="stats-within-5km">0</span>
+            </div>
+            <div class="radius-stat">
+                <span class="label">Within 10 km:</span>
+                <span class="count" id="stats-within-10km">0</span>
+            </div>
+            <div class="radius-stat">
+                <span class="label">Within 50 km:</span>
+                <span class="count" id="stats-within-50km">0</span>
+            </div>
+        </div>
+    </div>
 
     <!-- Loading indicator -->
     <div id="loading-indicator" class="loading-indicator">
