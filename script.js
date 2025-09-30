@@ -306,7 +306,10 @@ function initializeFilters() {
     document.getElementById('map').appendChild(filtersContainer);
 
     // Add event listeners
-    countrySelect.addEventListener('change', applyFilters);
+    countrySelect.addEventListener('change', () => {
+        applyFilters();
+        zoomToCountry();
+    });
 
     document.querySelectorAll('.type-filter').forEach(checkbox => {
         checkbox.addEventListener('change', applyFilters);
@@ -341,4 +344,29 @@ function applyFilters() {
             }
         }
     });
+}
+
+// Zoom map to selected country
+function zoomToCountry() {
+    const countrySelect = document.getElementById('country-select');
+    const selectedCountry = countrySelect ? countrySelect.value : 'all';
+
+    if (selectedCountry === 'all') {
+        // Reset to default view (Afghanistan)
+        map.setView([33.9391, 67.7100], 6);
+        return;
+    }
+
+    // Get all facilities for the selected country
+    const countryFacilities = allFacilities.filter(f => f.country === selectedCountry);
+
+    if (countryFacilities.length > 0) {
+        // Create a bounds object from all facility markers in the country
+        const bounds = L.latLngBounds(
+            countryFacilities.map(f => f.marker.getLatLng())
+        );
+
+        // Fit the map to show all facilities in the selected country
+        map.fitBounds(bounds, { padding: [50, 50] });
+    }
 }
