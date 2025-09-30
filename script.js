@@ -1,4 +1,4 @@
-// Initialize the map centered on Afghanistan
+// Initialize the map with a temporary default view (will be adjusted after data loads)
 const map = L.map('map').setView([33.9391, 67.7100], 6);
 
 // Add OpenStreetMap tile layer
@@ -146,6 +146,14 @@ fetch('health_facilities.json')
 
             // Initialize filter controls after data is loaded
             initializeFilters();
+
+            // Set initial map view to show all facilities
+            if (allFacilities.length > 0) {
+                const bounds = L.latLngBounds(
+                    allFacilities.map(f => f.marker.getLatLng())
+                );
+                map.fitBounds(bounds, { padding: [50, 50] });
+            }
         }
     })
     .catch(error => console.error('Error loading health facilities:', error));
@@ -352,8 +360,13 @@ function zoomToCountry() {
     const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
     if (selectedCountry === 'all') {
-        // Reset to default view (Afghanistan)
-        map.setView([33.9391, 67.7100], 6);
+        // Show all facilities on the map
+        if (allFacilities.length > 0) {
+            const bounds = L.latLngBounds(
+                allFacilities.map(f => f.marker.getLatLng())
+            );
+            map.fitBounds(bounds, { padding: [50, 50] });
+        }
         return;
     }
 
