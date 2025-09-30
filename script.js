@@ -163,7 +163,9 @@ function hideLoading() {
 // Function to fetch schools from API for a specific country with pagination
 async function fetchSchoolsForCountry(countryName) {
     // Convert country name to ISO3 code
+    console.log(`Looking up country: "${countryName}"`);
     const countryCode = countryNameToISO3[countryName] || countryName;
+    console.log(`Mapped to ISO3: "${countryCode}"`);
 
     if (loadedSchoolCountries.has(countryCode)) {
         console.log(`Schools for ${countryName} (${countryCode}) already loaded`);
