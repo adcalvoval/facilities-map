@@ -149,7 +149,7 @@ async function fetchSchoolsForCountry(countryName) {
     }
 
     try {
-        let page = 0;
+        let page = 1; // API uses 1-indexed pages, not 0-indexed
         const size = 1000;
         let hasMore = true;
         let totalLoaded = 0;
