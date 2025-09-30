@@ -242,6 +242,32 @@ function initializeFilters() {
     const typesList = document.createElement('div');
     typesList.className = 'facility-types-list';
 
+    // Add Select All / Remove All buttons
+    const actionsDiv = document.createElement('div');
+    actionsDiv.className = 'filter-actions';
+
+    const selectAllBtn = document.createElement('button');
+    selectAllBtn.textContent = 'Select All';
+    selectAllBtn.addEventListener('click', () => {
+        document.querySelectorAll('.type-filter').forEach(cb => {
+            cb.checked = true;
+        });
+        applyFilters();
+    });
+
+    const removeAllBtn = document.createElement('button');
+    removeAllBtn.textContent = 'Remove All';
+    removeAllBtn.addEventListener('click', () => {
+        document.querySelectorAll('.type-filter').forEach(cb => {
+            cb.checked = false;
+        });
+        applyFilters();
+    });
+
+    actionsDiv.appendChild(selectAllBtn);
+    actionsDiv.appendChild(removeAllBtn);
+    typesList.appendChild(actionsDiv);
+
     const sortedTypes = Array.from(activeFilters.types).sort();
     sortedTypes.forEach(type => {
         const filterItem = document.createElement('div');
