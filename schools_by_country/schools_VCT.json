@@ -1,0 +1,848 @@
+[
+  {
+    "school_name": "ADELPHI SECONDARY SCHOOL",
+    "longitude": -61.145198822021484,
+    "latitude": 13.194700241088867,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "07a55778-e193-33e7-8603-e5c20da3783f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CENTRAL LEEWARD SECONDARY SCHOOL",
+    "longitude": -61.26969909667969,
+    "latitude": 13.229399681091309,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "2d4c8cfa-9946-3bd8-9f8a-2f7941d3b5f9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BEQUIA COMMUNITY HIGH SCHOOL",
+    "longitude": -61.23320007324219,
+    "latitude": 13.011899948120117,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "321e26e9-fdfd-3156-85ed-da9434ef0008",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BEQUIA SEVENTH DAY ADVENTIST",
+    "longitude": -61.233001708984375,
+    "latitude": 13.01039981842041,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "21a0ff2c-d8da-3f97-92bb-147ab97da615",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BISHOP'S COLLEGE KINGSTOWN",
+    "longitude": -61.226898193359375,
+    "latitude": 13.157500267028809,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "03799e3e-02e1-3ad5-aa0b-2c19dbfa0f14",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GEORGETOWN SECONDARY SCHOOL",
+    "longitude": -61.11949920654297,
+    "latitude": 13.281000137329102,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "4b0fffb7-b25d-311c-b7d1-f915016e4b08",
+    "school_data_source": null
+  },
+  {
+    "school_name": "DR. JP EUSTACE MEMORIAL",
+    "longitude": -61.23619842529297,
+    "latitude": 13.158699989318848,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "aaeabe62-3db6-3abd-a5cc-62087a8ae806",
+    "school_data_source": null
+  },
+  {
+    "school_name": "EMMANUEL HIGH SCHOOL",
+    "longitude": -61.16749954223633,
+    "latitude": 13.177599906921387,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "4411ef7e-31cc-38ca-8647-54a89599d179",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GIRLS' HIGH SCHOOL",
+    "longitude": -61.22249984741211,
+    "latitude": 13.155900001525879,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "3bec548e-9fac-319d-a111-8297b7ed8eb2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "INTERMEDIATE HIGH SCHOOL",
+    "longitude": -61.22370147705078,
+    "latitude": 13.156499862670898,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "58c2e643-f05d-3590-b6e8-a2bf43995002",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST. JOSEPH'S CONVENT MARRIAQUA",
+    "longitude": -61.169700622558594,
+    "latitude": 13.178299903869629,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "1912d332-7a04-33cf-88d5-7d3cd24279f0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "MOUNTAIN VIEW ADVENTIST ACADEMY",
+    "longitude": -61.169498443603516,
+    "latitude": 13.190600395202637,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "1e9ec4f1-c62e-3dc1-8a00-2e85bde5ecbc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST. JOSEPH'S CONVENT KINGSTOWN",
+    "longitude": -61.22819900512695,
+    "latitude": 13.15880012512207,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f5104ba2-5106-3318-8ef9-bef14e1e97a3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST. MARTIN'S SECONDARY SCHOOL",
+    "longitude": -61.226898193359375,
+    "latitude": 13.15880012512207,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "6de2c0a8-424e-387e-af93-5c034bdbbf21",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST VINCENT GRAMMAR SCHOOL",
+    "longitude": -61.22309875488281,
+    "latitude": 13.155500411987305,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "b66353e7-9da1-3ee7-aaf9-5357b83cc69a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "TROUMACA SECONDARY SCHOOL",
+    "longitude": -61.25709915161133,
+    "latitude": 13.282699584960938,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "8d09f6a9-36a6-363f-9c37-b16e7e32c62d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "UNION ISLAND SECONDARY",
+    "longitude": -61.441898345947266,
+    "latitude": 12.590200424194336,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "c7c14c86-9d68-3b1c-a472-931d129afd48",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PETIT BORDEL SECONDARY SCHOOL",
+    "longitude": -61.24359893798828,
+    "latitude": 13.286100387573242,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "cd131152-da17-3b4c-8640-f7c16411366e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "NORTH UNION SECONDARY SCHOOL",
+    "longitude": -61.13019943237305,
+    "latitude": 13.225299835205078,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f5cc8cc6-2ba6-318e-bbf9-e1936f4653f6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BETHEL HIGH SCHOOL",
+    "longitude": -61.24589920043945,
+    "latitude": 13.172900199890137,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "61294176-b1c0-34ce-a94e-8057c0893fa2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST.CLAIR DACON SECONDARY SCHOOL",
+    "longitude": -61.167198181152344,
+    "latitude": 13.154899597167969,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "258b42fd-5d59-3d9c-8a8c-13a9e67ea4a3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BUCCAMENT BAY SECONDARY SCHOOL",
+    "longitude": -61.26570129394531,
+    "latitude": 13.193300247192383,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "190abb01-18df-3097-baef-f20dfee1e784",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GEORGE STEPHENS SECONDARY SCHOOL",
+    "longitude": -61.11709976196289,
+    "latitude": 13.24120044708252,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "51c86e85-52c3-3e65-9ebc-2bcebf1ddade",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SANDY BAY SECONDARY SCHOOL",
+    "longitude": -61.12990188598633,
+    "latitude": 13.343099594116211,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "a0d63e99-2f68-3845-be98-e1e6e316c593",
+    "school_data_source": null
+  },
+  {
+    "school_name": "THOMAS SAUNDERS SECONDARY SCHOOL",
+    "longitude": -61.22159957885742,
+    "latitude": 13.15410041809082,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "773b2a6e-a3a6-35a3-8463-a3814ea54290",
+    "school_data_source": null
+  },
+  {
+    "school_name": "WEST ST. GEORGE SECONDARY SCHOOL",
+    "longitude": -61.19269943237305,
+    "latitude": 13.15820026397705,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f1e58fac-f0ef-3fa4-bc4a-785155bebc26",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SUMMIT EDUCATIONAL TRUST",
+    "longitude": -61.193599700927734,
+    "latitude": 13.140899658203125,
+    "education_level": "Secondary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "38fa82ea-89f8-3309-9ee1-ba9bca5ce4a0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ARGYLE PRIMARY",
+    "longitude": -61.15449905395508,
+    "latitude": 13.162400245666504,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "89771d22-edc9-3d77-9d2f-ac8a8a41daed",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BARROUALLIE ANGLICAN",
+    "longitude": -61.272499084472656,
+    "latitude": 13.236499786376953,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "c823f2a0-4253-35cd-8641-d437fdfd1b9b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BARROUALLIE GOVERNMENT",
+    "longitude": -61.27119827270508,
+    "latitude": 13.236800193786621,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "6d62b382-18cc-3682-884a-1038d77d6f27",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BELAIR GOVERNMENT",
+    "longitude": -61.19390106201172,
+    "latitude": 13.158699989318848,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "d2ccc2f1-54b4-3bc5-adb8-291a9c223cf5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BELMONT GOVERNMENT",
+    "longitude": -61.180599212646484,
+    "latitude": 13.16510009765625,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "8aeb1aba-c28b-3ccf-b2e8-96f1ecda9fd9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BEQUIA SEVENTH DAY ADVENTIST PRIMARY",
+    "longitude": -61.2333984375,
+    "latitude": 13.010199546813965,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "0d9e1b98-4cd6-3b3c-90bb-a4c94e9cafd0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BEQUIA ANGLICAN PRIMARY",
+    "longitude": -61.2333984375,
+    "latitude": 13.010299682617188,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "70cb8e3a-82ad-31f4-9fe9-2f0846d20438",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BIABOU METHODIST",
+    "longitude": -61.13990020751953,
+    "latitude": 13.195699691772461,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "764c971b-e248-3105-8572-eedfec6dbbf8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BRIGHTON METHODIST",
+    "longitude": -61.17129898071289,
+    "latitude": 13.14009952545166,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "152bb950-0cec-399b-8041-1ebd1427ffc6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BUCCAMENT GOVERNMENT",
+    "longitude": -61.23759841918945,
+    "latitude": 13.198800086975098,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "9ed17c3f-236d-3efe-a4e4-ea4f570c0550",
+    "school_data_source": null
+  },
+  {
+    "school_name": "C.W. PRESCOD PRIMARY",
+    "longitude": -61.11790084838867,
+    "latitude": 13.241000175476074,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "43dd26b8-2b24-361b-9934-a0e3f2413c75",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CALDER GOVERNMENT",
+    "longitude": -61.22249984741211,
+    "latitude": 13.153300285339355,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "c00c76ae-a3f8-3cc4-a71c-e36c403b167a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CALLIAQUA ANGLICAN",
+    "longitude": -61.19269943237305,
+    "latitude": 13.130999565124512,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "fb355a86-aa85-3039-8cda-058b2bd43ec2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CANE END PRIMARY",
+    "longitude": -61.19269943237305,
+    "latitude": 13.130999565124512,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "d0069350-2932-3380-ad7c-6e9aaca39136",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CANOUAN PRIMARY",
+    "longitude": -61.1703987121582,
+    "latitude": 13.178500175476074,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "2dbc9226-479f-37b3-860f-25791e8633c5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CHATEAUBELAIR METHODIST",
+    "longitude": -61.326698303222656,
+    "latitude": 12.702099800109863,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "cbd39358-e553-3a2a-8195-7b96f1c480b1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CLARE VALLEY GOVERNMENT",
+    "longitude": -61.242000579833984,
+    "latitude": 13.28950023651123,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "55edfca0-eadf-3f6a-bdb7-ed74af15ca8e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "COLONAIRE GOVERNMENT",
+    "longitude": -61.25659942626953,
+    "latitude": 13.178199768066406,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "ecf565f2-5aec-321a-8420-f34966004c1c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "DIAMOND GOVERNMENT",
+    "longitude": -61.13529968261719,
+    "latitude": 13.22700023651123,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "05baaa7c-477b-3161-802f-013a2325890c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "DICKSON  METHODIST",
+    "longitude": -61.12969970703125,
+    "latitude": 13.287699699401855,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "aff20786-0202-30d1-8c5c-7d36f08a4f82",
+    "school_data_source": null
+  },
+  {
+    "school_name": "DORSETSHIRE HILL GOVERNMENT",
+    "longitude": -61.21369934082031,
+    "latitude": 13.156700134277344,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f059d5c1-204b-322e-b91f-bd58287087d4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "EVESHAM METHODIST",
+    "longitude": -61.174400329589844,
+    "latitude": 13.17389965057373,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "a0728076-43ff-3524-aace-a173137ca3fd",
+    "school_data_source": null
+  },
+  {
+    "school_name": "FAIRHALL PRIMARY",
+    "longitude": -61.19459915161133,
+    "latitude": 13.14490032196045,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "4d67022a-a853-3a0a-a2ed-f101000a16b7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "FANCY GOVERNMENT",
+    "longitude": -61.16960144042969,
+    "latitude": 13.380900382995605,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "4ff8f318-265e-3bd8-8da7-215f7dae2938",
+    "school_data_source": null
+  },
+  {
+    "school_name": "FITZ HUGHES GOVERNMENT",
+    "longitude": -61.23509979248047,
+    "latitude": 13.29319953918457,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "3230abc3-fdd4-3058-b7bc-378d12cd5c9b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GEORGETOWN GOVERNMENT",
+    "longitude": -61.118099212646484,
+    "latitude": 13.282299995422363,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f54e695a-aa92-3d65-8bd2-f9f4c0972c00",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GOMEA METHODIST",
+    "longitude": -61.195701599121094,
+    "latitude": 13.166500091552734,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "c48b427d-045b-3fb9-8ebc-7e7a8ccb00a2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "KINGSTOWN ANGLICAN",
+    "longitude": -61.22880172729492,
+    "latitude": 13.156000137329102,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "4c5500ee-1c02-3683-bcd3-d21271fe8de7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "KINGSTOWN PREPARATORY",
+    "longitude": -61.22249984741211,
+    "latitude": 13.15470027923584,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "1e8abcba-facf-38ee-b76c-79c88baef5d7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LANGLEY PARK GOVERNMENT",
+    "longitude": -61.11790084838867,
+    "latitude": 13.289899826049805,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "cbf30e57-7cbc-3510-b2d7-4f162d8f5cd4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LAUDERS PRIMARY",
+    "longitude": -61.15250015258789,
+    "latitude": 13.218400001525879,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "8d9c6944-f6fc-3b5b-9378-a6225290d80b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LAYOU GOVERNMENT",
+    "longitude": -61.27119827270508,
+    "latitude": 13.202199935913086,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "137dcb35-01e1-36ff-9040-414e5dfe98e7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LEEWARD DISTRICT SDA",
+    "longitude": -61.2666015625,
+    "latitude": 13.19279956817627,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "904c9900-d953-307c-8c01-582b58da90c6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LODGE VILLAGE GOVERNMENT",
+    "longitude": -61.224098205566406,
+    "latitude": 13.163800239562988,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "52be20bc-5951-37ea-b51d-1844e8d16743",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LOWMANS LEEWARD ANGLICAN",
+    "longitude": -61.23590087890625,
+    "latitude": 13.17300033569336,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "775c0cb8-304d-3018-a3c5-35c9f1b8ba16",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LOWMANS WINDWARD ANGLICAN",
+    "longitude": -61.14830017089844,
+    "latitude": 13.214300155639648,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "5947d891-3081-3817-8363-a1567a160c5e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "MARRIAQUA GOVERNMENT",
+    "longitude": -61.16910171508789,
+    "latitude": 13.182700157165527,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "fd1c75a1-1643-3325-9bc1-26672bcd4e48",
+    "school_data_source": null
+  },
+  {
+    "school_name": "MARY HUTCHINSON PRIMARY",
+    "longitude": -61.432498931884766,
+    "latitude": 12.595600128173828,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "523bdfd6-e8c4-32d9-8eef-72b243c62359",
+    "school_data_source": null
+  },
+  {
+    "school_name": "MAYREAU PRIMARY",
+    "longitude": -61.39339828491211,
+    "latitude": 12.639900207519531,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "04a2519d-df5e-3257-b7af-82b761fcf9e9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "MUSTIQUE PRIMARY",
+    "longitude": -61.18510055541992,
+    "latitude": 12.881500244140625,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "e5f7babe-d2d1-39b1-9761-5404ac0251b5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "NEW PROSPECT PRIMARY",
+    "longitude": -61.15760040283203,
+    "latitude": 13.196499824523926,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "3e17e10b-7f72-3486-89cf-d1833091aa14",
+    "school_data_source": null
+  },
+  {
+    "school_name": "OWIA GOVERNMENT",
+    "longitude": -61.14350128173828,
+    "latitude": 13.375399589538574,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "48489bc8-dc51-3f54-9760-af5222f9a6cb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PAGET FARM GOVERNMENT",
+    "longitude": -61.26070022583008,
+    "latitude": 12.990799903869629,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "76ed4b68-6e1e-31ba-b721-d6182bdd6e2a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PAMELUS BURKE PRIMARY",
+    "longitude": -61.1239013671875,
+    "latitude": 13.255800247192383,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f0164fe1-7585-36da-966a-e0c8385b77cc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LOWER BAY PRIMARY",
+    "longitude": -61.24470138549805,
+    "latitude": 12.996365547180176,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "6c24abdc-74ed-38fa-803f-afc0220c1556",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PARK HILL PRIMARY",
+    "longitude": -61.13130187988281,
+    "latitude": 13.24120044708252,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "884de3bb-4c7c-301e-9dec-55df1fd06318",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PETERSVILLE PRIMARY",
+    "longitude": -61.226600646972656,
+    "latitude": 13.160200119018555,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f26dac62-5ffb-3fc8-a357-9f9a267412f6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "QUESTELLES GOVERNMENT",
+    "longitude": -61.248600006103516,
+    "latitude": 13.177200317382812,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "be6fecfb-7a8e-3df4-9088-f13e5b1bc3d3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "RICHLAND PARK GOVERNMENT",
+    "longitude": -61.1682014465332,
+    "latitude": 13.19260025024414,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "7a5e7e59-9ad8-3079-8817-72712573ca2f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "RICHLAND PARK SEVENTH DAY ADVENTIST",
+    "longitude": -61.16849899291992,
+    "latitude": 13.193499565124512,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "5a75703b-0e2d-3e28-b350-b0f04598dbfc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ROSE HALL GOVERNMENT",
+    "longitude": -61.23889923095703,
+    "latitude": 13.271100044250488,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "45a064b6-8d1c-318e-9751-ec81bd8cb290",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SANDY BAY GOVERNMENT",
+    "longitude": -61.130001068115234,
+    "latitude": 13.343500137329102,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "1788724f-5682-370c-ace0-bf4cb5d6e90a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SION HILL GOVERNMENT",
+    "longitude": -61.21480178833008,
+    "latitude": 13.144800186157227,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "3add96ca-45b4-300a-a847-1586ba12f34c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SOUTH RIVERS METHODIST",
+    "longitude": -61.14099884033203,
+    "latitude": 13.247200012207031,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "d16c3348-69f0-3cfc-81ee-def0ed8e57d2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SPRING VILLAGE METHODIST",
+    "longitude": -61.24660110473633,
+    "latitude": 13.258999824523926,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "0c6b454e-c89d-391d-b104-5b93cb5ca96a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ST. MARY'S ROMAN CATHOLIC",
+    "longitude": -61.229000091552734,
+    "latitude": 13.157400131225586,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "0e532d29-c7ca-3d89-9797-bc9ab3dfc1d8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "STEPHANIE BROWNE PRIMARY",
+    "longitude": -61.41849899291992,
+    "latitude": 12.593400001525879,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "33f2d8e9-8faf-3938-b6bc-30ea6a5fccfc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "STUBBS PRIMARY",
+    "longitude": -61.15909957885742,
+    "latitude": 13.149700164794922,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "0e4515ec-524c-3505-95a1-efc20e372d23",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SUGAR MILL ACADEMY",
+    "longitude": -61.189998626708984,
+    "latitude": 13.13129997253418,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "bb1b581e-59eb-33b3-95fc-936e90479d40",
+    "school_data_source": null
+  },
+  {
+    "school_name": "SUMMIT EDUCATIONAL TRUST",
+    "longitude": -61.193599700927734,
+    "latitude": 13.140899658203125,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "b4347c57-8bfd-3b1e-9975-7152ce54104d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "TOURAMA GOVERNMENT",
+    "longitude": -61.1244010925293,
+    "latitude": 13.33180046081543,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "887d23eb-0528-3e89-b085-c3bed0220709",
+    "school_data_source": null
+  },
+  {
+    "school_name": "TROUMACA GOVERNMENT",
+    "longitude": -61.25699996948242,
+    "latitude": 13.27970027923584,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "fcc40fe0-69ab-3d4f-a598-c9177002a528",
+    "school_data_source": null
+  },
+  {
+    "school_name": "NEW GROUNDS PRIMARY",
+    "longitude": -61.13240051269531,
+    "latitude": 13.219200134277344,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "7c083e9d-da1a-3c4f-bf5b-7c60e8933f62",
+    "school_data_source": null
+  },
+  {
+    "school_name": "WEST WOOD METHODIST",
+    "longitude": -61.2577018737793,
+    "latitude": 13.270899772644043,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "feccd0a6-0ef3-3d5c-bdee-672b54e886e1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "WINDSOR PRIMARY",
+    "longitude": -61.22819900512695,
+    "latitude": 13.16349983215332,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "cbef9b91-d823-393a-b079-41b3f6276b40",
+    "school_data_source": null
+  },
+  {
+    "school_name": "GREGGS GOVERNMENT",
+    "longitude": -61.15909957885742,
+    "latitude": 13.213899612426758,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "dd6bf7c7-dc77-3dbd-9519-cf4496ad2cc4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "KINGSTOWN GOVERNMENT",
+    "longitude": -61.22890090942383,
+    "latitude": 13.160599708557129,
+    "education_level": "Primary",
+    "country_iso3_code": "VCT",
+    "giga_id_school": "f86b9826-a266-339a-9174-80849b6d0f9c",
+    "school_data_source": null
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "school_name": "ALEXANDRINA MADURO PRIMARY SCHOOL",
+    "longitude": -64.60270690917969,
+    "latitude": 18.426359176635742,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000001",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ALTHEA SCATLIFFE PRIMARY SCHOOL",
+    "longitude": -64.6199722290039,
+    "latitude": 18.427480697631836,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000002",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BREGADO FLAX EDUCATIONAL CENTRE, PRIMARY",
+    "longitude": -64.43798065185547,
+    "latitude": 18.437419891357422,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000003",
+    "school_data_source": null
+  },
+  {
+    "school_name": "BREGADO FLAX SECONDARY SCHOOL",
+    "longitude": -64.43773651123047,
+    "latitude": 18.437030792236328,
+    "education_level": "Secondary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000004",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CLAUDIA CREQUE EDUCATIONAL CENTRE PRIMARY",
+    "longitude": -64.3160400390625,
+    "latitude": 18.72208023071289,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000005",
+    "school_data_source": null
+  },
+  {
+    "school_name": "CLAUDIA CREQUE EDUCATIONAL CENTRE SECONDARY",
+    "longitude": -64.31999969482422,
+    "latitude": 18.722000122070312,
+    "education_level": "Secondary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000006",
+    "school_data_source": null
+  },
+  {
+    "school_name": "EBENEEZER THOMAS PRIMARY SCHOOL",
+    "longitude": -64.6307601928711,
+    "latitude": 18.411609649658203,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000007",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ELMORE STOUTT HIGH SCHOOL",
+    "longitude": -64.62313842773438,
+    "latitude": 18.42521095275879,
+    "education_level": "Secondary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000009",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ENID SCATTLIFFE PRE-PRIMARY SCHOOL",
+    "longitude": -64.62061309814453,
+    "latitude": 18.427860260009766,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000010",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ENIS ADAMS PRIMARY SCHOOL",
+    "longitude": -64.64115905761719,
+    "latitude": 18.428739547729492,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000011",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ESLYN HENLEY RICHEZ LEARNING CENTRE",
+    "longitude": -64.62000274658203,
+    "latitude": 18.420000076293945,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000012",
+    "school_data_source": null
+  },
+  {
+    "school_name": "FRANCIS LETTSOME PRIMARY SCHOOL",
+    "longitude": -64.57241821289062,
+    "latitude": 18.440919876098633,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000013",
+    "school_data_source": null
+  },
+  {
+    "school_name": "H LAVITY STOUTT COMMUNITY COLLEGE",
+    "longitude": -64.57842254638672,
+    "latitude": 18.424020767211914,
+    "education_level": "Post-Secondary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000014",
+    "school_data_source": null
+  },
+  {
+    "school_name": "IVAN DAWSON PRIMARY SCHOOL",
+    "longitude": -64.65648651123047,
+    "latitude": 18.424779891967773,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000016",
+    "school_data_source": null
+  },
+  {
+    "school_name": "IVAN DAWSON PRIMARY SCHOOL",
+    "longitude": -64.65648651123047,
+    "latitude": 18.424779891967773,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000017",
+    "school_data_source": null
+  },
+  {
+    "school_name": "JOST VAN DYKE EARLY CHILDHOOD CENTRE",
+    "longitude": -64.75,
+    "latitude": 18.450000762939453,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000018",
+    "school_data_source": null
+  },
+  {
+    "school_name": "JOST VAN DYKE PRIMARY SCHOOL",
+    "longitude": -64.75155639648438,
+    "latitude": 18.44573974609375,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000019",
+    "school_data_source": null
+  },
+  {
+    "school_name": "JOYCE SAMUEL PRIMARY SCHOOL",
+    "longitude": -64.598876953125,
+    "latitude": 18.439409255981445,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000020",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LEONORA DELVILLE PRIMARY SCHOOL",
+    "longitude": -64.68060302734375,
+    "latitude": 18.39727020263672,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000021",
+    "school_data_source": null
+  },
+  {
+    "school_name": "ROBINSON O'NEAL MEMORIAL SCHOOL",
+    "longitude": -64.38751983642578,
+    "latitude": 18.490400314331055,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000022",
+    "school_data_source": null
+  },
+  {
+    "school_name": "VIRGIN ISLANDS SCHOOL OF TECHNICAL STUDIES",
+    "longitude": -64.6034927368164,
+    "latitude": 18.426380157470703,
+    "education_level": "Unknown",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000023",
+    "school_data_source": null
+  },
+  {
+    "school_name": "WILLARD WHEATLEY PRIMARY SCHOOL",
+    "longitude": -64.56537628173828,
+    "latitude": 18.440149307250977,
+    "education_level": "Primary",
+    "country_iso3_code": "VGB",
+    "giga_id_school": "G_VGB_000024",
+    "school_data_source": null
+  }
+]

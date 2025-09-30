@@ -1,0 +1,749 @@
+[
+  {
+    "school_name": "Asare Bediako Senior High",
+    "longitude": -1.64055597782135,
+    "latitude": 6.320310115814209,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "cf836c84-88a5-31b6-8f31-0a282b02c143",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Fumbisi Senior High",
+    "longitude": -1.292443037033081,
+    "latitude": 10.454071998596191,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "416b9ac5-209a-32b1-a766-1abd26190102",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Adu Gyamfi Senior High",
+    "longitude": -1.4708000421524048,
+    "latitude": 6.97081995010376,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "aaa74c30-afc3-3e53-9415-497efb9e3274",
+    "school_data_source": null
+  },
+  {
+    "school_name": "S.D.A. Senior High, Bekwai",
+    "longitude": -1.5797100067138672,
+    "latitude": 6.461881160736084,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "143bb100-9eba-36c1-a297-e6c1445181bf",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nkawie Senior High/Tech",
+    "longitude": -1.8058160543441772,
+    "latitude": 6.669087886810303,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "62d906f2-9064-37bc-a740-16640a993b24",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. George's Senior High Tech.",
+    "longitude": -1.4786490201950073,
+    "latitude": 6.540316104888916,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "970878ee-ee63-3032-81d4-2f14343c89b8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Achinakrom Senior High",
+    "longitude": -1.4670219421386719,
+    "latitude": 6.700945854187012,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "ed357d61-cbd8-3aa1-9528-3bcb0113c6f7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Jerome Senior High, Abofour",
+    "longitude": -1.7388310432434082,
+    "latitude": 7.135348796844482,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "e9aff7a9-5674-3ace-866b-87655a1fe436",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Effiduase Senior High/Com",
+    "longitude": -1.4026139974594116,
+    "latitude": 6.85982084274292,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "6da1df61-557e-37be-b451-b147e4a7d7d6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kwanwoma Senior High/Tech",
+    "longitude": -1.6786340475082397,
+    "latitude": 6.574881076812744,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "0d7c636a-b8c9-3c08-9e7c-5ee84e22de6d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Akumadan Senior High",
+    "longitude": -1.9457319974899292,
+    "latitude": 7.3989081382751465,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "2d7fd4aa-9c5b-3bc3-b803-1637c4a0d301",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nsutaman Cath. Senior High",
+    "longitude": -1.392320990562439,
+    "latitude": 7.0097808837890625,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "71f95cad-b021-3273-bcf0-80d2dad17475",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Sebastian Cath. Senior High",
+    "longitude": -1.3107500076293945,
+    "latitude": 6.569946765899658,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "948d5280-88ca-365d-9909-617dd65063d0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Otumfuo Osei Tutu II College",
+    "longitude": -1.6465890407562256,
+    "latitude": 7.040460109710693,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "85b793de-b46d-36f6-8fe8-edb8cc8889ee",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nafana Senior High",
+    "longitude": -2.6925559043884277,
+    "latitude": 7.944639205932617,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "44f21cef-19db-348e-9f98-935ff63b6e8e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Twene Amanfo Senior High/Tech.",
+    "longitude": -2.323199987411499,
+    "latitude": 7.333690166473389,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "2d8cca9a-be18-3035-a286-24a718978e26",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Menji Senior High",
+    "longitude": -2.3759078979492188,
+    "latitude": 7.914328098297119,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "3ec1d7f7-6b04-3509-adca-53bda64d4a07",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Abakrampa Senior High/Tech",
+    "longitude": -1.2318370342254639,
+    "latitude": 5.238022804260254,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "c45906c1-aa37-3b3e-b375-db00101b845a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Gyaase Community Senior High",
+    "longitude": -1.282500982284546,
+    "latitude": 5.704146862030029,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "cf4130b3-f01f-370c-bc31-ce26f99a3624",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Assin Manso Senior High",
+    "longitude": -1.1742099523544312,
+    "latitude": 5.5248589515686035,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "96f5adb7-b1ca-35b0-b243-a0c297da657f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Abeadze State College",
+    "longitude": -1.878669023513794,
+    "latitude": 5.9591851234436035,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "0289a56b-1075-3cda-9cdb-d2e120cd250a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Boa-Amponsem Senior High",
+    "longitude": -1.7920269966125488,
+    "latitude": 5.962285995483398,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "e5452a6b-5d4b-3beb-88a5-a89250a8b2d0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Twifo Hemang Senior High/Tech",
+    "longitude": -1.536141037940979,
+    "latitude": 5.495121955871582,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "dcde54dc-2264-3c86-8185-1ebfd456acb4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Akwamuman Senior High",
+    "longitude": -0.08208400011062622,
+    "latitude": 6.250232219696045,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "41b3c839-eb9b-3b27-a2b0-d79377d2daf7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kwabeng Anglican Senior High/Tech",
+    "longitude": -0.5878570079803467,
+    "latitude": 6.316682815551758,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "bb8c22cf-5b87-36ab-8077-5b2fbfabfd4b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kade Senior High/Tech.",
+    "longitude": -0.8341609835624695,
+    "latitude": 6.093760013580322,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "44f0a270-7945-37bf-ac15-97fced01b20a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kwahu Ridge Senior High",
+    "longitude": -0.769536018371582,
+    "latitude": 6.601943016052246,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "dbd71312-4f1a-32a8-8e1f-3c4b338a6411",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pentecost Senior High,Koforidua",
+    "longitude": -0.2863599956035614,
+    "latitude": 6.0900092124938965,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "dbbd42a6-d48d-3ccd-9cde-e3edc2d70f39",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Achiase Senior High",
+    "longitude": -1.0061999559402466,
+    "latitude": 5.81072998046875,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "4261ef2f-b5f5-3a33-917a-98c897ba410e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Adonten Senior High",
+    "longitude": -0.18759100139141083,
+    "latitude": 5.841001987457275,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "69b313e4-e6f1-3644-9103-ea247fce0e0e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Diaspora Girls' Senior High",
+    "longitude": -0.26408201456069946,
+    "latitude": 5.818079948425293,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "f69731df-6d45-3cda-8430-20111e8d2aea",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tarkrosi Comm. Senior High",
+    "longitude": -0.8866999745368958,
+    "latitude": 6.028059959411621,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "b0813dca-9ca8-3917-8c1c-780f4709d15b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Fidelis Senior High/Tech",
+    "longitude": -0.25859999656677246,
+    "latitude": 6.934529781341553,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "0d7c1f5b-fc34-323e-9330-876f1375b69d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tema Senior High",
+    "longitude": 0.010173000395298004,
+    "latitude": 5.640902996063232,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "7c043a99-c693-3003-83fc-813fae81cb3e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Frafraha Comm. Senior High",
+    "longitude": -0.16047599911689758,
+    "latitude": 5.716700077056885,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "76b2fe95-cfe7-3d5e-ae4d-c7642a10a6bf",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Christian Methodist Senior High",
+    "longitude": -0.33172500133514404,
+    "latitude": 5.544787883758545,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "a40ca79a-474a-3f7e-9468-7f5bc336ae98",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ada Senior High/Tech.",
+    "longitude": 0.3655819892883301,
+    "latitude": 5.875955104827881,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "c2454158-4379-3fe0-a9a7-efc09ac03723",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Forces Senior High/Tech, Burma Camp",
+    "longitude": -0.15716800093650818,
+    "latitude": 5.591466903686523,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "3ca2af52-0f53-3a09-ac18-62850f011d3d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bimbilla Senior High",
+    "longitude": 0.052574001252651215,
+    "latitude": 8.863021850585938,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "c52a1739-c01d-3cd5-8721-f2e423c3d8f1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anbariya Senior High Sch.",
+    "longitude": -0.7896410226821899,
+    "latitude": 9.379379272460938,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "4ef9361b-4cac-35bb-9e22-bc1a191da2d5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Zabzugu Senior High",
+    "longitude": 0.37456199526786804,
+    "latitude": 9.299660682678223,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "546be653-d88e-3961-a6b7-d8671192ea8f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bolga Sherigu Comm. Senior High",
+    "longitude": -0.9026020169258118,
+    "latitude": 10.775530815124512,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "a6877bc6-888f-3768-b8c2-5e574324cdf6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Zorkor Senior High",
+    "longitude": -0.7347779870033264,
+    "latitude": 10.7357759475708,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "bae34f23-7fae-3aab-9402-db235e580e81",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Garu Comm. Day Senior High",
+    "longitude": -0.5163649916648865,
+    "latitude": 10.731474876403809,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "9471cb6a-75f6-3007-b4b3-7eb9bcdd87c1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Navrongo Senior High",
+    "longitude": -1.06938898563385,
+    "latitude": 10.8588228225708,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "eb779917-a5ea-323f-9cc3-65dbd1e187dd",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Francis Girls Senior High, Jirapa",
+    "longitude": -2.6946980953216553,
+    "latitude": 10.510944366455078,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "82b56649-05ee-39f9-8612-2006f41bd489",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ullo Senior High",
+    "longitude": -2.5654311180114746,
+    "latitude": 10.689723014831543,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "4da6c7db-6d55-3c38-a58e-388828d3c08a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kaleo Senior High/Tech",
+    "longitude": -2.551949977874756,
+    "latitude": 10.174601554870605,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "ed78d5cd-5c2c-3877-b373-b61881b36a5b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kanton Senior High",
+    "longitude": -1.9821970462799072,
+    "latitude": 10.87940502166748,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "11570dd1-bbf9-3cae-8eea-2241248e653b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Wa Senior High",
+    "longitude": -2.486514091491699,
+    "latitude": 10.0445556640625,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "e381da37-3daa-3d6a-aa01-ba1a6890c993",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Loggu Comm. Day School",
+    "longitude": -2.3548359870910645,
+    "latitude": 9.89710521697998,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "98cd4e12-e676-3982-8e24-092c1bccfb5e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Shia Senior HighTechnical",
+    "longitude": 0.5621430277824402,
+    "latitude": 6.795875072479248,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "aae2dde8-c458-3edf-b7ed-785ad593126c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Three Town Senior High",
+    "longitude": 1.1411329507827759,
+    "latitude": 6.096208095550537,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "8f1a5810-a95f-36b6-951f-da0350cba4e3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Akome Senior High/Tech.",
+    "longitude": 0.467415988445282,
+    "latitude": 6.814260959625244,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "858fb555-aea3-3374-9203-0ed43ab1157e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anfoega Senior High",
+    "longitude": 0.2881850004196167,
+    "latitude": 6.909397125244141,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "db0700b3-016c-32d4-9eb8-fb21fbbe2d90",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vakpo Senior High",
+    "longitude": 0.29875698685646057,
+    "latitude": 6.842628002166748,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "82d41404-6e07-3089-bcd7-9189d73ad1b4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Battor Senior High",
+    "longitude": 0.40875598788261414,
+    "latitude": 6.068131923675537,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "655ecfbc-de6d-3251-a912-77378a1e180d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dofor Senior High",
+    "longitude": 0.14622299373149872,
+    "latitude": 6.253870010375977,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "976a7d29-54f5-3e63-a69a-417c2940d3f7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Zion Senior High",
+    "longitude": -0.16805000603199005,
+    "latitude": 5.686861991882324,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "e17a1035-a2e0-376d-922f-1918115a534a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Daboase Senior High/Tech",
+    "longitude": -1.668023943901062,
+    "latitude": 5.1409687995910645,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "847a24e5-2a5b-3d4a-a446-dd9be7305f13",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Axim Girls Senior High",
+    "longitude": -2.2397921085357666,
+    "latitude": 4.872951030731201,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "5cf93393-cea2-3566-8f47-6ca21e63a81b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Uthman Bin Afam SHS",
+    "longitude": -2.409708023071289,
+    "latitude": 4.974427223205566,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "29e37ebc-4572-3214-8eae-585f6196f3fe",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ahafoman Senior High/Tech",
+    "longitude": -2.527566909790039,
+    "latitude": 6.799561023712158,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "ed833172-5fde-34ba-90e3-fcb30fb16c7b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Samuel Otu Presby Senior High.",
+    "longitude": -2.0223989486694336,
+    "latitude": 7.190753936767578,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "6173eb91-cf9d-32c1-adee-9931cbbce1da",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kajaji Senior High",
+    "longitude": -0.2125059962272644,
+    "latitude": 7.782197952270508,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "51c16df3-07a7-376d-8fdf-25965a938fbe",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Langbinsi Senior High/Tech",
+    "longitude": -0.560060977935791,
+    "latitude": 10.404054641723633,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "1b58bb04-8742-347d-836f-0e3218bc7ad1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nalerigu Senior High",
+    "longitude": -0.319707989692688,
+    "latitude": 10.483089447021484,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "0a60f76c-dce0-3606-9c48-54a532603068",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Chereponi Senior High/Tech.",
+    "longitude": -0.29082098603248596,
+    "latitude": 10.137810707092285,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "fc1f3ed1-12f8-3b44-b767-b3e0bd32fb38",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Yagaba Senior High School",
+    "longitude": -1.2491990327835083,
+    "latitude": 10.243783950805664,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "891d50e9-50db-32c4-84f2-761351ac8c69",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tuna Senior High/Tech.",
+    "longitude": -2.418401002883911,
+    "latitude": 9.495083808898926,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "3bb4aaf9-9821-33d6-8983-a0d88c47b52a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kpassa Senior High/Tech",
+    "longitude": 0.2979530096054077,
+    "latitude": 8.498085975646973,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "02b7fc28-2c88-3689-979c-7ffab32037a8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bibiani Senior High/Tech.",
+    "longitude": -2.3042891025543213,
+    "latitude": 6.463502883911133,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "53d02df7-43a8-3f40-a963-389b1a0bcf01",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Gregory Catholic Senior High School",
+    "longitude": -1.4786490201950073,
+    "latitude": 6.540316104888916,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "5d6d4aae-1514-3540-b5ec-4af2d73f9cf5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Abrafi Senior High",
+    "longitude": -1.9639639854431152,
+    "latitude": 7.614771842956543,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "04ceac52-391c-371f-8d1b-5a3003245da0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Opoku Ware Senior High",
+    "longitude": -1.6438939571380615,
+    "latitude": 6.663785934448242,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "26339c4b-c969-3e34-adbf-acfa11bb82c2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Church Of Christ Senior High",
+    "longitude": -1.4305440187454224,
+    "latitude": 6.71488094329834,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "47c92db9-0ea3-303a-8f76-6d276ac1821d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Krobea Asante Tec/Voc Inst.",
+    "longitude": -1.3731149435043335,
+    "latitude": 6.849050998687744,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "b0857378-8c6b-335b-9d3c-560d6450d855",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kasuliyili Senior High",
+    "longitude": -1.1160190105438232,
+    "latitude": 9.547429084777832,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "5f23e192-7cce-3cdd-abf7-57d86d4555b9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bompata Presby Senior High",
+    "longitude": -1.081367015838623,
+    "latitude": 6.636693000793457,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "7e3ba9ca-b418-32da-bada-1ae52aa70f6e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Islamic Science Senior High, Tamale",
+    "longitude": -0.8340209722518921,
+    "latitude": 9.46016788482666,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "141214d2-0994-351f-9495-e535a558a3b0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dabokpa Voc/Tech. Inst.",
+    "longitude": -0.8166049718856812,
+    "latitude": 9.388920783996582,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "de4859d0-c1c9-3af6-9ed1-bb21b3110ea8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Akwatia Technical",
+    "longitude": -0.8055999875068665,
+    "latitude": 6.030210018157959,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "cbc712e6-f066-3394-aa15-7f0f646c3e1f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph's Tech. Inst.",
+    "longitude": -0.031700000166893005,
+    "latitude": 6.191929817199707,
+    "education_level": "Secondary",
+    "country_iso3_code": "GHA",
+    "giga_id_school": "4a761253-d188-3366-8197-87675739c22e",
+    "school_data_source": null
+  }
+]

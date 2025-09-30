@@ -1,0 +1,398 @@
+[
+  {
+    "school_name": "Basseterre High School",
+    "longitude": -62.72163009643555,
+    "latitude": 17.302736282348633,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "1ea37605-eeff-3b6c-8555-bc458fd65cfe",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beach Allen Primary",
+    "longitude": -62.7215461730957,
+    "latitude": 17.3034610748291,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "3b0782d9-eb2d-3e40-b227-1e095012cec6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bronte Welsh Primary",
+    "longitude": -62.77184295654297,
+    "latitude": 17.299293518066406,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "b93fea7b-33fa-3917-983f-1bf61d317ae3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cayon High School",
+    "longitude": -62.73333740234375,
+    "latitude": 17.35254669189453,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "a5524de7-9468-3bad-9af8-e7b99ec5c2f4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cayon Primary",
+    "longitude": -62.73106384277344,
+    "latitude": 17.350751876831055,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "e10fad7c-dcaa-34f5-ab78-b2787a5cffab",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cecele Browne Integrated School",
+    "longitude": -62.60568618774414,
+    "latitude": 17.124595642089844,
+    "education_level": "Unknown",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "9f450da3-2d44-3a19-bb2e-84c3e38ec867",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Charles E. Mills Secondary School",
+    "longitude": -62.849830627441406,
+    "latitude": 17.35984992980957,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "af74e6f3-6bbc-301d-9e10-4d730e65452f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Charlestown Primary",
+    "longitude": -62.7297477722168,
+    "latitude": 17.322114944458008,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "ac0df8e9-e5c4-3b53-826a-0bff707ced89",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Charlestown Secondary School",
+    "longitude": -62.75956344604492,
+    "latitude": 17.381162643432617,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "096cdb86-9fcd-353e-8edb-dd6395337c93",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cotton Thomas Comprehensive",
+    "longitude": -62.73278045654297,
+    "latitude": 17.29609489440918,
+    "education_level": "Unknown",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "56db5c00-330e-3ba7-ba14-460f6a0f1449",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dieppe Bay Primary",
+    "longitude": -62.81230926513672,
+    "latitude": 17.41327667236328,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "0e0c2dd2-f1b8-34f0-9dbf-ddbb3be1eea6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dr William Connor Primary",
+    "longitude": -62.733219146728516,
+    "latitude": 17.29615020751953,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "dfbb9a7b-2de3-398d-9c2e-c57d08476920",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Edgar T. Morris Primary",
+    "longitude": -62.770294189453125,
+    "latitude": 17.38890838623047,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "b015a97b-d0f8-3764-a434-48a9f858fb24",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Elizabeth Pemberton Primary",
+    "longitude": -62.75956344604492,
+    "latitude": 17.381162643432617,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "0106092d-9b20-37d3-aa8d-67d7aec7429e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Maurice Hillier Memorial Jr",
+    "longitude": -62.72233200073242,
+    "latitude": 17.2967472076416,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "082977ae-3332-3cc9-91f4-19179738dc6f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Gingerland Secondary School",
+    "longitude": -62.57131576538086,
+    "latitude": 17.134214401245117,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "b8e1ab96-0fa4-34bc-9da5-c1ba6eca219c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Irishtown Primary",
+    "longitude": -62.73055648803711,
+    "latitude": 17.29402732849121,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "5d013ea9-d39e-3ff0-b7cc-fee178399848",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ivor Walters Primary",
+    "longitude": -62.604122161865234,
+    "latitude": 17.125024795532227,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "b51d92d5-5591-30be-bb8a-ab27a6caf636",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Joshua Obadiah Williams Primary",
+    "longitude": -62.75625228881836,
+    "latitude": 17.368545532226562,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "537f7959-07ab-3045-a4b7-05dbe2264ecc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Joycelyn Liburd Primary",
+    "longitude": -62.570281982421875,
+    "latitude": 17.135278701782227,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "6819cda2-b10c-3056-ada2-015ad70bed1f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Maude Crosse Preparatory",
+    "longitude": -62.62703323364258,
+    "latitude": 17.139419555664062,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "b702d1a7-d227-36d9-bce5-c5eaf4c2ca5e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Montessori Academy",
+    "longitude": -62.6187629699707,
+    "latitude": 17.134395599365234,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "120749d3-1d30-3c61-a328-01563794d911",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nevis Academy",
+    "longitude": -62.62300491333008,
+    "latitude": 17.131181716918945,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "8975ec64-978f-39b1-aa09-b6ea07eec0e8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nevis International Secondary School",
+    "longitude": -62.59196472167969,
+    "latitude": 17.130403518676758,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "3f91f0bd-38f0-3f0c-890a-46963eda3245",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Newton Ground Primary",
+    "longitude": -62.85051727294922,
+    "latitude": 17.390480041503906,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "a73cb54b-88b2-3971-ba4b-f4726aa277df",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Saddlers Primary",
+    "longitude": -62.79444122314453,
+    "latitude": 17.405744552612305,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "4a7db497-f67b-3047-9c2a-f1f41e5f4f38",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Saddlers Secondary School",
+    "longitude": -62.79283142089844,
+    "latitude": 17.400476455688477,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "9e46a51d-c88f-3519-b5ce-1ea850f14da4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sandy Point Primary",
+    "longitude": -62.849124908447266,
+    "latitude": 17.357757568359375,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "abac7f18-0584-38bb-b325-07f8987ebe04",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Seventh Day Adventist",
+    "longitude": -62.722198486328125,
+    "latitude": 17.296472549438477,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "97e4435e-f0c4-3a4b-9264-a4b1238170f2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ski Academy",
+    "longitude": -62.7084846496582,
+    "latitude": 17.33578109741211,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "88ae9933-0153-3f38-8408-2a85d323a788",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Christopher Preparatory",
+    "longitude": -62.71933364868164,
+    "latitude": 17.30209732055664,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "8cf65eb8-e3e5-3ede-a560-d9c9ed5b005a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. James Primary",
+    "longitude": -62.55372619628906,
+    "latitude": 17.175079345703125,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "752c249b-532b-3381-89f8-28a7a8ce8167",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Pauls Primary",
+    "longitude": -62.834068298339844,
+    "latitude": 17.407106399536133,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "78b3e37a-fa6a-33fb-9573-bb1576f27524",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Thomas' Primary",
+    "longitude": -62.62562942504883,
+    "latitude": 17.166208267211914,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "5b73fed6-c9e1-3a5e-938b-755c600c5b86",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tucker Clarke Primary",
+    "longitude": -62.71529006958008,
+    "latitude": 17.29501724243164,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "11d8514a-6cb5-3fe6-a13a-253a26b21de2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tyrell Williams Primary",
+    "longitude": -62.803680419921875,
+    "latitude": 17.3241024017334,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "bb201265-6961-3b34-bb80-65706444598a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Verchilds High School",
+    "longitude": -62.8074951171875,
+    "latitude": 17.325883865356445,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "78bb1f04-e8ee-3c29-9ded-e727f9703f65",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Violet O. Jeffers-Nicholls",
+    "longitude": -62.5821418762207,
+    "latitude": 17.197202682495117,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "21f87dfe-6afd-3ec3-948b-140af248e619",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Violet Petty Primary",
+    "longitude": -62.748878479003906,
+    "latitude": 17.36382293701172,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "3ce14cc1-225c-37de-9210-3c34e745a800",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Washington Archibald High School",
+    "longitude": -62.72402572631836,
+    "latitude": 17.30356216430664,
+    "education_level": "Secondary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "cd6b276f-93c3-3044-ab1a-cd5d2cc172cb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Deane-Glasford Primary",
+    "longitude": -62.7297477722168,
+    "latitude": 17.322114944458008,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "c4145cf8-e47c-36a6-abd2-cdc9cb733a80",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Estridge Primary",
+    "longitude": -62.75956344604492,
+    "latitude": 17.381162643432617,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "bb7da1f1-c76b-3780-b2c7-be06d639a647",
+    "school_data_source": null
+  },
+  {
+    "school_name": "George Moody Stuart",
+    "longitude": -62.72233200073242,
+    "latitude": 17.2967472076416,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "98d7a31b-10a3-39ce-8e2e-418eadf908e3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Immaculate Conception Catholic School",
+    "longitude": -62.72233200073242,
+    "latitude": 17.2967472076416,
+    "education_level": "Primary",
+    "country_iso3_code": "KNA",
+    "giga_id_school": "38fc3def-7e7d-32a0-ac55-6d7520877c2f",
+    "school_data_source": null
+  }
+]

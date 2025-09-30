@@ -1,0 +1,371 @@
+[
+  {
+    "school_name": "St. Mary's Secondary School",
+    "longitude": -61.877197265625,
+    "latitude": 17.07085609436035,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "770022c0-89d7-326c-97be-03eed5206490",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Old Road Primary",
+    "longitude": -61.842926025390625,
+    "latitude": 17.01709747314453,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "7377c746-b473-3850-ad5b-96742efffd51",
+    "school_data_source": null
+  },
+  {
+    "school_name": "S.R Olivia David",
+    "longitude": -61.87473678588867,
+    "latitude": 17.066532135009766,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "039455ac-b796-3162-bf17-4c15be2777bb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Charlesworth T Samuel Primary School",
+    "longitude": -61.8216667175293,
+    "latitude": 17.04194450378418,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "6fc540f1-6c56-3054-be1e-e19782f60873",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Urlings Primary",
+    "longitude": -61.87089157104492,
+    "latitude": 17.025394439697266,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "64b3545b-b928-3133-9740-4378b33797d8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Newfield Primary School",
+    "longitude": -61.72861099243164,
+    "latitude": 17.054166793823242,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "99564082-84f8-304b-b6f2-f9afb09ff90f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Glanvilles Secondary",
+    "longitude": -61.72346878051758,
+    "latitude": 17.087636947631836,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "b62510cc-fffe-36a6-8268-ab34c225af2b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pares Primary",
+    "longitude": -61.755653381347656,
+    "latitude": 17.084636688232422,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "bb4ff4d3-b91d-3936-bbab-3d6885c02336",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pares Secondary",
+    "longitude": -61.75662612915039,
+    "latitude": 17.084383010864258,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "78d69900-51df-37a3-b2b4-b6d9e2d99218",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Nelvie N. Gore Primary",
+    "longitude": -61.71165466308594,
+    "latitude": 17.084121704101562,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "f2208505-1abe-32e0-8407-fdf168f5085d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Parham",
+    "longitude": -61.7679328918457,
+    "latitude": 17.10771369934082,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "34e5da1c-87d8-3db8-a45a-6008a019b734",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Jennings Secondary School",
+    "longitude": -61.858612060546875,
+    "latitude": 17.080278396606445,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "d0c580eb-14f5-39b5-ba86-0a09a99838e4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "J.T Ambrose Primary School",
+    "longitude": -61.793888092041016,
+    "latitude": 17.06361198425293,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "1172e194-f490-30f2-bfdf-1a6c8d266c2d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Antigua Girl's High School",
+    "longitude": -61.842777252197266,
+    "latitude": 17.123056411743164,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "00156cc9-5fa5-3580-a03f-3eccdf451ef7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bendals Primary School",
+    "longitude": -61.83250045776367,
+    "latitude": 17.080278396606445,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "54019fa9-4052-3d4e-bc0f-bc2f5c91756c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Irene B. Secondary School",
+    "longitude": -61.80083465576172,
+    "latitude": 17.051389694213867,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "c36d9042-7c1e-3bad-9cc8-2e9bf35aa47c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Freetown Primary School",
+    "longitude": -61.70500183105469,
+    "latitude": 17.049999237060547,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "19da4d96-8df2-3404-ba82-02dba9d22239",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Jennings Primary School",
+    "longitude": -61.86333465576172,
+    "latitude": 17.073888778686523,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "371a3eca-b73a-3abd-8988-a45e79eee27e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Liberta Primary School",
+    "longitude": -61.790279388427734,
+    "latitude": 17.03416633605957,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "7a367045-a1f1-3af5-b9f4-602d19a1a108",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sea View Farm Primary School",
+    "longitude": -61.8025016784668,
+    "latitude": 17.086944580078125,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "4f852525-a3d9-3d18-be62-b275ab3c9d7f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Freeman's Ville Primary School",
+    "longitude": -61.7852783203125,
+    "latitude": 17.079999923706055,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "ad182f3e-0934-3574-a28f-6cfa8a581dc8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cobbs Cross Primary School",
+    "longitude": -61.76862335205078,
+    "latitude": 17.02431297302246,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "f21674be-10d4-30bc-bcd8-8d56f59978af",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Potter's Primary School",
+    "longitude": -61.81867980957031,
+    "latitude": 17.110918045043945,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "4e9b503e-c1e7-3bb7-9784-7ca3f81a8241",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Buckley's Primary School",
+    "longitude": -61.81027603149414,
+    "latitude": 17.066389083862305,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "58566968-59d3-36bc-a5a4-a9e241adc646",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mary E. Piggots",
+    "longitude": -61.83583450317383,
+    "latitude": 17.101388931274414,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "7fcea22b-6ada-36da-b97d-f9885faf4023",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pigotts Primary School",
+    "longitude": -61.80527877807617,
+    "latitude": 17.121944427490234,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "4f5b4cbc-8358-3eae-abb8-22ad5c447643",
+    "school_data_source": null
+  },
+  {
+    "school_name": "New Winthropes Primary School",
+    "longitude": -61.81027603149414,
+    "latitude": 17.142499923706055,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "87c7bcda-66b9-35db-82fa-7c913103c2ad",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Holy Trinity School",
+    "longitude": -61.84404373168945,
+    "latitude": 17.118820190429688,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "c1a253c2-d215-32aa-9dde-c9e90abe69ef",
+    "school_data_source": null
+  },
+  {
+    "school_name": "All Saints Secondary School",
+    "longitude": -61.79249954223633,
+    "latitude": 17.060556411743164,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "408e1d0c-1818-3605-a683-6791eaee79a1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Antigua Grammar School",
+    "longitude": -61.83583450317383,
+    "latitude": 17.122777938842773,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "3e654efb-10e7-3037-8620-e0df39a0656c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ottos Comprehensive School",
+    "longitude": -61.834720611572266,
+    "latitude": 17.114999771118164,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "0c33ad75-cbb5-3467-8150-5f58a86e8b8b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Villa Primary School",
+    "longitude": -61.848609924316406,
+    "latitude": 17.128334045410156,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "9050756f-9768-3fe1-96ce-672b78585678",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sir Mc Chesney George",
+    "longitude": -61.84404373168945,
+    "latitude": 17.118820190429688,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "adefef63-8b57-3194-b755-f286135ac41d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Princess Margaret School",
+    "longitude": -61.84194564819336,
+    "latitude": 17.126388549804688,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "15039f0a-2026-3310-875e-036afdc783ad",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Clare Hall Secondary School",
+    "longitude": -61.82222366333008,
+    "latitude": 17.128055572509766,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "76f69c69-825f-335d-9a48-4b2c3bd8e6f7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sir Novelle Richards Academy",
+    "longitude": -61.81472396850586,
+    "latitude": 17.113611221313477,
+    "education_level": "Secondary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "4866c842-387c-3327-bf05-d7034ffecd8e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Adele School",
+    "longitude": -61.83760452270508,
+    "latitude": 17.127954483032227,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "8af067c7-1ac6-3910-a1f8-0f784a553da5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Cedar Grove Primary",
+    "longitude": -61.818870544433594,
+    "latitude": 17.16098976135254,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "d8ff8b58-5a9a-376d-ad64-62d9e6a07938",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Five Islands Primary",
+    "longitude": -61.8799934387207,
+    "latitude": 17.119882583618164,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "30650e56-6d68-39ba-b4c1-f5897fd074dc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Golden Grove Primary",
+    "longitude": -61.84245300292969,
+    "latitude": 17.10677719116211,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "70eb5f02-a9b1-3a60-a9be-0a00de627347",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Greenbay Primary",
+    "longitude": -61.84956359863281,
+    "latitude": 17.113059997558594,
+    "education_level": "Primary",
+    "country_iso3_code": "ATG",
+    "giga_id_school": "b80d5fc6-0a8a-32e3-9bc9-86c38c1af6ac",
+    "school_data_source": null
+  }
+]

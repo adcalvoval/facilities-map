@@ -1,0 +1,155 @@
+[
+  {
+    "school_name": "Montserrat Community College",
+    "longitude": -62.22099304199219,
+    "latitude": 16.753524780273438,
+    "education_level": "Post-Secondary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "14ca993c-8a96-3856-80b8-1354c8610a8b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Montserrat Secondary School",
+    "longitude": -62.2212028503418,
+    "latitude": 16.754533767700195,
+    "education_level": "Secondary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "df0ff69e-c16b-3a95-b7a5-57ca781dfa96",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St Augustine Primary",
+    "longitude": -62.22136688232422,
+    "latitude": 16.766111373901367,
+    "education_level": "Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "6e71b188-3e1a-35eb-b3db-04a81894c958",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Brades Primary",
+    "longitude": -62.213584899902344,
+    "latitude": 16.78649139404297,
+    "education_level": "Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "0f7b453b-fae8-3882-a6d4-4c4c96da85b8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LookOut Primary",
+    "longitude": -62.19089889526367,
+    "latitude": 16.787649154663086,
+    "education_level": "Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "0e06b3e1-8cfd-35c4-9e60-bab76c1ac47b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "LookOut Day Care",
+    "longitude": -62.19099807739258,
+    "latitude": 16.78708839416504,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "71ce0723-9b5f-3846-846d-e3b3acb69fc2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Look Out Nursery",
+    "longitude": -62.19099807739258,
+    "latitude": 16.78708839416504,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "c6534590-668d-3a6e-aba8-2a48de56f952",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St Johns Day Care",
+    "longitude": -62.20027542114258,
+    "latitude": 16.786272048950195,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "4988dfe3-4e83-3518-ad0d-3367e0fe5a78",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Brades Nursery",
+    "longitude": -62.214141845703125,
+    "latitude": 16.786636352539062,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "ec2cf25e-1b3f-3626-863a-420df0a7c5f7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Salem Day Care: Age 0 to 2 yrs",
+    "longitude": -62.223388671875,
+    "latitude": 16.74900245666504,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "2efd42b4-4dc5-3952-81d6-eb70316c662f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Salem Nursery: Age 3 - 4+ yrs",
+    "longitude": -62.223388671875,
+    "latitude": 16.74900245666504,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "b1bdd7fc-3223-3475-8b3c-d723a63d25a0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sweet Angels Valley: Day Care",
+    "longitude": -62.20866775512695,
+    "latitude": 16.783803939819336,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "173f733d-5809-3b2a-83dd-ad02130f954c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sweet Angels Valley: Nursery",
+    "longitude": -62.20866775512695,
+    "latitude": 16.783803939819336,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "d95df294-18ce-3c90-ace7-e1d79556fbd6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Little Angles: Day Care",
+    "longitude": -62.204734802246094,
+    "latitude": 16.787891387939453,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "9328f182-4c5f-3fe8-ae7e-a9f1424a57e9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Little Angles: Nursery",
+    "longitude": -62.204734802246094,
+    "latitude": 16.787891387939453,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "b6178162-08dd-3741-abf9-308c1604f3f4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Aunt Madge: Day Care",
+    "longitude": -62.222171783447266,
+    "latitude": 16.75926971435547,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "16a97e62-4d7b-32e1-8844-69bb8a56ecf5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Aunt Madge: Nursery",
+    "longitude": -62.222171783447266,
+    "latitude": 16.75926971435547,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "MSR",
+    "giga_id_school": "40dc77b7-2193-3c18-923a-ed1208e02b80",
+    "school_data_source": null
+  }
+]

@@ -1,0 +1,857 @@
+[
+  {
+    "school_name": "Anglican High School",
+    "longitude": -61.74523162841797,
+    "latitude": 12.04934024810791,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0a8b7c06-73d9-396f-ab55-7ca65434c408",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bishop's College",
+    "longitude": -61.45391845703125,
+    "latitude": 12.482430458068848,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "2b1c1822-d3c7-325a-b4ca-c4afee8dc4e7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenada Boys Secondary School",
+    "longitude": -61.74610137939453,
+    "latitude": 12.04712963104248,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "aa8f138b-e173-366d-97e3-af4804c6eb93",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenada S. D. A. Comprehensive Secondary",
+    "longitude": -61.62754821777344,
+    "latitude": 12.187780380249023,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "bafd3b8a-5531-35ba-8545-8d2f5aa92b95",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Boca Secondary School",
+    "longitude": -61.725929260253906,
+    "latitude": 12.077500343322754,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "e5076aaa-a1d8-3882-a9b4-c4347241d7b9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mc Donald's College",
+    "longitude": -61.64093780517578,
+    "latitude": 12.222688674926758,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "5af849e6-07cb-3a55-ad8c-db3f2c352d6a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Presentation Brothers College",
+    "longitude": -61.751930236816406,
+    "latitude": 12.05447006225586,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "a9f18b9e-5d11-3e32-abfb-7b229934e002",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Andrew Anglican Secondary School",
+    "longitude": -61.6201286315918,
+    "latitude": 12.127559661865234,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0a877481-3738-3334-bb47-e7f7a7c7810d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenville Secondary School",
+    "longitude": -61.62649154663086,
+    "latitude": 12.12030029296875,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "10f68a67-6b88-3bc4-add7-04a426ffdcd0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. David's Catholic Secondary",
+    "longitude": -61.66978073120117,
+    "latitude": 12.052450180053711,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "73b1715c-e987-3468-90ed-fe8159e93a1b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. John's Christian Secondary",
+    "longitude": -61.71438980102539,
+    "latitude": 12.163459777832031,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "de5f3ac4-7a47-3083-a77e-0a1105bef76c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph's Convent, St. George",
+    "longitude": -61.75217056274414,
+    "latitude": 12.053600311279297,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "835e8f72-cb01-3946-bd3a-bf066c7d061c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph's Convent, St. Andrew",
+    "longitude": -61.62889099121094,
+    "latitude": 12.12263011932373,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "3d232ad7-1df6-3ddb-a3d6-86cc2fe9ba19",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Rose Modern",
+    "longitude": -61.72998046875,
+    "latitude": 12.163640022277832,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "2dbb253d-ae83-3263-bf54-44cd69da52b4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Wesley College",
+    "longitude": -61.749568939208984,
+    "latitude": 12.059120178222656,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "1c8953fc-8f1f-3ff0-9cd3-fd7ee314eecd",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Westmorland Secondary School",
+    "longitude": -61.73992919921875,
+    "latitude": 12.052840232849121,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "62510a8a-bccc-33fc-b5d6-21e4195f20e6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Happy Hill Secondary School",
+    "longitude": -61.754058837890625,
+    "latitude": 12.091070175170898,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "2783e8a0-9811-33a8-a081-fb84a4a6a40d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Hillsborough Secondary",
+    "longitude": -61.4553108215332,
+    "latitude": 12.48169994354248,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "d4194a1f-5cb9-3d39-9d66-4845afd80039",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Mark's Secondary",
+    "longitude": -61.69723129272461,
+    "latitude": 12.207599639892578,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0f763ef7-6b92-3b72-9289-69188cf20fd1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Westerhall Secondary",
+    "longitude": -61.69535827636719,
+    "latitude": 12.017849922180176,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "55e71d94-3873-3141-bba7-fdab5926ff5e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenada Christian Academy",
+    "longitude": -61.62183380126953,
+    "latitude": 12.146763801574707,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "ed3d75a4-047f-3fc6-a654-9531a59cbf52",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beacon High School",
+    "longitude": -61.74848937988281,
+    "latitude": 12.040787696838379,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "b0116fc4-e794-3ec0-b765-69a6bcee9df5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "J.W. Fletcher Catholic Secondary School",
+    "longitude": -61.743961334228516,
+    "latitude": 12.050149917602539,
+    "education_level": "Secondary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "dec5fa94-28a7-3b3f-928a-29320c134390",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Alpha Junior School",
+    "longitude": -61.72771072387695,
+    "latitude": 12.055426597595215,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "dd899d89-d619-3fe1-adfb-350c839d435c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beacon Junior",
+    "longitude": -61.7486572265625,
+    "latitude": 12.040831565856934,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0d20f174-e48a-3fca-9adf-b58cf9cadc3f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beaulieu New Testament",
+    "longitude": -61.73064422607422,
+    "latitude": 12.075386047363281,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "999ba213-471d-3e69-9320-9ca75edbf77e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beaulieu Primary School",
+    "longitude": -61.73060989379883,
+    "latitude": 12.075460433959961,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "ace6ea31-1eda-37ab-8b15-72cfbf47ed4a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Belair Government",
+    "longitude": -61.62350082397461,
+    "latitude": 12.156598091125488,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "b74f9630-efe9-3203-a960-c20458832ae7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Matthew’s R. C. (Birchgrove)",
+    "longitude": -61.671791076660156,
+    "latitude": 12.11379623413086,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "eefeed0b-2a57-397e-a301-f2e3ae765c1a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bonair Government",
+    "longitude": -61.70444107055664,
+    "latitude": 12.192150115966797,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "52e317a8-48a9-318a-acd3-f6ea1cc65017",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Calliste Government School",
+    "longitude": -61.774009704589844,
+    "latitude": 12.006560325622559,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "43aeb9b8-ea4d-37a1-9f61-0c683281f79e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Chantimelle R. C.",
+    "longitude": -61.663211822509766,
+    "latitude": 12.207719802856445,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "43a06abb-3054-3f87-a1a4-79d34944a4fc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Concord Government",
+    "longitude": -61.743011474609375,
+    "latitude": 12.115859985351562,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "dabd9054-c91e-382e-a4a2-256d46e846db",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Constantine Methodist School",
+    "longitude": -61.717769622802734,
+    "latitude": 12.085439682006836,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "2632c27f-c6be-3133-a28c-a09d7174ff76",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Corinth Government School",
+    "longitude": -61.67728805541992,
+    "latitude": 12.036162376403809,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "f0fbd00b-ab6c-3c97-a6ea-ed4058cf77a1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Crochu R. C. School",
+    "longitude": -61.64472961425781,
+    "latitude": 12.06177043914795,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "ade2f3e1-a0bd-39c1-a878-e97306cc5482",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dover Government School",
+    "longitude": -61.4311637878418,
+    "latitude": 12.505167961120605,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "5195b296-4bbc-362b-82f6-08293e73bd26",
+    "school_data_source": null
+  },
+  {
+    "school_name": "First Choice Junior",
+    "longitude": -61.7271614074707,
+    "latitude": 12.058035850524902,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "6f632b11-264e-364f-9741-6f690c53b302",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Florida Government",
+    "longitude": -61.722190856933594,
+    "latitude": 12.162980079650879,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "a55ad247-aca6-398c-ad50-707d9573134f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Gateway Christian Academy",
+    "longitude": -61.77401351928711,
+    "latitude": 12.01368236541748,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "bf93440a-6a69-3937-bc8b-ffa932c48576",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grand Anse Private Academy",
+    "longitude": -61.753475189208984,
+    "latitude": 12.029735565185547,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "d9e1cea9-feef-3771-a350-dbd6164c5c11",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grand Anse R. C. School (Blessed Sacrament)",
+    "longitude": -61.763370513916016,
+    "latitude": 12.013469696044922,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "c100e2d4-fc28-343f-88c3-0a588d93224c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grand Roy Government",
+    "longitude": -61.74732971191406,
+    "latitude": 12.13014030456543,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "e6ee3145-66ed-3f46-a3dd-e43f5952d99e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenada Junior Academy",
+    "longitude": -61.72883605957031,
+    "latitude": 12.05983829498291,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "cd942dbe-4de1-3204-a919-c02d48e26ee0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Happy Hill R. C. (Uganda Martyrs)",
+    "longitude": -61.75651168823242,
+    "latitude": 12.090189933776855,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "c539b027-fc5c-300e-9232-397ea3aa6af6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Harvey Vale Government",
+    "longitude": -61.47478485107422,
+    "latitude": 12.45686149597168,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "36853b8a-4601-3c9c-adf0-7a48cc5d2b53",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Hermitage Government School",
+    "longitude": -61.63459396362305,
+    "latitude": 12.175169944763184,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "5fd70d59-d129-3b74-b1a8-cfa0fe6e1a8f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Hillsborough Government",
+    "longitude": -61.45306396484375,
+    "latitude": 12.484589576721191,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "6bbaf260-69dc-3104-a729-5e1fe4ea9bd0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Holy Cross R. C.",
+    "longitude": -61.64393615722656,
+    "latitude": 12.087053298950195,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "770ca34c-3f99-3f8c-a906-d1358c62bceb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Holy Innocents Anglican Primary",
+    "longitude": -61.64268112182617,
+    "latitude": 12.110159873962402,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "18382097-f32b-3734-b6fa-f41b36d64139",
+    "school_data_source": null
+  },
+  {
+    "school_name": "La Borie Mennonites",
+    "longitude": -61.72767639160156,
+    "latitude": 12.043554306030273,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "525e20e2-4300-39c9-b21b-7223526d97a1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "L'Esterre Rosary",
+    "longitude": -61.47991943359375,
+    "latitude": 12.472029685974121,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "73e396ba-d397-34a1-9139-708079ebaff8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Limes Mennonite Primary School",
+    "longitude": -61.759769439697266,
+    "latitude": 12.015750885009766,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "153e21dc-7b85-3cdd-a6cb-58340826efc5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph’s R. C. (Morne Jaloux)",
+    "longitude": -61.73440170288086,
+    "latitude": 12.038479804992676,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "16b5e43b-1215-3b6a-af73-ae6ff44c5dd9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mt. Moritz Anglican",
+    "longitude": -61.74570083618164,
+    "latitude": 12.081100463867188,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "5cfb0cad-ae9d-3680-9821-1d939bd53a91",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mt. Pleasant Government",
+    "longitude": -61.43428039550781,
+    "latitude": 12.478449821472168,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "dee5b96b-1ff6-3b5b-8a14-cba110d85578",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mt. Rose SDA Primary School",
+    "longitude": -61.62934875488281,
+    "latitude": 12.188243865966797,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "dba8e276-4174-3793-a119-e7f2e9ab5ac0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Paraclette Government",
+    "longitude": -61.64323043823242,
+    "latitude": 12.149060249328613,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "fa925855-49b1-386a-83fc-28bd7aa109c9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Petit Martinique R. C.",
+    "longitude": -61.386329650878906,
+    "latitude": 12.525360107421875,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "40660786-a567-32d2-b89f-3a39f8cc3d53",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Rainbow Junior Academy",
+    "longitude": -61.62587356567383,
+    "latitude": 12.11593246459961,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "c140a408-196b-3506-86e6-7f7a1ac75116",
+    "school_data_source": null
+  },
+  {
+    "school_name": "River Sallee Government School",
+    "longitude": -61.61420822143555,
+    "latitude": 12.196949005126953,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0061a5f4-7057-3bf8-947e-68a4ca125bbe",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Samaritan Presbyterian",
+    "longitude": -61.670719146728516,
+    "latitude": 12.2041597366333,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "393f5b36-1216-307d-8522-01093436da9b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "South St. George Government School",
+    "longitude": -61.744930267333984,
+    "latitude": 12.039819717407227,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "7669d243-224d-3396-9248-796679823151",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Andrew's Learning Center",
+    "longitude": -61.61783981323242,
+    "latitude": 12.14505386352539,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "26e83316-3c75-3138-861a-eabf8c0126ef",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Andrew's Anglican Primary",
+    "longitude": -61.62167739868164,
+    "latitude": 12.123583793640137,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "a61f45bc-1683-3d3e-91f6-71b85c10eea7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Andrew's Methodist",
+    "longitude": -61.623329162597656,
+    "latitude": 12.122960090637207,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "184d1c1c-46ef-3b12-9b43-64079051df6c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Andrew's R. C.",
+    "longitude": -61.628177642822266,
+    "latitude": 12.12224006652832,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "8693f267-a782-3189-bc45-5485d3b502c6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. David's R. C. Primary",
+    "longitude": -61.668968200683594,
+    "latitude": 12.05443000793457,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "9b2e41a5-91c2-38a1-a9f1-0372bce76302",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Dominic's Primary",
+    "longitude": -61.699649810791016,
+    "latitude": 12.039899826049805,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "0f4a88b9-febe-3568-b22a-3d19708559f5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. George's Methodist",
+    "longitude": -61.7499885559082,
+    "latitude": 12.059300422668457,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "11065d90-15f8-3a13-afa4-43c19573a3e6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. George's Anglican Senior School",
+    "longitude": -61.75215530395508,
+    "latitude": 12.052520751953125,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "c64b4e22-e2d7-355f-88c6-325c87278733",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. George's S. D. A. Primary",
+    "longitude": -61.74422073364258,
+    "latitude": 12.051460266113281,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "28abc8f0-c8fb-3875-8f1f-7ff2cce065bb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Giles Anglican School",
+    "longitude": -61.633880615234375,
+    "latitude": 12.090399742126465,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "1c7e1a00-19ab-3a33-9ef0-c14be07fc058",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. John's Anglican",
+    "longitude": -61.73046112060547,
+    "latitude": 12.16586971282959,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "156c2b11-f469-3046-95d7-28e9a9652e67",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. John's R. C.",
+    "longitude": -61.72800064086914,
+    "latitude": 12.163649559020996,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "aae02842-020c-3aac-a9fa-130285e94edf",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph's R. C. (Pomme Rose)",
+    "longitude": -61.658172607421875,
+    "latitude": 12.058055877685547,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "ef5d7e70-3581-332d-8c8f-23dbf0cff2af",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Louis Girls R. C.",
+    "longitude": -61.75217819213867,
+    "latitude": 12.05383014678955,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "31dad9b9-74de-34a8-968f-67778e2d6373",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Mary's Junior School",
+    "longitude": -61.73310470581055,
+    "latitude": 12.058136940002441,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "cc27da82-c833-38fd-9103-06e59be8d587",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Mary's R. C.",
+    "longitude": -61.633758544921875,
+    "latitude": 12.135510444641113,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "97c84e28-2d1b-3d16-b3a6-c08c5315d0c0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Michael's R. C. (Byelands)",
+    "longitude": -61.6550407409668,
+    "latitude": 12.132220268249512,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "1b0caa00-88c4-3eb0-8c49-c0a1f803decf",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Patrick's R. C. School",
+    "longitude": -61.6401481628418,
+    "latitude": 12.225689888000488,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "9b3a401c-e5e4-3624-97c4-e67a931c6f2d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Patrick's Anglican",
+    "longitude": -61.63780975341797,
+    "latitude": 12.224820137023926,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "75b8ac0e-42aa-30f4-a8c2-788ff540e5a4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Paul's Government",
+    "longitude": -61.72393035888672,
+    "latitude": 12.049604415893555,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "131ab32c-0e81-3c6b-8260-fc4d2cbd307b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Theresa's R. C. Primary",
+    "longitude": -61.684539794921875,
+    "latitude": 12.053520202636719,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "b3695bb8-8f86-3b2a-8abc-90c429904028",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Telescope Primary",
+    "longitude": -61.61824035644531,
+    "latitude": 12.127059936523438,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "3b479fc9-c8a3-3966-933f-57912a9f9ac1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "3R's Private School",
+    "longitude": -61.73921585083008,
+    "latitude": 12.055303573608398,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "07de3839-6c33-31a9-ab07-2662c9ad3f41",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tivoli R. C.",
+    "longitude": -61.61821746826172,
+    "latitude": 12.17278003692627,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "c4f5c192-b49a-3272-a776-527d02cda8be",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vendome R. C.",
+    "longitude": -61.71390914916992,
+    "latitude": 12.081379890441895,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "b0f4c25e-cd07-3757-bcbd-f5dbbbbb278d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Westmorland Junior",
+    "longitude": -61.74000930786133,
+    "latitude": 12.052389144897461,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "ec4c5607-2e1c-3e02-a1cc-c0708a2c3dd6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Woburn Methodist",
+    "longitude": -61.731910705566406,
+    "latitude": 12.020549774169922,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "44cf6c5c-d91e-3355-bd9f-c615707dd74b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Higher Marks Educational Centre",
+    "longitude": -61.75307846069336,
+    "latitude": 12.05309772491455,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "392a26b5-c327-30fa-a305-4bff6cac013c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Hilton's Primary School",
+    "longitude": -61.73368835449219,
+    "latitude": 12.047459602355957,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "46d6af5a-3947-3fb4-bac1-74317f07b482",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grace Lutheran",
+    "longitude": -61.73998260498047,
+    "latitude": 12.027782440185547,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "7ebe2381-7c6a-3c1b-9c94-e3e3c6108019",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grenada Montessori School",
+    "longitude": -61.754730224609375,
+    "latitude": 12.021241188049316,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "869ec484-8fc4-36c6-9c04-725ee6c50e71",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Peak Institute",
+    "longitude": -61.75294876098633,
+    "latitude": 12.03907299041748,
+    "education_level": "Primary",
+    "country_iso3_code": "GRD",
+    "giga_id_school": "6e8b9cbd-071b-3580-ae64-9b0f2abaa5b9",
+    "school_data_source": null
+  }
+]

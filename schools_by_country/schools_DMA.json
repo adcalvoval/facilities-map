@@ -1,0 +1,614 @@
+[
+  {
+    "school_name": "Berean Christian Academy",
+    "longitude": -61.378726959228516,
+    "latitude": 15.302637100219727,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "b1f79909-325a-31df-bc79-5d3b1eee5e11",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mahaut Primary School",
+    "longitude": -61.39668655395508,
+    "latitude": 15.36375617980957,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "e73d1a0b-0ddb-35cf-b1be-9387ce5eaae2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ebenezer Seventh Day Adventist",
+    "longitude": -61.38843536376953,
+    "latitude": 15.301667213439941,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "aa761522-41ee-3300-980a-eee75f76766c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Luke's Primary School",
+    "longitude": -61.376914978027344,
+    "latitude": 15.259856224060059,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "7da50b01-b2ec-37ef-8299-9eede01b69db",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Temple SDA",
+    "longitude": -61.30887985229492,
+    "latitude": 15.580862998962402,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "c92b6ce2-cfc4-375a-b374-f2694665522a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Woodford Hill Primary School",
+    "longitude": -61.33196258544922,
+    "latitude": 15.57857608795166,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "4e5d249e-6638-34e1-8dc3-0d2736eaa27a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Atkinson Primary School",
+    "longitude": -61.261474609375,
+    "latitude": 15.515151023864746,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "e110147d-0622-3825-b8e5-5ccb64e970bb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bagatelle Primary School",
+    "longitude": -61.28607177734375,
+    "latitude": 15.243806838989258,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "46995348-aac6-39f6-a781-0d8a7c75f404",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Goodwill Primary School",
+    "longitude": -61.388336181640625,
+    "latitude": 15.30707836151123,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "f1784052-4098-32fc-bd64-1c065543d244",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Roseau Primary School",
+    "longitude": -61.38054656982422,
+    "latitude": 15.303299903869629,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "cae3adab-475f-3542-a2de-89c08f5dcf44",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Martin Primary School",
+    "longitude": -61.385284423828125,
+    "latitude": 15.298262596130371,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "20771c79-08d5-30de-9163-f69b89183f6c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Baroness Patricia Scotland Primary School",
+    "longitude": -61.41095733642578,
+    "latitude": 15.612914085388184,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "5b255a4b-6fab-3a0a-b43a-ca65e241bd80",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bellevue Primary School",
+    "longitude": -61.34696578979492,
+    "latitude": 15.266681671142578,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "2c7fa5b3-5b79-332b-97c2-0bada52ba68b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bense Primary School",
+    "longitude": -61.37610626220703,
+    "latitude": 15.589938163757324,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "89751e68-b7d0-342d-9bce-3d86f008e85e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Calibishie Primary School",
+    "longitude": -61.35182571411133,
+    "latitude": 15.592423439025879,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "dcc05061-4be7-3bab-821f-714c44fbf274",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Campbell Primary School",
+    "longitude": -61.377052307128906,
+    "latitude": 15.374632835388184,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "09288098-94f4-33c5-ac22-11926287389d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Colihaut Government School",
+    "longitude": -61.46268081665039,
+    "latitude": 15.483967781066895,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "85c58db8-a2d9-38fa-9147-2784217231b4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Coulibistrie Primary School",
+    "longitude": -61.45181655883789,
+    "latitude": 15.460859298706055,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "9e5b702d-0fc6-33e5-8634-5e9902f421cd",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Soufriere Primary School",
+    "longitude": -61.35654830932617,
+    "latitude": 15.235562324523926,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "446ad4a7-0b35-3928-b6d6-9e30a96259bc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grand Fond Primary School",
+    "longitude": -61.27560806274414,
+    "latitude": 15.361141204833984,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "e497f927-d148-343b-a663-d35c271e774e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Morne Prosper",
+    "longitude": -61.34505081176758,
+    "latitude": 15.310965538024902,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "bb526c57-4a1e-3d92-be9c-ca0cdaca4f2f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Western District Seventh Day Adventist",
+    "longitude": -61.42369079589844,
+    "latitude": 15.406333923339844,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "a7b1c188-3b1f-37f8-9407-7fe41162c968",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Mary's Academy",
+    "longitude": -61.385093688964844,
+    "latitude": 15.296826362609863,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "866054a5-4cf8-3bf1-9270-7bacdc924d42",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Tete Morne Primary School",
+    "longitude": -61.333396911621094,
+    "latitude": 15.234929084777832,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "2569b3e8-4276-34bc-a332-ff4d6829c4a0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Trafalgar Primary School",
+    "longitude": -61.347843170166016,
+    "latitude": 15.324437141418457,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "81016462-7034-3624-bb7c-96883f16ffdc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Wotten Waven Primary school",
+    "longitude": -61.33924102783203,
+    "latitude": 15.316699028015137,
+    "education_level": "Pre-Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "ed40e516-e5f8-306e-825e-1801d2feb268",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Giraudel Primary School",
+    "longitude": -61.34879684448242,
+    "latitude": 15.287946701049805,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "01cbb3f7-ebdf-3d9f-bf9e-1bc73a20a5f8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Massacre /Canefield Primary School",
+    "longitude": -61.39174270629883,
+    "latitude": 15.341792106628418,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "b9d86298-509d-3d31-a355-4183d0a586ad",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. John's Primary",
+    "longitude": -61.45648956298828,
+    "latitude": 15.577641487121582,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "460d6d1b-10d8-3c7f-a291-52eaca677089",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Will Stathmore Stevens Primary School",
+    "longitude": -61.27970886230469,
+    "latitude": 15.538288116455078,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "449e171b-c2d6-37cf-ac3f-fce6fb37f3ed",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Clifton Primary School",
+    "longitude": -61.46352767944336,
+    "latitude": 15.623860359191895,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "d971a0d8-1bf0-3132-ad40-135b9bcbfd42",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Jones Beaupierre primary School",
+    "longitude": -61.243370056152344,
+    "latitude": 15.3281831741333,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "c4825fe2-4d1b-319b-85cd-ff84dcadbff1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Newtown Primary School",
+    "longitude": -61.3782958984375,
+    "latitude": 15.292313575744629,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "7d6e3487-c292-357f-b921-ea9ecb39e98b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "North East Comprehensive School",
+    "longitude": -61.30527877807617,
+    "latitude": 15.557257652282715,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "6a7dcf21-b95a-3018-bfda-d0f2e8400eb6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Portsmouth Secondary School",
+    "longitude": -61.45539093017578,
+    "latitude": 15.580552101135254,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "1c6ebb3b-e3e4-31fb-bdc1-78ab568f8cb5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Salisbury Primary School",
+    "longitude": -61.43553924560547,
+    "latitude": 15.442326545715332,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "f04d6393-5cba-38da-8481-9c43318ecd90",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Arthur Waldron SDA Academy",
+    "longitude": -61.455657958984375,
+    "latitude": 15.566865921020508,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "317c97e5-a590-3a8d-a568-d1bcb82ad086",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Castle Bruce Primary School",
+    "longitude": -61.256629943847656,
+    "latitude": 15.440577507019043,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "2416fd07-3082-30f7-81bb-0e0d968f83cd",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Castle Bruce Secondary School",
+    "longitude": -61.26068115234375,
+    "latitude": 15.434927940368652,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "344f882e-e513-3d56-8f3c-661276e8d3ea",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Convent Preparatory School",
+    "longitude": -61.38409423828125,
+    "latitude": 15.299668312072754,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "083d0e8e-a50b-31ab-8d71-d5205544e80b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Delices Primary School",
+    "longitude": -61.262474060058594,
+    "latitude": 15.282153129577637,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "93832fe8-fff8-3bf1-a94e-fd2ce790c28d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dominica Grammar School",
+    "longitude": -61.38311767578125,
+    "latitude": 15.301753997802734,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "3b8bcc3b-050e-37e9-a7ee-5cd36560563f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grandbaby Primary School",
+    "longitude": -61.31487274169922,
+    "latitude": 15.24193000793457,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "9e0a4c77-7777-357a-a368-a392f7a63140",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pierre Charles Secondary School",
+    "longitude": -61.315093994140625,
+    "latitude": 15.246737480163574,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "76c44895-94ad-3a44-a736-edb511b7057a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Petite Savanne Primary",
+    "longitude": -61.380584716796875,
+    "latitude": 15.30320930480957,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "c9ab0423-4837-328d-9590-9c9e757ffc69",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Salybia Primary School",
+    "longitude": -61.2529182434082,
+    "latitude": 15.490218162536621,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "7c844142-0338-35eb-bd68-c6341db5d3b5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "San Sauveur Primary School",
+    "longitude": -61.25408172607422,
+    "latitude": 15.403072357177734,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "2fc2efc6-ac29-37f7-83f5-7c7efc66b1f4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sineku Primary",
+    "longitude": -61.25040054321289,
+    "latitude": 15.475046157836914,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "4e0907da-d509-3e03-ba43-f8901d05acc8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Wesley Primary School",
+    "longitude": -61.30887222290039,
+    "latitude": 15.567289352416992,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "8ab0b3da-daf2-3436-a1b1-ff8c8e726208",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Christian Union Primary",
+    "longitude": -61.38145065307617,
+    "latitude": 15.305379867553711,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "34c6dc07-7718-3ab7-9eca-cd717fff9b5c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Concord Primary School",
+    "longitude": -61.27655792236328,
+    "latitude": 15.493160247802734,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "a6d956a3-9b2f-3f77-9e7c-3446bc3644bb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Morne Jaune Primary School",
+    "longitude": -61.2617301940918,
+    "latitude": 15.354376792907715,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "dcbb9132-3401-37fc-b79c-6b694b8e2039",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Paix Bouche Primary School",
+    "longitude": -61.40724563598633,
+    "latitude": 15.589771270751953,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "ec7622f3-78fa-3d57-8704-d1b3da159d56",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Penville Primary School",
+    "longitude": -61.421714782714844,
+    "latitude": 15.629234313964844,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "52680da2-6cfd-3222-abbf-4aa2259b4776",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pioneer preparatory School",
+    "longitude": -61.39099884033203,
+    "latitude": 15.34216594696045,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "fb9cc0b9-4414-3755-98c7-e717422f2a10",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Savanne Paille Primary School",
+    "longitude": -61.46217346191406,
+    "latitude": 15.604302406311035,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "88dfb87e-393d-3524-b86e-79bd3037e8da",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Kelleb John Laurent Primary School",
+    "longitude": -61.42217254638672,
+    "latitude": 15.406743049621582,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "a8ca5c32-8b54-3076-8fe3-091fa03f4781",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Martin Secondary School",
+    "longitude": -61.38467025756836,
+    "latitude": 15.298842430114746,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "eba92b7e-def9-3217-8877-cc4da4c83b8e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Thibaud Primary School",
+    "longitude": -61.39521026611328,
+    "latitude": 15.599536895751953,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "936c82c2-0c77-3c9f-800c-d41e3f94d443",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Orion Academy",
+    "longitude": -61.381553649902344,
+    "latitude": 15.304227828979492,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "de1a5f1d-da61-3cfd-abca-95f24c042017",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Belles Primary School",
+    "longitude": -61.339508056640625,
+    "latitude": 15.423139572143555,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "6e36a8e2-cd7a-3f0a-9802-14482b16724b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Isaiah Thomas Secondary School",
+    "longitude": -61.42594909667969,
+    "latitude": 15.401806831359863,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "578184fe-29b0-38b1-a3d8-0faa8e9434df",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dublanc Primary School",
+    "longitude": -61.467872619628906,
+    "latitude": 15.512876510620117,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "db0cfb98-0a21-3044-b4af-df1b1df9b76b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Roosevelt Douglas Primary School",
+    "longitude": -61.45403289794922,
+    "latitude": 15.576346397399902,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "f7268fc5-8484-3d84-bb6e-cbc7d4d25ec4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Johns Academy",
+    "longitude": -61.45643615722656,
+    "latitude": 15.57797622680664,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "322b80a7-bda7-31b7-92f1-6c2f0bc43ad3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Convent High School",
+    "longitude": -61.38373565673828,
+    "latitude": 15.299041748046875,
+    "education_level": "Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "5d13e5f9-06d3-3592-8dd4-235de64670f2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Lighthouse Christian Academy",
+    "longitude": -61.26335906982422,
+    "latitude": 15.511275291442871,
+    "education_level": "Primary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "f84d69c7-b37e-31cf-b346-8ef71f567874",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dominica Community College",
+    "longitude": -61.367244720458984,
+    "latitude": 15.306967735290527,
+    "education_level": "Post-Secondary",
+    "country_iso3_code": "DMA",
+    "giga_id_school": "c9f71599-d1b3-3f3a-9f6d-06ad812636b8",
+    "school_data_source": null
+  }
+]

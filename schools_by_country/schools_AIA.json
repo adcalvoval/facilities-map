@@ -1,0 +1,110 @@
+[
+  {
+    "school_name": "Alwyn Allison Richardson Primary School",
+    "longitude": -63.143009185791016,
+    "latitude": 18.176345825195312,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "03d5a5e5-2cc0-365c-8424-db9d0b6d02af",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Orealia Kelly Primary School",
+    "longitude": -63.04723358154297,
+    "latitude": 18.221715927124023,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "2d55d942-5472-3aa9-9eb9-34b005b0e88e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Omololu International School",
+    "longitude": -63.040775299072266,
+    "latitude": 18.214391708374023,
+    "education_level": "Pre-Primary, Primary, and Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "7b0cfd38-6d00-3448-b466-8d2af8d61cd0",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Morris Vanterpool Primary  (MVP)",
+    "longitude": -62.997196197509766,
+    "latitude": 18.234710693359375,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "825f66d0-5fc1-3a4f-bb65-86faa0384fed",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Adrian. T. Hazell Primary School (ATHPS-AI)",
+    "longitude": -63.09062194824219,
+    "latitude": 18.191875457763672,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "20df197c-1248-3ef1-a342-dd0a8f19565a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Albena Lake Hodge Comprensive School (ALHCS) Campus A",
+    "longitude": -63.050193786621094,
+    "latitude": 18.215621948242188,
+    "education_level": "Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "1dac9db5-d0a5-3da4-8946-55d3010b024c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "PRU",
+    "longitude": -63.042930603027344,
+    "latitude": 18.212678909301758,
+    "education_level": "Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "d4d247cf-63df-33a9-800f-eff75877dde1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "WISE",
+    "longitude": -63.04731750488281,
+    "latitude": 18.219724655151367,
+    "education_level": "Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "750c393c-8ffd-31bf-9247-514afeb05f1b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "DOVE 2",
+    "longitude": -63.039276123046875,
+    "latitude": 18.21187400817871,
+    "education_level": "Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "334f83dd-41c8-3969-b392-dad7aa78ec6e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Albena Lake Hodge Comprensive School (ALHCS) Campus B",
+    "longitude": -63.04862594604492,
+    "latitude": 18.219018936157227,
+    "education_level": "Secondary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "e84e706e-ffe0-3a7f-88c1-1413e1999f36",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Valley Primary",
+    "longitude": -63.05532455444336,
+    "latitude": 18.21481704711914,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "b3b9f88f-c1bd-3e57-83a2-67daf72c86fc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vivien  Vanterpool",
+    "longitude": -63.00472640991211,
+    "latitude": 18.257951736450195,
+    "education_level": "Pre-Primary and Primary",
+    "country_iso3_code": "AIA",
+    "giga_id_school": "dd0c8c94-191b-3b1e-b8ad-c620ebdb8bff",
+    "school_data_source": null
+  }
+]

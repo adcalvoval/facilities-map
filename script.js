@@ -83,37 +83,68 @@ const activeFilters = {
 // Buffer radius in kilometers (default 5km)
 let bufferRadius = 5;
 
-// Load and display schools
-fetch('schools_AFG.json')
+// Track loaded school countries
+const loadedSchoolCountries = new Set();
+
+// Function to load schools for a specific country
+function loadSchoolsForCountry(countryCode) {
+    if (loadedSchoolCountries.has(countryCode)) {
+        return Promise.resolve(); // Already loaded
+    }
+
+    return fetch(`schools_by_country/schools_${countryCode}.json`)
+        .then(response => {
+            if (!response.ok) {
+                console.log(`No schools file found for ${countryCode}`);
+                return [];
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (Array.isArray(data)) {
+                data.forEach(school => {
+                    if (school.latitude && school.longitude) {
+                        const marker = L.marker([school.latitude, school.longitude], {
+                            icon: schoolIcon
+                        });
+
+                        marker.bindPopup(`
+                            <strong>${school.school_name || 'Unknown School'}</strong><br>
+                            Education Level: ${school.education_level || 'N/A'}<br>
+                            Country: ${school.country_iso3_code || 'N/A'}<br>
+                            Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
+                        `);
+
+                        // Store school location for buffer calculations
+                        allSchools.push({
+                            lat: school.latitude,
+                            lng: school.longitude,
+                            marker: marker,
+                            country: school.country_iso3_code
+                        });
+
+                        marker.addTo(schoolsLayer);
+                    }
+                });
+                loadedSchoolCountries.add(countryCode);
+                console.log(`Loaded ${data.length} schools for ${countryCode}`);
+            }
+        })
+        .catch(error => console.log(`Could not load schools for ${countryCode}:`, error));
+}
+
+// Load schools from summary to get all available countries
+fetch('schools_by_country/summary.json')
     .then(response => response.json())
-    .then(data => {
-        if (data.success && data.data) {
-            data.data.forEach(school => {
-                if (school.latitude && school.longitude) {
-                    const marker = L.marker([school.latitude, school.longitude], {
-                        icon: schoolIcon
-                    });
-
-                    marker.bindPopup(`
-                        <strong>${school.school_name || 'Unknown School'}</strong><br>
-                        Education Level: ${school.education_level || 'N/A'}<br>
-                        Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
-                    `);
-
-                    // Store school location for buffer calculations
-                    allSchools.push({
-                        lat: school.latitude,
-                        lng: school.longitude,
-                        marker: marker
-                    });
-
-                    marker.addTo(schoolsLayer);
-                }
-            });
-            console.log(`Loaded ${data.data.length} schools`);
-        }
+    .then(summary => {
+        // Load schools for all countries (this will take a moment but loads everything)
+        const loadPromises = summary.map(item => loadSchoolsForCountry(item.country));
+        return Promise.all(loadPromises);
     })
-    .catch(error => console.error('Error loading schools:', error));
+    .then(() => {
+        console.log(`Total schools loaded: ${allSchools.length} from ${loadedSchoolCountries.size} countries`);
+    })
+    .catch(error => console.error('Error loading schools summary:', error));
 
 // Load and display health facilities
 fetch('health_facilities.json')

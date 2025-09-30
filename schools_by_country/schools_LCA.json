@@ -1,0 +1,839 @@
+[
+  {
+    "school_name": "Dame Pearlette Louisy Primary",
+    "longitude": -60.944732666015625,
+    "latitude": 14.00475025177002,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "db5b9a0f-16c8-3e44-b310-83e40254088e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Balata Combined",
+    "longitude": -60.95380783081055,
+    "latitude": 14.012568473815918,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "09595b42-81ab-3e50-aa72-aa5587beb29c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Boguis Combined",
+    "longitude": -60.918643951416016,
+    "latitude": 14.011968612670898,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "79e86857-3332-3f8f-b603-175b589482ab",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Des Barras Combined",
+    "longitude": -60.90913009643555,
+    "latitude": 13.992859840393066,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "f53231f0-35fb-300d-97a1-1178e4ca5f34",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Laborie Girls' Primary",
+    "longitude": -60.99647903442383,
+    "latitude": 13.753083229064941,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "dfa98c00-b4dd-35e7-b535-610153576f23",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Gros Islet Combined",
+    "longitude": -60.94443130493164,
+    "latitude": 14.07934856414795,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "d8fff8ad-3943-391e-9408-c3d30742056a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "La Guerre Combined",
+    "longitude": -60.929386138916016,
+    "latitude": 14.021474838256836,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "8c2b0d06-535e-3a32-91c0-b075e5b4f2d8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Monchy Combined",
+    "longitude": -60.92955780029297,
+    "latitude": 14.05327033996582,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "4aa834b7-5854-38c5-9454-ee653fad5ad2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anglican Infant",
+    "longitude": -60.98785400390625,
+    "latitude": 14.011634826660156,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "ddb6795d-be59-3502-9919-04d1afda1b37",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anglican Primary",
+    "longitude": -60.986480712890625,
+    "latitude": 14.011467933654785,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "df4868f8-763d-3c64-85a7-864a73c8664e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Carmen Rene Memorial",
+    "longitude": -60.990257263183594,
+    "latitude": 14.017215728759766,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "fa6a1c2f-3278-3e80-8f8d-9126caa68f90",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Carmille Henry Memorial",
+    "longitude": -60.989112854003906,
+    "latitude": 14.019946098327637,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "3795a486-3d20-3894-8f9b-d45092cf2676",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Methodist Combined",
+    "longitude": -60.987648010253906,
+    "latitude": 14.013593673706055,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "e74ba3cd-52bd-3db1-aacb-12a2666b9bf4",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Morne Dudon Combined",
+    "longitude": -60.978492736816406,
+    "latitude": 14.011713027954102,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "c5437d4f-73f6-3a55-b258-b04fd8567422",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vide Bouteille Combined",
+    "longitude": -60.982574462890625,
+    "latitude": 14.01916790008545,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "e0b501b4-cd6f-379f-945a-7ea932c79884",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ave Maria Girls Infant",
+    "longitude": -60.988525390625,
+    "latitude": 14.008898735046387,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "a44915c4-6b8a-3426-b182-7198e41e4dea",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ave Maria Girls Primary",
+    "longitude": -60.98887252807617,
+    "latitude": 14.008834838867188,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "b407c868-678b-3125-b7dc-54bbe73aee85",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bocage Combined",
+    "longitude": -60.97001266479492,
+    "latitude": 14.000736236572266,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "0d2a0c4b-d7cf-3b4a-a7de-71e9368ee747",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Forestierre Combined",
+    "longitude": -60.95460891723633,
+    "latitude": 13.973995208740234,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "d4b4c914-495e-3719-be33-bf7bc6323887",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bishop Charles Gachet R.C. Primary School",
+    "longitude": -60.98366165161133,
+    "latitude": 14.003523826599121,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "2c8e7c74-93f5-35e3-8d9b-6ce6c65bda1a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Aloysius R.C. Boy's Infant",
+    "longitude": -60.989715576171875,
+    "latitude": 14.008646011352539,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "69f31727-7bff-34f4-adf4-7c07d500d1b2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Aloysius R.C. Boy's Primary",
+    "longitude": -60.989444732666016,
+    "latitude": 14.008628845214844,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "3a91d448-b6a4-3ae7-b64f-6c6b5b5f08b5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ti Rocher Combined",
+    "longitude": -60.96735382080078,
+    "latitude": 13.993287086486816,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "0a9983d0-52dc-3166-a991-94be7a379716",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anse La Raye Infant",
+    "longitude": -61.043670654296875,
+    "latitude": 13.939495086669922,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "23cabc39-ecfa-3cae-8c27-af8a86498678",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anse la Raye Primary",
+    "longitude": -61.0407829284668,
+    "latitude": 13.936948776245117,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "7ebfe194-09b0-3ce9-8069-7d84b3a0907e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bexon Infant",
+    "longitude": -60.9775276184082,
+    "latitude": 13.953303337097168,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "14f03d87-a19c-3964-bd04-60eab67bb360",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bexon Primary",
+    "longitude": -60.97523498535156,
+    "latitude": 13.952506065368652,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "348c9901-337a-380e-87d4-ce7ce986e862",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ciceron Combined",
+    "longitude": -61.009403228759766,
+    "latitude": 13.990398406982422,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "99d66a1e-1edb-39f7-9845-bdbc49d3816f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Millet Combined",
+    "longitude": -60.996944427490234,
+    "latitude": 13.916316986083984,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "50d1e758-711c-365f-9355-6a1abb8c684a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Odsan Combined",
+    "longitude": -60.98735046386719,
+    "latitude": 13.974639892578125,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "1443b674-f42e-3979-a9aa-98c29b1a4d43",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Roseau Combined",
+    "longitude": -61.016902923583984,
+    "latitude": 13.950837135314941,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "95d43c01-1f4a-3240-8312-70175b464612",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Aux Lyons Combined",
+    "longitude": -60.912010192871094,
+    "latitude": 13.946870803833008,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "7734051c-f874-3aa6-b599-d54eee756ccb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dennery Infant",
+    "longitude": -60.99824905395508,
+    "latitude": 13.986719131469727,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "b767f119-fa42-341f-94b3-44b89428f442",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Derniere Riviere Combined",
+    "longitude": -60.92318344116211,
+    "latitude": 13.951152801513672,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "1b5be9c0-0117-3a0d-9127-0169ff52f481",
+    "school_data_source": null
+  },
+  {
+    "school_name": "La Ressource Combined",
+    "longitude": -60.91621017456055,
+    "latitude": 13.944701194763184,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "02b7fc41-9daf-3a00-99bd-e7ed26a630c7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Micoud Primary",
+    "longitude": -60.9001350402832,
+    "latitude": 13.819331169128418,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "7e9688cc-07eb-3dd0-80ab-3f0b4483ae97",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mon Repos/Patience Combined",
+    "longitude": -60.907691955566406,
+    "latitude": 13.851079940795898,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "c2ce5362-2815-353b-bf2a-c6f982524bb2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Richfond Combined",
+    "longitude": -60.923561096191406,
+    "latitude": 13.936568260192871,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "1cf6a710-a081-3cf2-811b-4d54d3b18d03",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ti Rocher (Micoud)",
+    "longitude": -60.92245101928711,
+    "latitude": 13.818122863769531,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "a86cca17-2b4b-3060-867f-2fee12f44b73",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Augier Combined",
+    "longitude": -60.980899810791016,
+    "latitude": 13.754082679748535,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "621c3146-9194-3454-9ff2-6eaa598e643b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Belle Vue Combined",
+    "longitude": -60.95659637451172,
+    "latitude": 13.791961669921875,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "cbf0acea-18f1-384a-a16d-c517355ebe91",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Blanchard Combined",
+    "longitude": -60.94586944580078,
+    "latitude": 13.80745792388916,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "ca371e49-81e6-38bc-908e-9d701717b398",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Desruisseaux Combined",
+    "longitude": -60.93428421020508,
+    "latitude": 13.798105239868164,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "37eef129-e5f3-3883-a650-9817ebf4ea1a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grace Combined",
+    "longitude": -60.96843719482422,
+    "latitude": 13.779243469238281,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "4b9dfa05-c20f-3d04-9c1d-6a41305ae5b5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Pierrot Combined",
+    "longitude": -60.942684173583984,
+    "latitude": 13.77009391784668,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "0687c0ee-ae2f-3b97-b216-748b30c50503",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Plain View Combined",
+    "longitude": -60.95967483520508,
+    "latitude": 13.745649337768555,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "2eead39e-5e13-364d-8fd0-ef3dc5bba15a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vieux Fort Infant",
+    "longitude": -60.95287322998047,
+    "latitude": 13.731157302856445,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "05524f61-3402-3610-ae46-bed2af19ec46",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vieux Fort Primary",
+    "longitude": -60.94978332519531,
+    "latitude": 13.729117393493652,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "645d7670-4f6f-3e12-8b90-9de447381949",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vigier Combined",
+    "longitude": -60.931087493896484,
+    "latitude": 13.786857604980469,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "b9992adc-5d17-3138-88f3-e7dbc71e69a2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Banse La Grace Combined",
+    "longitude": -61.00059127807617,
+    "latitude": 13.778325080871582,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "3ea7ce4c-0161-3e48-b500-12c4a5a65f0d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Delcer Combined",
+    "longitude": -61.05809020996094,
+    "latitude": 13.800481796264648,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "db00e0a6-12da-3682-8e1f-eb9a610266b1",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dugard Combined",
+    "longitude": -61.04074478149414,
+    "latitude": 13.775330543518066,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "2e880397-1853-3be1-bdc0-fabecdaf8e64",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Laborie Boys' Primary",
+    "longitude": -60.99324035644531,
+    "latitude": 13.75175666809082,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "775d96a5-c1de-3c3a-9986-f6ffa0f865fc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Mongouge Combined",
+    "longitude": -61.044830322265625,
+    "latitude": 13.798162460327148,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "f5f184e2-12f6-3725-beaa-dc96831278d8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Piaye Combined",
+    "longitude": -61.02266311645508,
+    "latitude": 13.757430076599121,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "ad3157b0-9c31-3fb0-8675-153f03652427",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Reunion Primary",
+    "longitude": -61.04542922973633,
+    "latitude": 13.776420593261719,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "8fc6451c-831b-3f75-b3f6-deff3f5165b6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Riviere Doree Combined",
+    "longitude": -61.02547836303711,
+    "latitude": 13.75978946685791,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "2e4738dd-fc9c-3fac-bd92-22cd690e79e3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Roblot Combined",
+    "longitude": -61.03269958496094,
+    "latitude": 13.764701843261719,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "c8d20970-b51e-33c5-9e5b-c10842ec8131",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Saltibus Combined",
+    "longitude": -61.00983428955078,
+    "latitude": 13.783414840698242,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "ca7ad218-af45-3850-9052-2e1ae24342d5",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bouton Combined",
+    "longitude": -61.07107925415039,
+    "latitude": 13.879617691040039,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "e26d71e4-ff83-351b-9b06-fa8e2b33323a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Fond St. Jacques Primary",
+    "longitude": -61.029083251953125,
+    "latitude": 13.839539527893066,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "29b6e435-b4f0-3dc2-817f-6b8e1a3291fb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Les Etangs Combined",
+    "longitude": -61.044673919677734,
+    "latitude": 13.81859302520752,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "df4f1878-45b7-32d9-a900-9aa08f8dc3d8",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Soufriere Infant",
+    "longitude": -61.05765151977539,
+    "latitude": 13.857514381408691,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "563a3cf1-91ce-3492-a11e-d632de06ae99",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Soufriere Primary",
+    "longitude": -61.05702209472656,
+    "latitude": 13.857172966003418,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "0d133911-eb84-34c0-ab8b-9741ec04aedb",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Babonneau Secondary",
+    "longitude": -60.94540023803711,
+    "latitude": 14.005789756774902,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "2580dfef-8dc3-3f1e-8de5-5a7aca8894b3",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Corinth Secondary",
+    "longitude": -60.96609878540039,
+    "latitude": 14.046119689941406,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "b2a75127-9b34-35dc-95c1-6d4d089d924e",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St Lucia Sports Academey",
+    "longitude": -60.94449996948242,
+    "latitude": 14.079219818115234,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "436011f7-f634-353b-9804-643259480bcc",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Castries Comprehensive",
+    "longitude": -60.97869873046875,
+    "latitude": 14.027139663696289,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "78580994-d053-384d-83dc-84f85d182a39",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Sir Ira Simmons",
+    "longitude": -60.979801177978516,
+    "latitude": 14.026209831237793,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "736ce59b-9ef8-3334-b6c1-3defc7ad6a50",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vide Bouteille Secondary (Patricia  D James)",
+    "longitude": -60.98270034790039,
+    "latitude": 14.018380165100098,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "8f42b774-8ec1-3e8a-bafc-c34fa1dc2d16",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Bocage Secondary",
+    "longitude": -60.97019958496094,
+    "latitude": 14.005220413208008,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "a819711d-5e25-3372-8ee3-b1753de1fb65",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Entrepot Secondary",
+    "longitude": -60.9818000793457,
+    "latitude": 14.00413990020752,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "873c0e77-5f07-37f6-b8d0-575e48de0c6a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Leon Hess Comprehensive",
+    "longitude": -60.979000091552734,
+    "latitude": 13.999650001525879,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "a6269c09-71b6-3c4a-9ba5-bbad24de725b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Joseph's Convent",
+    "longitude": -60.98189926147461,
+    "latitude": 14.006369590759277,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "c1ed504b-2a7f-365f-9c6c-6b813cc39c2d",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Ciceron Secondary",
+    "longitude": -61.00803756713867,
+    "latitude": 13.996393203735352,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "14310280-9b41-34b7-aaef-83902d49323c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Stanley Jon Odlum Memorial",
+    "longitude": -61.013301849365234,
+    "latitude": 13.964590072631836,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "dd1011cc-83de-30d2-afa2-07cf63983574",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Anse Ger Secondary",
+    "longitude": -60.920101165771484,
+    "latitude": 13.796699523925781,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "d9d6b0c6-c86c-3721-9a82-f9a1c40e9dc9",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Clendon Mason Memorial",
+    "longitude": -60.89296340942383,
+    "latitude": 13.9100980758667,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "4ebf6d84-d552-3581-879c-879fe7c96091",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grande Riviere Secondary",
+    "longitude": -60.92919921875,
+    "latitude": 13.933150291442871,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "52357e32-5024-3807-89be-a7b9a9b1435f",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Micoud Secondary",
+    "longitude": -60.9005012512207,
+    "latitude": 13.818470001220703,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "28cf177c-23f9-3572-a8a3-580fb9c8efd7",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Beanefield",
+    "longitude": -60.95000076293945,
+    "latitude": 13.728469848632812,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "af6c1e5e-68e5-3807-a769-028756a1e6ab",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Vieux Fort Comprehesive",
+    "longitude": -60.964698791503906,
+    "latitude": 13.750049591064453,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "1e775ca5-fa1c-3ba5-92a4-2a2a71fc6741",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Choiseul Secondary",
+    "longitude": -61.0432014465332,
+    "latitude": 13.772069931030273,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "afd6c715-a7e1-3e67-8b9c-2a5de83e1f5b",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Piaye Secondary",
+    "longitude": -61.023399353027344,
+    "latitude": 13.756440162658691,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "d42923c0-a447-399d-8d51-cb406bbcb92c",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Soufriere Comprehensive",
+    "longitude": -61.037498474121094,
+    "latitude": 13.853960037231445,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "068d2202-7bfb-3930-b66f-de414f67c7cf",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Fond Assau Combined",
+    "longitude": -60.944732666015625,
+    "latitude": 14.00475025177002,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "27f22eda-eeb5-33a8-9551-7abebe20e293",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Caries Primary",
+    "longitude": -61.067039489746094,
+    "latitude": 13.90426254272461,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "da3a4581-cc95-3ce0-b420-a5f9bacaa4a6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Caries Infant",
+    "longitude": -61.066650390625,
+    "latitude": 13.903775215148926,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "c59e656c-0e49-38b7-8450-1d997709c700",
+    "school_data_source": null
+  },
+  {
+    "school_name": "St. Mary's College",
+    "longitude": -60.99959945678711,
+    "latitude": 14.023579597473145,
+    "education_level": "Secondary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "d2f7ddee-3d80-3684-83d1-c794d1efe204",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Grande Riviere Combined",
+    "longitude": -60.99647903442383,
+    "latitude": 13.753083229064941,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "0974e208-413a-3c97-8808-64bc54ab60b2",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Babonneau Primary",
+    "longitude": -60.944732666015625,
+    "latitude": 14.00475025177002,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "caedf33d-ae99-331b-ab53-bfe25bc3f93a",
+    "school_data_source": null
+  },
+  {
+    "school_name": "La Croix Maingot Combined",
+    "longitude": -60.95380783081055,
+    "latitude": 14.012568473815918,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "b41c6c8e-027c-3fe7-ba9b-de213851c0b6",
+    "school_data_source": null
+  },
+  {
+    "school_name": "Dennery Primary",
+    "longitude": -60.99824905395508,
+    "latitude": 13.986719131469727,
+    "education_level": "Primary",
+    "country_iso3_code": "LCA",
+    "giga_id_school": "159e5fea-1c99-355f-b725-a83e7999b607",
+    "school_data_source": null
+  }
+]
