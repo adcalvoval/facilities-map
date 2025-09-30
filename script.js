@@ -383,7 +383,7 @@ function initializeFilters() {
     bufferControlDiv.appendChild(bufferSlider);
     bufferControlDiv.appendChild(bufferValue);
 
-    // Schools counter
+    // Schools IN buffer counter
     const schoolsCounterDiv = document.createElement('div');
     schoolsCounterDiv.className = 'schools-counter';
     schoolsCounterDiv.id = 'schools-counter';
@@ -399,11 +399,28 @@ function initializeFilters() {
     schoolsCounterDiv.appendChild(counterLabel);
     schoolsCounterDiv.appendChild(counterValue);
 
+    // Schools OUTSIDE buffer counter
+    const schoolsOutsideCounterDiv = document.createElement('div');
+    schoolsOutsideCounterDiv.className = 'schools-outside-counter';
+    schoolsOutsideCounterDiv.id = 'schools-outside-counter';
+
+    const outsideCounterLabel = document.createElement('div');
+    outsideCounterLabel.textContent = 'Schools Outside Buffer';
+
+    const outsideCounterValue = document.createElement('span');
+    outsideCounterValue.className = 'count';
+    outsideCounterValue.id = 'schools-outside-count';
+    outsideCounterValue.textContent = '0';
+
+    schoolsOutsideCounterDiv.appendChild(outsideCounterLabel);
+    schoolsOutsideCounterDiv.appendChild(outsideCounterValue);
+
     // Add all controls to container
     filtersContainer.appendChild(countryFilterDiv);
     filtersContainer.appendChild(typesFilterDiv);
     filtersContainer.appendChild(bufferControlDiv);
     filtersContainer.appendChild(schoolsCounterDiv);
+    filtersContainer.appendChild(schoolsOutsideCounterDiv);
 
     // Add container to map
     document.getElementById('map').appendChild(filtersContainer);
@@ -522,7 +539,7 @@ function calculateDistance(lat1, lng1, lat2, lng2) {
     return R * c;
 }
 
-// Update the count of schools within buffer zones
+// Update the count of schools within and outside buffer zones
 function updateSchoolsCount() {
     if (allSchools.length === 0 || allFacilities.length === 0) {
         return;
@@ -551,8 +568,18 @@ function updateSchoolsCount() {
         }
     });
 
+    const schoolsInBufferCount = schoolsInBuffer.size;
+    const schoolsOutsideCount = allSchools.length - schoolsInBufferCount;
+
+    // Update "in buffer" counter
     const countElement = document.getElementById('schools-count');
     if (countElement) {
-        countElement.textContent = schoolsInBuffer.size;
+        countElement.textContent = schoolsInBufferCount;
+    }
+
+    // Update "outside buffer" counter
+    const outsideCountElement = document.getElementById('schools-outside-count');
+    if (outsideCountElement) {
+        outsideCountElement.textContent = schoolsOutsideCount;
     }
 }
