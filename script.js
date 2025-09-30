@@ -73,6 +73,7 @@ const allFacilities = [];
 const facilityMarkers = new Map();
 const facilityBuffers = new Map();
 const allSchools = [];
+const loadedSchoolCountries = new Set();
 
 // Track active filters
 const activeFilters = {
@@ -83,12 +84,58 @@ const activeFilters = {
 // Buffer radius in kilometers (default 5km)
 let bufferRadius = 5;
 
-// Load and display schools from Afghanistan file
-fetch('schools_AFG.json')
-    .then(response => response.json())
-    .then(data => {
-        if (data.success && data.data) {
-            data.data.forEach(school => {
+// API configuration
+const API_BASE_URL = 'https://uni-ooi-giga-maps-service.azurewebsites.net/api/v1/schools_location';
+const API_TOKEN = 'us4I8UK0p5XI6Vh412AxsDKzy5WGW5.#hKEL21FiKe6mhGe4uC3uwMntW0ezyNWO3g61HdknRSjyiTH*eQTnWSuA2weTX9Pgw32ERwiVm8PBuqfPsuEMmAO*JDtIueiz0huD4eIrBTaqEm7#Ht3E91d3Kxm.pRzIzbX#VTP6JDm292wI2A#iWA5LSWH8x*.RxEXpChNqiRsibWRMz0FWzZ9eHn4qL7dxwrKp74iDhvpyI6fISZgi3W*#jcwpDs4VvfNp9d';
+
+// Function to fetch schools from API for a specific country with pagination
+async function fetchSchoolsForCountry(countryCode) {
+    if (loadedSchoolCountries.has(countryCode)) {
+        console.log(`Schools for ${countryCode} already loaded`);
+        return;
+    }
+
+    try {
+        let page = 0;
+        const size = 1000;
+        let hasMore = true;
+        let totalLoaded = 0;
+
+        console.log(`Fetching schools for ${countryCode}...`);
+
+        while (hasMore) {
+            const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}`;
+            const response = await fetch(url, {
+                headers: {
+                    'Authorization': `Bearer ${API_TOKEN}`,
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!response.ok) {
+                console.error(`Failed to fetch schools for ${countryCode}: ${response.status}`);
+                break;
+            }
+
+            const data = await response.json();
+
+            // Handle different possible response structures
+            let schools = [];
+            if (Array.isArray(data)) {
+                schools = data;
+            } else if (data.data && Array.isArray(data.data)) {
+                schools = data.data;
+            } else if (data.content && Array.isArray(data.content)) {
+                schools = data.content;
+            }
+
+            if (schools.length === 0) {
+                hasMore = false;
+                break;
+            }
+
+            // Add schools to map
+            schools.forEach(school => {
                 if (school.latitude && school.longitude) {
                     const marker = L.marker([school.latitude, school.longitude], {
                         icon: schoolIcon
@@ -97,25 +144,47 @@ fetch('schools_AFG.json')
                     marker.bindPopup(`
                         <strong>${school.school_name || 'Unknown School'}</strong><br>
                         Education Level: ${school.education_level || 'N/A'}<br>
+                        Country: ${school.country_iso3_code || countryCode}<br>
                         Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
                     `);
 
-                    // Store school location for buffer calculations (assume AFG country)
                     allSchools.push({
                         lat: school.latitude,
                         lng: school.longitude,
                         marker: marker,
-                        country: 'AFG'
+                        country: school.country_iso3_code || countryCode
                     });
 
-                    // Don't add to layer yet - let user toggle it on
-                    // marker.addTo(schoolsLayer);
+                    // Add to layer if Schools layer is currently visible
+                    if (map.hasLayer(schoolsLayer)) {
+                        marker.addTo(schoolsLayer);
+                    }
                 }
             });
-            console.log(`Loaded ${data.data.length} schools from schools_AFG.json`);
+
+            totalLoaded += schools.length;
+            console.log(`Loaded page ${page} for ${countryCode}: ${schools.length} schools (total: ${totalLoaded})`);
+
+            // Check if there are more pages
+            if (schools.length < size) {
+                hasMore = false;
+            } else {
+                page++;
+            }
         }
-    })
-    .catch(error => console.error('Error loading schools:', error));
+
+        loadedSchoolCountries.add(countryCode);
+        console.log(`Finished loading ${totalLoaded} schools for ${countryCode}`);
+
+        // Update schools count after loading
+        updateSchoolsCount();
+
+    } catch (error) {
+        console.error(`Error fetching schools for ${countryCode}:`, error);
+    }
+}
+
+// Don't load any schools initially - wait for user to select a country or toggle Schools layer
 
 // Load and display health facilities
 fetch('health_facilities.json')
@@ -198,12 +267,24 @@ const overlays = {
 const layerControl = L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
 // Listen for layer add/remove events to handle visibility correctly
-map.on('overlayadd', function(e) {
+map.on('overlayadd', async function(e) {
     if (e.name === 'Schools') {
         console.log('Schools layer toggled ON');
-        // When schools layer is enabled, add all schools (no country filter needed)
+
+        // Check if we need to load schools for current country
+        const countrySelect = document.getElementById('country-select');
+        const selectedCountry = countrySelect ? countrySelect.value : 'all';
+
+        if (selectedCountry !== 'all' && !loadedSchoolCountries.has(selectedCountry)) {
+            console.log(`Loading schools for ${selectedCountry}...`);
+            await fetchSchoolsForCountry(selectedCountry);
+        }
+
+        // Add all schools to layer
         allSchools.forEach(schoolData => {
-            schoolData.marker.addTo(schoolsLayer);
+            if (!schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolData.marker.addTo(schoolsLayer);
+            }
         });
         console.log(`Added ${allSchools.length} schools to layer`);
         updateSchoolsCount();
@@ -429,7 +510,14 @@ function initializeFilters() {
     updateSchoolsCount();
 
     // Add event listeners
-    countrySelect.addEventListener('change', () => {
+    countrySelect.addEventListener('change', async () => {
+        const selectedCountry = countrySelect.value;
+
+        // Fetch schools for selected country if not "all"
+        if (selectedCountry !== 'all' && !loadedSchoolCountries.has(selectedCountry)) {
+            await fetchSchoolsForCountry(selectedCountry);
+        }
+
         applyFilters();
         zoomToCountry();
     });
