@@ -143,6 +143,19 @@ fetch('schools_by_country/summary.json')
     })
     .then(() => {
         console.log(`Total schools loaded: ${allSchools.length} from ${loadedSchoolCountries.size} countries`);
+
+        // Initialize filters after both schools and facilities are loaded
+        initializeFilters();
+
+        // Set initial map view to show all facilities and schools
+        const allPoints = [];
+        allFacilities.forEach(f => allPoints.push(f.marker.getLatLng()));
+        allSchools.forEach(s => allPoints.push(L.latLng(s.lat, s.lng)));
+
+        if (allPoints.length > 0) {
+            const bounds = L.latLngBounds(allPoints);
+            map.fitBounds(bounds, { padding: [50, 50] });
+        }
     })
     .catch(error => console.error('Error loading schools summary:', error));
 
@@ -199,16 +212,7 @@ fetch('health_facilities.json')
             });
             console.log(`Loaded ${data.data.length} health facilities`);
 
-            // Initialize filter controls after data is loaded
-            initializeFilters();
-
-            // Set initial map view to show all facilities
-            if (allFacilities.length > 0) {
-                const bounds = L.latLngBounds(
-                    allFacilities.map(f => f.marker.getLatLng())
-                );
-                map.fitBounds(bounds, { padding: [50, 50] });
-            }
+            // Don't initialize filters yet - wait for schools to load
         }
     })
     .catch(error => console.error('Error loading health facilities:', error));
