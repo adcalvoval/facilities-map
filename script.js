@@ -95,6 +95,7 @@ const countryNameToISO3 = {
     'Afghanistan': 'AFG',
     'Brazil': 'BRA',
     'Bolivia': 'BOL',
+    'Burkina Faso': 'BFA',
     'Colombia': 'COL',
     'Uganda': 'UGA',
     'Mauritania': 'MRT',
