@@ -7,70 +7,71 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Define custom icons for health facility types
-const iconMap = {
-    'Primary Health Care Centres': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#4CAF50;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Hospitals': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#F44336;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Ambulance Stations': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#FF9800;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Blood Centres': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#E91E63;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Pharmacies': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#2196F3;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Specialized Services': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#9C27B0;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Training Facilities': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#FF5722;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Residential Facilities': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#795548;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    }),
-    'Other': L.divIcon({
-        className: 'custom-div-icon',
-        html: "<div style='background-color:#607D8B;' class='marker-pin'></div>",
-        iconSize: [30, 42],
-        iconAnchor: [15, 42]
-    })
+// Helper function to create health facility icon with emoji
+function createHealthFacilityIcon(color, symbol) {
+    return L.divIcon({
+        className: 'health-facility-icon',
+        html: `
+            <div style="
+                background-color: ${color};
+                color: white;
+                border-radius: 50%;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 16px;
+                border: 2px solid #8B0000;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            ">${symbol}</div>
+        `,
+        iconSize: [32, 32],
+        iconAnchor: [16, 16]
+    });
+}
+
+// Define symbols and colors for health facility types
+const healthFacilityConfig = {
+    'Primary Health Care Centres': { symbol: '🏥', color: '#1e3a8a' },
+    'Hospitals': { symbol: '🏨', color: '#fbbf24' },
+    'Blood Centres': { symbol: '🩸', color: '#8b0000' },
+    'Ambulance Stations': { symbol: '🚑', color: '#166534' },
+    'Pharmacies': { symbol: '💊', color: '#84cc16' },
+    'Training Facilities': { symbol: '🎓', color: '#ea580c' },
+    'Specialized Services': { symbol: '🔬', color: '#a16207' },
+    'Residential Facilities': { symbol: '🏠', color: '#7dd3fc' },
+    'Other': { symbol: '⚕️', color: '#374151' }
 };
 
-// School icon (blue)
+// Create icon map
+const iconMap = {};
+for (const [type, config] of Object.entries(healthFacilityConfig)) {
+    iconMap[type] = createHealthFacilityIcon(config.color, config.symbol);
+}
+
+// School icon with pencil emoji
 const schoolIcon = L.divIcon({
-    className: 'custom-div-icon',
-    html: "<div style='background-color:#1976D2;' class='marker-pin'></div>",
-    iconSize: [30, 42],
-    iconAnchor: [15, 42]
+    className: 'health-facility-icon',
+    html: `
+        <div style="
+            background-color: #1976D2;
+            color: white;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            border: 2px solid #0d47a1;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        ">✏️</div>
+    `,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16]
 });
 
 // Create layer groups for schools and health facilities
@@ -151,24 +152,13 @@ legend.onAdd = function(map) {
     div.innerHTML = '<h4>Legend</h4>';
 
     // Schools legend
-    div.innerHTML += '<div class="legend-item"><i style="background:#1976D2; border-radius:50%;"></i> Schools</div>';
+    div.innerHTML += '<div class="legend-item"><span style="font-size: 18px; margin-right: 5px;">✏️</span> Schools</div>';
 
     // Health facilities legend
     div.innerHTML += '<br><strong style="font-size: 12px;">Health Facilities:</strong><br>';
-    const facilityTypes = [
-        ['Primary Health Care Centres', '#4CAF50'],
-        ['Hospitals', '#F44336'],
-        ['Ambulance Stations', '#FF9800'],
-        ['Blood Centres', '#E91E63'],
-        ['Pharmacies', '#2196F3'],
-        ['Specialized Services', '#9C27B0'],
-        ['Training Facilities', '#FF5722'],
-        ['Residential Facilities', '#795548'],
-        ['Other', '#607D8B']
-    ];
 
-    facilityTypes.forEach(([type, color]) => {
-        div.innerHTML += `<div class="legend-item"><i style="background:${color}; border-radius:50%;"></i> ${type}</div>`;
+    Object.entries(healthFacilityConfig).forEach(([type, config]) => {
+        div.innerHTML += `<div class="legend-item"><span style="font-size: 18px; margin-right: 5px;">${config.symbol}</span> ${type}</div>`;
     });
 
     return div;
