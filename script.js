@@ -81,9 +81,7 @@ const schoolIcon = L.divIcon({
 });
 
 // Create layer groups for schools and health facilities
-// We'll switch between clustered and non-clustered based on school count
-let schoolsLayer = L.layerGroup();
-const schoolsClusterLayer = L.markerClusterGroup({
+const schoolsLayer = L.markerClusterGroup({
     maxClusterRadius: 50,
     spiderfyOnMaxZoom: true,
     showCoverageOnHover: false,
@@ -474,62 +472,15 @@ fetch('health_facilities.json')
 // schoolsLayer and healthFacilitiesLayer will be added only when user enables them
 
 // Add layer control
-let overlays = {
+const overlays = {
     'Schools': schoolsLayer,
     'Health Facilities': healthFacilitiesLayer
 };
 
-let layerControl = L.control.layers(null, overlays, {
+const layerControl = L.control.layers(null, overlays, {
     collapsed: false,
     position: 'bottomleft'
 }).addTo(map);
-
-// Function to switch between clustered and non-clustered schools layer
-function updateSchoolsLayerType(shouldCluster) {
-    const wasVisible = map.hasLayer(schoolsLayer);
-
-    // Collect all current markers
-    const currentMarkers = [];
-    allSchools.forEach(schoolData => {
-        if (schoolsLayer.hasLayer(schoolData.marker)) {
-            currentMarkers.push(schoolData.marker);
-        }
-    });
-
-    // Remove current layer from map and control
-    if (map.hasLayer(schoolsLayer)) {
-        map.removeLayer(schoolsLayer);
-    }
-
-    // Clear the old layer
-    if (schoolsLayer.clearLayers) {
-        schoolsLayer.clearLayers();
-    }
-
-    layerControl.removeLayer(schoolsLayer);
-
-    // Switch to appropriate layer
-    if (shouldCluster) {
-        schoolsLayer = schoolsClusterLayer;
-        // Clear cluster layer first
-        schoolsClusterLayer.clearLayers();
-    } else {
-        schoolsLayer = L.layerGroup();
-    }
-
-    // Update control
-    layerControl.addOverlay(schoolsLayer, 'Schools');
-
-    // Re-add markers if it was visible
-    if (wasVisible && currentMarkers.length > 0) {
-        if (shouldCluster) {
-            schoolsLayer.addLayers(currentMarkers);
-        } else {
-            currentMarkers.forEach(marker => marker.addTo(schoolsLayer));
-        }
-        map.addLayer(schoolsLayer);
-    }
-}
 
 // Listen for layer add/remove events to handle visibility correctly
 map.on('overlayadd', async function(e) {
@@ -782,11 +733,6 @@ function initializeFilters() {
             if (!loadedSchoolCountries.has(countryISO3)) {
                 await fetchSchoolsForCountry(selectedCountry);
             }
-
-            // Determine if we should cluster based on school count for this country
-            const countrySchools = allSchools.filter(s => s.country === countryISO3);
-            const shouldCluster = countrySchools.length > 500;
-            updateSchoolsLayerType(shouldCluster);
         }
 
         applyFilters();
