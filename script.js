@@ -785,7 +785,7 @@ function initializeFilters() {
 
             // Determine if we should cluster based on school count for this country
             const countrySchools = allSchools.filter(s => s.country === countryISO3);
-            const shouldCluster = countrySchools.length > 2000;
+            const shouldCluster = countrySchools.length > 500;
             updateSchoolsLayerType(shouldCluster);
         }
 
