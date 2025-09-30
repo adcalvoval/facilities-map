@@ -194,7 +194,26 @@ const overlays = {
     'Health Facilities': healthFacilitiesLayer
 };
 
-L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+const layerControl = L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+
+// Listen for layer add/remove events to handle visibility correctly
+map.on('overlayadd', function(e) {
+    if (e.name === 'Schools') {
+        // When schools layer is enabled, apply current country filter
+        applyFilters();
+    }
+});
+
+map.on('overlayremove', function(e) {
+    if (e.name === 'Schools') {
+        // When schools layer is disabled, remove all schools from map
+        allSchools.forEach(schoolData => {
+            if (schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolsLayer.removeLayer(schoolData.marker);
+            }
+        });
+    }
+});
 
 // Add legend
 const legend = L.control({ position: 'bottomright' });
@@ -442,20 +461,22 @@ function applyFilters() {
         }
     });
 
-    // Update school visibility based on country filter
-    allSchools.forEach(schoolData => {
-        const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
+    // Update school visibility based on country filter (only if schools layer is on the map)
+    if (map.hasLayer(schoolsLayer)) {
+        allSchools.forEach(schoolData => {
+            const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
 
-        if (showCountry) {
-            if (!schoolsLayer.hasLayer(schoolData.marker)) {
-                schoolsLayer.addLayer(schoolData.marker);
+            if (showCountry) {
+                if (!schoolsLayer.hasLayer(schoolData.marker)) {
+                    schoolsLayer.addLayer(schoolData.marker);
+                }
+            } else {
+                if (schoolsLayer.hasLayer(schoolData.marker)) {
+                    schoolsLayer.removeLayer(schoolData.marker);
+                }
             }
-        } else {
-            if (schoolsLayer.hasLayer(schoolData.marker)) {
-                schoolsLayer.removeLayer(schoolData.marker);
-            }
-        }
-    });
+        });
+    }
 
     // Update schools count after filter changes
     updateSchoolsCount();
