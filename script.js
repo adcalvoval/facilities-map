@@ -1,9 +1,7 @@
 // Initialize the map with world view
 const map = L.map('map', {
-    maxBounds: [[-90, -180], [90, 180]],
-    maxBoundsViscosity: 1.0,
-    worldCopyJump: false,
-    zoomControl: false
+    zoomControl: false,
+    minZoom: 2
 }).setView([20, 0], 2);
 
 // Add zoom control to top right
@@ -14,7 +12,7 @@ L.control.zoom({
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    noWrap: true,
+    noWrap: false,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
