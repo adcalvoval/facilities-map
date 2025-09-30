@@ -287,7 +287,8 @@ fetch('health_facilities.json')
                     const icon = iconMap[facilityType] || iconMap['Other'];
 
                     const marker = L.marker([facility.Latitude, facility.Longitude], {
-                        icon: icon
+                        icon: icon,
+                        zIndexOffset: 1000  // Ensure health facilities appear above schools
                     });
 
                     marker.bindPopup(`
