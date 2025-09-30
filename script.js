@@ -56,27 +56,38 @@ const schoolIcon = L.divIcon({
     className: 'health-facility-icon',
     html: `
         <div style="
-            background-color: #1976D2;
+            background-color: #64B5F6;
             color: white;
-            border-radius: 50%;
-            width: 32px;
-            height: 32px;
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-bottom: 28px solid #64B5F6;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            font-size: 16px;
-            border: 2px solid #0d47a1;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-        ">✏️</div>
+            font-size: 14px;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+            position: relative;
+        "><span style="position: absolute; top: 10px; left: -7px;">✏️</span></div>
     `,
     iconSize: [32, 32],
-    iconAnchor: [16, 16]
+    iconAnchor: [16, 28]
 });
 
 // Create layer groups for schools and health facilities
 const schoolsLayer = L.layerGroup();
 const healthFacilitiesLayer = L.layerGroup();
+
+// Store all facilities for filtering
+const allFacilities = [];
+const facilityMarkers = new Map();
+
+// Track active filters
+const activeFilters = {
+    types: new Set(),
+    countries: new Set()
+};
 
 // Load and display schools
 fetch('schools_AFG.json')
@@ -111,6 +122,7 @@ fetch('health_facilities.json')
             data.data.forEach(facility => {
                 if (facility.Latitude && facility.Longitude) {
                     const facilityType = facility['Health facility type'] || 'Other';
+                    const country = facility.Country || 'Unknown';
                     const icon = iconMap[facilityType] || iconMap['Other'];
 
                     const marker = L.marker([facility.Latitude, facility.Longitude], {
@@ -120,14 +132,31 @@ fetch('health_facilities.json')
                     marker.bindPopup(`
                         <strong>${facility['Facility name'] || 'Unknown Facility'}</strong><br>
                         Type: ${facilityType}<br>
-                        Country: ${facility.Country || 'N/A'}<br>
+                        Country: ${country}<br>
                         Coordinates: ${facility.Latitude.toFixed(6)}, ${facility.Longitude.toFixed(6)}
                     `);
+
+                    // Store facility data
+                    const facilityData = {
+                        marker: marker,
+                        type: facilityType,
+                        country: country
+                    };
+
+                    allFacilities.push(facilityData);
+                    facilityMarkers.set(marker, facilityData);
+
+                    // Add to active filters
+                    activeFilters.types.add(facilityType);
+                    activeFilters.countries.add(country);
 
                     marker.addTo(healthFacilitiesLayer);
                 }
             });
             console.log(`Loaded ${data.data.length} health facilities`);
+
+            // Initialize filter controls after data is loaded
+            initializeFilters();
         }
     })
     .catch(error => console.error('Error loading health facilities:', error));
@@ -176,3 +205,92 @@ info.onAdd = function(map) {
 };
 
 info.addTo(map);
+
+// Initialize filter controls
+function initializeFilters() {
+    const filterControl = L.control({ position: 'topright' });
+
+    filterControl.onAdd = function(map) {
+        const div = L.DomUtil.create('div', 'filters');
+        div.innerHTML = '<h4>Filter Health Facilities</h4>';
+
+        // Facility Type filter
+        div.innerHTML += '<div class="filter-section"><h5>Facility Type</h5>';
+        const sortedTypes = Array.from(activeFilters.types).sort();
+        sortedTypes.forEach(type => {
+            div.innerHTML += `
+                <div class="filter-item">
+                    <label>
+                        <input type="checkbox" class="type-filter" value="${type}" checked>
+                        <span>${type}</span>
+                    </label>
+                </div>
+            `;
+        });
+        div.innerHTML += '</div>';
+
+        // Country filter
+        div.innerHTML += '<div class="filter-section"><h5>Country</h5>';
+        const sortedCountries = Array.from(activeFilters.countries).sort();
+        sortedCountries.forEach(country => {
+            div.innerHTML += `
+                <div class="filter-item">
+                    <label>
+                        <input type="checkbox" class="country-filter" value="${country}" checked>
+                        <span>${country}</span>
+                    </label>
+                </div>
+            `;
+        });
+        div.innerHTML += '</div>';
+
+        // Prevent map interactions when clicking on filter control
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.disableScrollPropagation(div);
+
+        return div;
+    };
+
+    filterControl.addTo(map);
+
+    // Add event listeners for filters
+    setTimeout(() => {
+        document.querySelectorAll('.type-filter').forEach(checkbox => {
+            checkbox.addEventListener('change', applyFilters);
+        });
+
+        document.querySelectorAll('.country-filter').forEach(checkbox => {
+            checkbox.addEventListener('change', applyFilters);
+        });
+    }, 100);
+}
+
+// Apply filters to health facilities
+function applyFilters() {
+    const selectedTypes = new Set();
+    const selectedCountries = new Set();
+
+    document.querySelectorAll('.type-filter:checked').forEach(checkbox => {
+        selectedTypes.add(checkbox.value);
+    });
+
+    document.querySelectorAll('.country-filter:checked').forEach(checkbox => {
+        selectedCountries.add(checkbox.value);
+    });
+
+    // Update facility visibility
+    allFacilities.forEach(facilityData => {
+        const showType = selectedTypes.has(facilityData.type);
+        const showCountry = selectedCountries.has(facilityData.country);
+
+        if (showType && showCountry) {
+            if (!healthFacilitiesLayer.hasLayer(facilityData.marker)) {
+                healthFacilitiesLayer.addLayer(facilityData.marker);
+            }
+        } else {
+            if (healthFacilitiesLayer.hasLayer(facilityData.marker)) {
+                healthFacilitiesLayer.removeLayer(facilityData.marker);
+            }
+        }
+    });
+}
