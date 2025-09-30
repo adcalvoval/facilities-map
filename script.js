@@ -105,15 +105,17 @@ async function fetchSchoolsForCountry(countryCode) {
 
         while (hasMore) {
             const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}`;
+            console.log(`Fetching: ${url}`);
             const response = await fetch(url, {
                 headers: {
-                    'Authorization': `Bearer ${API_TOKEN}`,
+                    'Authorization': API_TOKEN,
                     'Content-Type': 'application/json'
                 }
             });
 
             if (!response.ok) {
-                console.error(`Failed to fetch schools for ${countryCode}: ${response.status}`);
+                const errorText = await response.text();
+                console.error(`Failed to fetch schools for ${countryCode}: ${response.status}`, errorText);
                 break;
             }
 
