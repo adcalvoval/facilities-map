@@ -2,8 +2,14 @@
 const map = L.map('map', {
     maxBounds: [[-90, -180], [90, 180]],
     maxBoundsViscosity: 1.0,
-    worldCopyJump: false
+    worldCopyJump: false,
+    zoomControl: false
 }).setView([20, 0], 2);
+
+// Add zoom control to top right
+L.control.zoom({
+    position: 'topright'
+}).addTo(map);
 
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
