@@ -84,11 +84,11 @@ const activeFilters = {
 let bufferRadius = 5;
 
 // Load and display schools
-fetch('schools_location_data.json')
+fetch('schools_AFG.json')
     .then(response => response.json())
     .then(data => {
-        if (Array.isArray(data)) {
-            data.forEach(school => {
+        if (data.success && data.data) {
+            data.data.forEach(school => {
                 if (school.latitude && school.longitude) {
                     const marker = L.marker([school.latitude, school.longitude], {
                         icon: schoolIcon
@@ -97,7 +97,6 @@ fetch('schools_location_data.json')
                     marker.bindPopup(`
                         <strong>${school.school_name || 'Unknown School'}</strong><br>
                         Education Level: ${school.education_level || 'N/A'}<br>
-                        Country: ${school.country_iso3_code || 'N/A'}<br>
                         Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
                     `);
 
@@ -111,7 +110,7 @@ fetch('schools_location_data.json')
                     marker.addTo(schoolsLayer);
                 }
             });
-            console.log(`Loaded ${data.length} schools`);
+            console.log(`Loaded ${data.data.length} schools`);
         }
     })
     .catch(error => console.error('Error loading schools:', error));
