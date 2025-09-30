@@ -350,7 +350,10 @@ const overlays = {
     'Health Facilities': healthFacilitiesLayer
 };
 
-const layerControl = L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+const layerControl = L.control.layers(null, overlays, {
+    collapsed: false,
+    position: 'bottomleft'
+}).addTo(map);
 
 // Listen for layer add/remove events to handle visibility correctly
 map.on('overlayadd', async function(e) {
