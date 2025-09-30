@@ -18,6 +18,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// Ensure map renders correctly
+setTimeout(() => {
+    map.invalidateSize();
+}, 100);
+
 // Helper function to create health facility icon with emoji
 function createHealthFacilityIcon(color, symbol) {
     return L.divIcon({
