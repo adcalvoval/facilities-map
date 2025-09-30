@@ -138,6 +138,25 @@ const countryNameToISO3 = {
     'Eswatini, Kingdom of': 'SWZ'
 };
 
+// Function to show/hide loading indicator
+function showLoading(message, subtext) {
+    const loadingIndicator = document.getElementById('loading-indicator');
+    const loadingSubtext = document.getElementById('loading-subtext');
+    if (loadingIndicator) {
+        loadingIndicator.classList.add('active');
+        if (loadingSubtext && subtext) {
+            loadingSubtext.textContent = subtext;
+        }
+    }
+}
+
+function hideLoading() {
+    const loadingIndicator = document.getElementById('loading-indicator');
+    if (loadingIndicator) {
+        loadingIndicator.classList.remove('active');
+    }
+}
+
 // Function to fetch schools from API for a specific country with pagination
 async function fetchSchoolsForCountry(countryName) {
     // Convert country name to ISO3 code
@@ -147,6 +166,9 @@ async function fetchSchoolsForCountry(countryName) {
         console.log(`Schools for ${countryName} (${countryCode}) already loaded`);
         return;
     }
+
+    // Show loading indicator
+    showLoading('Loading Schools...', `Fetching schools for ${countryName}`);
 
     try {
         let page = 1; // API uses 1-indexed pages, not 0-indexed
@@ -220,6 +242,9 @@ async function fetchSchoolsForCountry(countryName) {
             totalLoaded += schools.length;
             console.log(`Loaded page ${page} for ${countryCode}: ${schools.length} schools (total: ${totalLoaded})`);
 
+            // Update loading indicator with progress
+            showLoading('Loading Schools...', `Loaded ${totalLoaded} schools for ${countryName}...`);
+
             // Check if there are more pages
             if (schools.length < size) {
                 hasMore = false;
@@ -234,8 +259,12 @@ async function fetchSchoolsForCountry(countryName) {
         // Update schools count after loading
         updateSchoolsCount();
 
+        // Hide loading indicator
+        hideLoading();
+
     } catch (error) {
         console.error(`Error fetching schools for ${countryCode}:`, error);
+        hideLoading();
     }
 }
 
