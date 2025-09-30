@@ -84,11 +84,11 @@ const activeFilters = {
 let bufferRadius = 5;
 
 // Load and display schools
-fetch('schools_AFG.json')
+fetch('schools_location_data.json')
     .then(response => response.json())
     .then(data => {
-        if (data.success && data.data) {
-            data.data.forEach(school => {
+        if (Array.isArray(data)) {
+            data.forEach(school => {
                 if (school.latitude && school.longitude) {
                     const marker = L.marker([school.latitude, school.longitude], {
                         icon: schoolIcon
@@ -97,6 +97,7 @@ fetch('schools_AFG.json')
                     marker.bindPopup(`
                         <strong>${school.school_name || 'Unknown School'}</strong><br>
                         Education Level: ${school.education_level || 'N/A'}<br>
+                        Country: ${school.country_iso3_code || 'N/A'}<br>
                         Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
                     `);
 
@@ -110,7 +111,7 @@ fetch('schools_AFG.json')
                     marker.addTo(schoolsLayer);
                 }
             });
-            console.log(`Loaded ${data.data.length} schools`);
+            console.log(`Loaded ${data.length} schools`);
         }
     })
     .catch(error => console.error('Error loading schools:', error));
@@ -182,9 +183,8 @@ fetch('health_facilities.json')
     })
     .catch(error => console.error('Error loading health facilities:', error));
 
-// Add both layers to the map by default
-schoolsLayer.addTo(map);
-healthFacilitiesLayer.addTo(map);
+// Don't add layers to the map by default (user must check them)
+// schoolsLayer and healthFacilitiesLayer will be added only when user enables them
 
 // Add layer control
 const overlays = {
