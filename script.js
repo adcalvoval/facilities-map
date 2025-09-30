@@ -72,6 +72,7 @@ const healthFacilitiesLayer = L.layerGroup();
 const allFacilities = [];
 const facilityMarkers = new Map();
 const facilityBuffers = new Map();
+const allSchools = [];
 
 // Track active filters
 const activeFilters = {
@@ -98,6 +99,13 @@ fetch('schools_AFG.json')
                         Education Level: ${school.education_level || 'N/A'}<br>
                         Coordinates: ${school.latitude.toFixed(6)}, ${school.longitude.toFixed(6)}
                     `);
+
+                    // Store school location for buffer calculations
+                    allSchools.push({
+                        lat: school.latitude,
+                        lng: school.longitude,
+                        marker: marker
+                    });
 
                     marker.addTo(schoolsLayer);
                 }
@@ -346,13 +354,33 @@ function initializeFilters() {
     bufferControlDiv.appendChild(bufferSlider);
     bufferControlDiv.appendChild(bufferValue);
 
+    // Schools counter
+    const schoolsCounterDiv = document.createElement('div');
+    schoolsCounterDiv.className = 'schools-counter';
+    schoolsCounterDiv.id = 'schools-counter';
+
+    const counterLabel = document.createElement('div');
+    counterLabel.textContent = 'Schools in Buffer';
+
+    const counterValue = document.createElement('span');
+    counterValue.className = 'count';
+    counterValue.id = 'schools-count';
+    counterValue.textContent = '0';
+
+    schoolsCounterDiv.appendChild(counterLabel);
+    schoolsCounterDiv.appendChild(counterValue);
+
     // Add all controls to container
     filtersContainer.appendChild(countryFilterDiv);
     filtersContainer.appendChild(typesFilterDiv);
     filtersContainer.appendChild(bufferControlDiv);
+    filtersContainer.appendChild(schoolsCounterDiv);
 
     // Add container to map
     document.getElementById('map').appendChild(filtersContainer);
+
+    // Initial count
+    updateSchoolsCount();
 
     // Add event listeners
     countrySelect.addEventListener('change', () => {
@@ -369,6 +397,7 @@ function initializeFilters() {
         bufferRadius = parseFloat(e.target.value);
         bufferValue.textContent = `${bufferRadius} km`;
         updateBuffers();
+        updateSchoolsCount();
     });
 }
 
@@ -385,7 +414,7 @@ function applyFilters() {
     const countrySelect = document.getElementById('country-select');
     const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
-    // Update facility visibility
+    // Update facility and buffer visibility
     allFacilities.forEach(facilityData => {
         const showType = selectedTypes.has(facilityData.type);
         const showCountry = selectedCountry === 'all' || facilityData.country === selectedCountry;
@@ -394,12 +423,25 @@ function applyFilters() {
             if (!healthFacilitiesLayer.hasLayer(facilityData.marker)) {
                 healthFacilitiesLayer.addLayer(facilityData.marker);
             }
+            // Show buffer
+            const buffer = facilityBuffers.get(facilityData.marker);
+            if (buffer && !healthFacilitiesLayer.hasLayer(buffer)) {
+                healthFacilitiesLayer.addLayer(buffer);
+            }
         } else {
             if (healthFacilitiesLayer.hasLayer(facilityData.marker)) {
                 healthFacilitiesLayer.removeLayer(facilityData.marker);
             }
+            // Hide buffer
+            const buffer = facilityBuffers.get(facilityData.marker);
+            if (buffer && healthFacilitiesLayer.hasLayer(buffer)) {
+                healthFacilitiesLayer.removeLayer(buffer);
+            }
         }
     });
+
+    // Update schools count after filter changes
+    updateSchoolsCount();
 }
 
 // Zoom map to selected country
@@ -437,4 +479,51 @@ function updateBuffers() {
     facilityBuffers.forEach((buffer, marker) => {
         buffer.setRadius(bufferRadius * 1000); // Convert km to meters
     });
+}
+
+// Calculate distance between two points in kilometers using Haversine formula
+function calculateDistance(lat1, lng1, lat2, lng2) {
+    const R = 6371; // Earth's radius in kilometers
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLng = (lng2 - lng1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+              Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
+}
+
+// Update the count of schools within buffer zones
+function updateSchoolsCount() {
+    if (allSchools.length === 0 || allFacilities.length === 0) {
+        return;
+    }
+
+    const schoolsInBuffer = new Set();
+
+    // Check each school against each visible facility's buffer
+    allFacilities.forEach(facilityData => {
+        // Only count if facility is currently visible
+        if (healthFacilitiesLayer.hasLayer(facilityData.marker)) {
+            const facilityLatLng = facilityData.marker.getLatLng();
+
+            allSchools.forEach(school => {
+                const distance = calculateDistance(
+                    facilityLatLng.lat,
+                    facilityLatLng.lng,
+                    school.lat,
+                    school.lng
+                );
+
+                if (distance <= bufferRadius) {
+                    schoolsInBuffer.add(`${school.lat},${school.lng}`);
+                }
+            });
+        }
+    });
+
+    const countElement = document.getElementById('schools-count');
+    if (countElement) {
+        countElement.textContent = schoolsInBuffer.size;
+    }
 }
