@@ -86,7 +86,7 @@ let bufferRadius = 5;
 
 // API configuration
 const API_BASE_URL = 'https://uni-ooi-giga-maps-service.azurewebsites.net/api/v1/schools_location';
-const API_TOKEN = 'us4I8UK0p5XI6Vh412AxsDKzy5WGW5.#hKEL21FiKe6mhGe4uC3uwMntW0ezyNWO3g61HdknRSjyiTH*eQTnWSuA2weTX9Pgw32ERwiVm8PBuqfPsuEMmAO*JDtIueiz0huD4eIrBTaqEm7#Ht3E91d3Kxm.pRzIzbX#VTP6JDm292wI2A#iWA5LSWH8x*.RxEXpChNqiRsibWRMz0FWzZ9eHn4qL7dxwrKp74iDhvpyI6fISZgi3W*#jcwpDs4VvfNp9d';
+const API_TOKEN = '..us4I8UK0p5XI6Vh412AxsDKzy5WGW5.#hKEL21FiKe6mhGe4uC3uwMntW0ezyNWO3g61HdknRSjyiTH*eQTnWSuA2weTX9Pgw32ERwiVm8PBuqfPsuEMmAO*JDtIueiz0huD4eIrBTaqEm7#Ht3E91d3Kxm.pRzIzbX#VTP6JDm292wI2A#iWA5LSWH8x*.RxEXpChNqiRsibWRMz0FWzZ9eHn4qL7dxwrKp74iDhvpyI6fISZgi3W*#jcwpDs4VvfNp9d';
 
 // Country name to ISO3 code mapping
 const countryNameToISO3 = {
