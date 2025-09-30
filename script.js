@@ -847,13 +847,20 @@ function updateCountryStats() {
     const countrySelect = document.getElementById('country-select');
     const selectedCountry = countrySelect ? countrySelect.value : 'all';
     const statsBox = document.getElementById('country-stats');
+    const instructionsBox = document.getElementById('instructions-box');
 
     if (selectedCountry === 'all') {
         statsBox.classList.remove('active');
+        if (instructionsBox) {
+            instructionsBox.style.display = 'block';
+        }
         return;
     }
 
-    // Show the stats box
+    // Hide instructions and show stats box
+    if (instructionsBox) {
+        instructionsBox.style.display = 'none';
+    }
     statsBox.classList.add('active');
 
     // Update country name

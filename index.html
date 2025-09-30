@@ -202,6 +202,37 @@
             color: #dc2626;
             margin-top: 5px;
         }
+        .instructions-box {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 1000;
+            max-width: 350px;
+            border-left: 4px solid #1976D2;
+        }
+        .instructions-box h3 {
+            margin: 0 0 15px 0;
+            font-size: 18px;
+            color: #1976D2;
+            font-weight: 600;
+        }
+        .instructions-box ol {
+            margin: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+        .instructions-box li {
+            margin-bottom: 12px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .instructions-box li:last-child {
+            margin-bottom: 0;
+        }
         .country-stats {
             position: absolute;
             top: 20px;
@@ -390,6 +421,17 @@
 </head>
 <body>
     <div id="map"></div>
+
+    <!-- Instructions Box -->
+    <div id="instructions-box" class="instructions-box">
+        <h3>📖 How to Use This Map</h3>
+        <ol>
+            <li>Select a country in the drop-down menu at the bottom of the page.</li>
+            <li>This will load the schools for that country. Depending on the number of schools, this can take a while.</li>
+            <li>You will see some general statistics about the number of schools and RCRC health facilities reported in that country.</li>
+            <li>If you want to see the location of schools or health facilities, tick the boxes in the bottom left of the screen. Be aware that this can take a while if the number of facilities is very large.</li>
+        </ol>
+    </div>
 
     <!-- Country Statistics Box -->
     <div id="country-stats" class="country-stats">
