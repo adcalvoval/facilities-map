@@ -541,17 +541,6 @@ legend.onAdd = function(map) {
 
 legend.addTo(map);
 
-// Add info control
-const info = L.control({ position: 'topleft' });
-
-info.onAdd = function(map) {
-    this._div = L.DomUtil.create('div', 'info');
-    this._div.innerHTML = '<h4>Schools & Health Facilities</h4>Use the layer control to toggle visibility';
-    return this._div;
-};
-
-info.addTo(map);
-
 // Initialize filter controls
 function initializeFilters() {
     // Create filters container
