@@ -108,7 +108,7 @@ async function fetchSchoolsForCountry(countryCode) {
             console.log(`Fetching: ${url}`);
             const response = await fetch(url, {
                 headers: {
-                    'Authorization': API_TOKEN,
+                    'x-api-key': API_TOKEN,
                     'Content-Type': 'application/json'
                 }
             });
