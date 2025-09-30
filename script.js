@@ -108,7 +108,8 @@ async function fetchSchoolsForCountry(countryCode) {
             console.log(`Fetching: ${url}`);
             const response = await fetch(url, {
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
                 }
             });
 
