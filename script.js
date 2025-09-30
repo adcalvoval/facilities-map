@@ -1,9 +1,14 @@
-// Initialize the map with a temporary default view (will be adjusted after data loads)
-const map = L.map('map').setView([33.9391, 67.7100], 6);
+// Initialize the map with world view
+const map = L.map('map', {
+    maxBounds: [[-90, -180], [90, 180]],
+    maxBoundsViscosity: 1.0,
+    worldCopyJump: false
+}).setView([20, 0], 2);
 
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
+    noWrap: true,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
