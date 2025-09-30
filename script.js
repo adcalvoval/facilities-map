@@ -56,8 +56,8 @@ const schoolIcon = L.divIcon({
     className: 'school-icon',
     html: `
         <svg width="32" height="32" viewBox="0 0 32 32" style="filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));">
-            <polygon points="16,2 30,28 2,28" fill="#64B5F6" stroke="#0d47a1" stroke-width="2"/>
-            <text x="16" y="22" text-anchor="middle" font-size="14">✏️</text>
+            <polygon points="16,4 28,26 4,26" fill="#64B5F6" stroke="#0d47a1" stroke-width="2"/>
+            <text x="16" y="21" text-anchor="middle" font-size="12">✏️</text>
         </svg>
     `,
     iconSize: [32, 32],
