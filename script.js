@@ -431,7 +431,7 @@ function initializeFilters() {
     });
 }
 
-// Apply filters to health facilities
+// Apply filters to health facilities and schools
 function applyFilters() {
     const selectedTypes = new Set();
 
@@ -470,6 +470,21 @@ function applyFilters() {
         }
     });
 
+    // Update school visibility based on country filter
+    allSchools.forEach(schoolData => {
+        const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
+
+        if (showCountry) {
+            if (!schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolsLayer.addLayer(schoolData.marker);
+            }
+        } else {
+            if (schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolsLayer.removeLayer(schoolData.marker);
+            }
+        }
+    });
+
     // Update schools count after filter changes
     updateSchoolsCount();
 }
@@ -479,27 +494,27 @@ function zoomToCountry() {
     const countrySelect = document.getElementById('country-select');
     const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
+    const allPoints = [];
+
     if (selectedCountry === 'all') {
-        // Show all facilities on the map
-        if (allFacilities.length > 0) {
-            const bounds = L.latLngBounds(
-                allFacilities.map(f => f.marker.getLatLng())
-            );
-            map.fitBounds(bounds, { padding: [50, 50] });
-        }
-        return;
+        // Add all facilities
+        allFacilities.forEach(f => allPoints.push(f.marker.getLatLng()));
+        // Add all schools
+        allSchools.forEach(s => allPoints.push(L.latLng(s.lat, s.lng)));
+    } else {
+        // Add facilities for selected country
+        allFacilities
+            .filter(f => f.country === selectedCountry)
+            .forEach(f => allPoints.push(f.marker.getLatLng()));
+
+        // Add schools for selected country
+        allSchools
+            .filter(s => s.country === selectedCountry)
+            .forEach(s => allPoints.push(L.latLng(s.lat, s.lng)));
     }
 
-    // Get all facilities for the selected country
-    const countryFacilities = allFacilities.filter(f => f.country === selectedCountry);
-
-    if (countryFacilities.length > 0) {
-        // Create a bounds object from all facility markers in the country
-        const bounds = L.latLngBounds(
-            countryFacilities.map(f => f.marker.getLatLng())
-        );
-
-        // Fit the map to show all facilities in the selected country
+    if (allPoints.length > 0) {
+        const bounds = L.latLngBounds(allPoints);
         map.fitBounds(bounds, { padding: [50, 50] });
     }
 }
