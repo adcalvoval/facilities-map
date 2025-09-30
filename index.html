@@ -206,63 +206,109 @@
             position: absolute;
             top: 20px;
             right: 20px;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 0;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             z-index: 1000;
-            min-width: 280px;
+            min-width: 320px;
             display: none;
+            overflow: hidden;
         }
         .country-stats.active {
             display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
         }
         .country-stats h3 {
-            margin: 0 0 15px 0;
-            font-size: 16px;
-            color: #333;
-            border-bottom: 2px solid #1976D2;
-            padding-bottom: 8px;
+            margin: 0;
+            font-size: 20px;
+            color: white;
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            text-align: center;
+            font-weight: 600;
+        }
+        .stats-content {
+            padding: 20px;
+            background: white;
         }
         .stat-row {
-            margin-bottom: 12px;
-            font-size: 13px;
-            color: #555;
+            margin-bottom: 16px;
+            padding: 16px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+            text-align: center;
         }
         .stat-row label {
             display: block;
-            font-weight: bold;
-            margin-bottom: 4px;
-        }
-        .stat-row .value {
-            font-size: 20px;
-            color: #1976D2;
-            font-weight: bold;
-        }
-        .stat-row .value.facilities {
-            color: #dc2626;
-        }
-        .stat-section {
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px solid #e0e0e0;
-        }
-        .stat-section h4 {
-            margin: 0 0 10px 0;
-            font-size: 13px;
-            color: #666;
-        }
-        .radius-stat {
+            font-weight: 600;
             margin-bottom: 8px;
             font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #555;
+        }
+        .stat-row .value {
+            font-size: 32px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1976D2 0%, #42a5f5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-row .value.facilities {
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-section {
+            margin-top: 16px;
+            padding: 16px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .stat-section h4 {
+            margin: 0 0 16px 0;
+            font-size: 14px;
+            color: #333;
+            text-align: center;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .radius-stat {
+            margin-bottom: 12px;
+            padding: 12px;
+            background: white;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .radius-stat:last-child {
+            margin-bottom: 0;
         }
         .radius-stat .label {
-            font-weight: bold;
+            font-weight: 600;
+            color: #555;
+            font-size: 13px;
         }
         .radius-stat .count {
-            float: right;
             color: #1976D2;
             font-weight: bold;
+            font-size: 15px;
         }
         .loading-indicator {
             position: fixed;
@@ -347,28 +393,30 @@
 
     <!-- Country Statistics Box -->
     <div id="country-stats" class="country-stats">
-        <h3 id="stats-country-name">Country Statistics</h3>
-        <div class="stat-row">
-            <label>Total Schools:</label>
-            <span class="value" id="stats-total-schools">0</span>
-        </div>
-        <div class="stat-row">
-            <label>Total Health Facilities:</label>
-            <span class="value facilities" id="stats-total-facilities">0</span>
-        </div>
-        <div class="stat-section">
-            <h4>Schools within radius of Health Facilities:</h4>
-            <div class="radius-stat">
-                <span class="label">Within 5 km:</span>
-                <span class="count" id="stats-within-5km">0</span>
+        <h3 id="stats-country-name">📊 Country Statistics</h3>
+        <div class="stats-content">
+            <div class="stat-row">
+                <label>🏫 Schools</label>
+                <span class="value" id="stats-total-schools">0</span>
             </div>
-            <div class="radius-stat">
-                <span class="label">Within 10 km:</span>
-                <span class="count" id="stats-within-10km">0</span>
+            <div class="stat-row">
+                <label>🏥 Health Facilities</label>
+                <span class="value facilities" id="stats-total-facilities">0</span>
             </div>
-            <div class="radius-stat">
-                <span class="label">Within 50 km:</span>
-                <span class="count" id="stats-within-50km">0</span>
+            <div class="stat-section">
+                <h4>📍 Schools Near Health Facilities</h4>
+                <div class="radius-stat">
+                    <span class="label">Within 5 km</span>
+                    <span class="count" id="stats-within-5km">0</span>
+                </div>
+                <div class="radius-stat">
+                    <span class="label">Within 10 km</span>
+                    <span class="count" id="stats-within-10km">0</span>
+                </div>
+                <div class="radius-stat">
+                    <span class="label">Within 50 km</span>
+                    <span class="count" id="stats-within-50km">0</span>
+                </div>
             </div>
         </div>
     </div>
