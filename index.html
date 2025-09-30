@@ -79,14 +79,34 @@
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            max-height: 300px;
-            overflow-y: auto;
         }
         .facility-types-control h5 {
             margin: 0 0 10px;
             font-size: 12px;
             font-weight: bold;
             color: #555;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .facility-types-control h5::after {
+            content: '▼';
+            font-size: 10px;
+            transition: transform 0.3s;
+        }
+        .facility-types-control h5.collapsed::after {
+            transform: rotate(-90deg);
+        }
+        .facility-types-list {
+            max-height: 300px;
+            overflow-y: auto;
+            transition: max-height 0.3s ease;
+        }
+        .facility-types-list.collapsed {
+            max-height: 0;
+            overflow: hidden;
         }
         .filter-item {
             margin-bottom: 5px;

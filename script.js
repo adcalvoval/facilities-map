@@ -239,6 +239,9 @@ function initializeFilters() {
     typesHeader.textContent = 'Facility Types';
     typesFilterDiv.appendChild(typesHeader);
 
+    const typesList = document.createElement('div');
+    typesList.className = 'facility-types-list';
+
     const sortedTypes = Array.from(activeFilters.types).sort();
     sortedTypes.forEach(type => {
         const filterItem = document.createElement('div');
@@ -258,7 +261,15 @@ function initializeFilters() {
         label.appendChild(checkbox);
         label.appendChild(span);
         filterItem.appendChild(label);
-        typesFilterDiv.appendChild(filterItem);
+        typesList.appendChild(filterItem);
+    });
+
+    typesFilterDiv.appendChild(typesList);
+
+    // Add collapse/expand functionality
+    typesHeader.addEventListener('click', () => {
+        typesHeader.classList.toggle('collapsed');
+        typesList.classList.toggle('collapsed');
     });
 
     // Add both filters to container
