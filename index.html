@@ -54,6 +54,8 @@
             gap: 15px;
             z-index: 1000;
             align-items: flex-end;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .country-filter-control {
             background: white;
@@ -136,6 +138,30 @@
         }
         .filter-item input[type="checkbox"] {
             margin-right: 5px;
+        }
+        .buffer-control {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            min-width: 200px;
+        }
+        .buffer-control label {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+            color: #555;
+        }
+        .buffer-control input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+        }
+        .buffer-value {
+            font-size: 11px;
+            color: #666;
+            text-align: center;
+            margin-top: 5px;
         }
     </style>
 </head>

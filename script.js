@@ -71,12 +71,16 @@ const healthFacilitiesLayer = L.layerGroup();
 // Store all facilities for filtering
 const allFacilities = [];
 const facilityMarkers = new Map();
+const facilityBuffers = new Map();
 
 // Track active filters
 const activeFilters = {
     types: new Set(),
     countries: new Set()
 };
+
+// Buffer radius in kilometers (default 5km)
+let bufferRadius = 5;
 
 // Load and display schools
 fetch('schools_AFG.json')
@@ -138,6 +142,18 @@ fetch('health_facilities.json')
                     // Add to active filters
                     activeFilters.types.add(facilityType);
                     activeFilters.countries.add(country);
+
+                    // Create buffer circle
+                    const buffer = L.circle([facility.Latitude, facility.Longitude], {
+                        radius: bufferRadius * 1000, // Convert km to meters
+                        color: '#3388ff',
+                        fillColor: '#3388ff',
+                        fillOpacity: 0.1,
+                        weight: 1
+                    });
+
+                    facilityBuffers.set(marker, buffer);
+                    buffer.addTo(healthFacilitiesLayer);
 
                     marker.addTo(healthFacilitiesLayer);
                 }
@@ -306,9 +322,34 @@ function initializeFilters() {
         typesList.classList.toggle('collapsed');
     });
 
-    // Add both filters to container
+    // Buffer radius slider control
+    const bufferControlDiv = document.createElement('div');
+    bufferControlDiv.className = 'buffer-control';
+
+    const bufferLabel = document.createElement('label');
+    bufferLabel.textContent = 'Buffer Radius';
+    bufferLabel.setAttribute('for', 'buffer-slider');
+
+    const bufferSlider = document.createElement('input');
+    bufferSlider.type = 'range';
+    bufferSlider.id = 'buffer-slider';
+    bufferSlider.min = '0';
+    bufferSlider.max = '500';
+    bufferSlider.value = '5';
+    bufferSlider.step = '5';
+
+    const bufferValue = document.createElement('div');
+    bufferValue.className = 'buffer-value';
+    bufferValue.textContent = '5 km';
+
+    bufferControlDiv.appendChild(bufferLabel);
+    bufferControlDiv.appendChild(bufferSlider);
+    bufferControlDiv.appendChild(bufferValue);
+
+    // Add all controls to container
     filtersContainer.appendChild(countryFilterDiv);
     filtersContainer.appendChild(typesFilterDiv);
+    filtersContainer.appendChild(bufferControlDiv);
 
     // Add container to map
     document.getElementById('map').appendChild(filtersContainer);
@@ -321,6 +362,13 @@ function initializeFilters() {
 
     document.querySelectorAll('.type-filter').forEach(checkbox => {
         checkbox.addEventListener('change', applyFilters);
+    });
+
+    // Buffer slider event listener
+    bufferSlider.addEventListener('input', (e) => {
+        bufferRadius = parseFloat(e.target.value);
+        bufferValue.textContent = `${bufferRadius} km`;
+        updateBuffers();
     });
 }
 
@@ -382,4 +430,11 @@ function zoomToCountry() {
         // Fit the map to show all facilities in the selected country
         map.fitBounds(bounds, { padding: [50, 50] });
     }
+}
+
+// Update buffer radius for all facilities
+function updateBuffers() {
+    facilityBuffers.forEach((buffer, marker) => {
+        buffer.setRadius(bufferRadius * 1000); // Convert km to meters
+    });
 }
