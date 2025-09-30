@@ -108,10 +108,11 @@ fetch('schools_AFG.json')
                         country: 'AFG'
                     });
 
-                    marker.addTo(schoolsLayer);
+                    // Don't add to layer yet - let user toggle it on
+                    // marker.addTo(schoolsLayer);
                 }
             });
-            console.log(`Loaded ${data.data.length} schools`);
+            console.log(`Loaded ${data.data.length} schools from schools_AFG.json`);
         }
     })
     .catch(error => console.error('Error loading schools:', error));
@@ -199,14 +200,27 @@ const layerControl = L.control.layers(null, overlays, { collapsed: false }).addT
 // Listen for layer add/remove events to handle visibility correctly
 map.on('overlayadd', function(e) {
     if (e.name === 'Schools') {
-        // When schools layer is enabled, apply current country filter
-        applyFilters();
+        console.log('Schools layer toggled ON');
+        // When schools layer is enabled, add schools based on current country filter
+        const countrySelect = document.getElementById('country-select');
+        const selectedCountry = countrySelect ? countrySelect.value : 'all';
+
+        // Add schools to the layer based on country filter
+        allSchools.forEach(schoolData => {
+            const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
+            if (showCountry) {
+                schoolData.marker.addTo(schoolsLayer);
+            }
+        });
+        console.log(`Added ${allSchools.length} schools to layer`);
+        updateSchoolsCount();
     }
 });
 
 map.on('overlayremove', function(e) {
     if (e.name === 'Schools') {
-        // When schools layer is disabled, remove all schools from map
+        console.log('Schools layer toggled OFF');
+        // Remove all schools from the layer
         allSchools.forEach(schoolData => {
             if (schoolsLayer.hasLayer(schoolData.marker)) {
                 schoolsLayer.removeLayer(schoolData.marker);
