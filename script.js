@@ -72,7 +72,12 @@ const schoolIcon = L.divIcon({
 });
 
 // Create layer groups for schools and health facilities
-const schoolsLayer = L.layerGroup();
+const schoolsLayer = L.markerClusterGroup({
+    maxClusterRadius: 50,
+    spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true
+});
 const healthFacilitiesLayer = L.layerGroup();
 
 // Store all facilities for filtering
@@ -488,13 +493,13 @@ map.on('overlayadd', async function(e) {
         // Show loading indicator while adding markers
         showLoading('Adding Schools to Map...', `Displaying ${allSchools.length} schools`);
 
-        // Add all schools to layer
-        allSchools.forEach(schoolData => {
-            if (!schoolsLayer.hasLayer(schoolData.marker)) {
-                schoolData.marker.addTo(schoolsLayer);
-            }
-        });
-        console.log(`Added ${allSchools.length} schools to layer`);
+        // Add all schools to layer in batch for better performance with clustering
+        const markersToAdd = allSchools
+            .filter(schoolData => !schoolsLayer.hasLayer(schoolData.marker))
+            .map(schoolData => schoolData.marker);
+
+        schoolsLayer.addLayers(markersToAdd);
+        console.log(`Added ${markersToAdd.length} schools to layer`);
         updateSchoolsCount();
 
         // Hide loading indicator
