@@ -86,12 +86,64 @@ let bufferRadius = 5;
 
 // API configuration
 const API_BASE_URL = 'https://uni-ooi-giga-maps-service.azurewebsites.net/api/v1/schools_location';
-const API_TOKEN = 'us4I8UK0p5XI6Vh412AxsDKzy5WGW5.#hKEL21FiKe6mhGe4uC3uwMntW0ezyNWO3g61HdknRSjyiTH*eQTnWSuA2weTX9Pgw32ERwiVm8PBuqfPsuEMmAO*JDtIueiz0huD4eIrBTaqEm7#Ht3E91d3Kxm.pRzIzbX#VTP6JDm292wI2A#iWA5LSWH8x*.RxEXpChNqiRsibWRMz0FWzZ9eHn4qL7dxwrKp74iDhvpyI6fISZgi3W*#jcwpDs4VvfNp9d';
+
+// Country name to ISO3 code mapping
+const countryNameToISO3 = {
+    'Afghanistan': 'AFG',
+    'Brazil': 'BRA',
+    'Bolivia': 'BOL',
+    'Colombia': 'COL',
+    'Uganda': 'UGA',
+    'Mauritania': 'MRT',
+    'Liberia': 'LBR',
+    'Argentina': 'ARG',
+    'Peru': 'PER',
+    'Togo': 'TGO',
+    'Congo, The Democratic Republic of the': 'COD',
+    'Zimbabwe': 'ZWE',
+    'Nigeria': 'NGA',
+    'Philippines': 'PHL',
+    'Saint Lucia': 'LCA',
+    'Mexico': 'MEX',
+    'Serbia': 'SRB',
+    'Kyrgyzstan': 'KGZ',
+    'Rwanda': 'RWA',
+    'Botswana': 'BWA',
+    'Sierra Leone': 'SLE',
+    'Uzbekistan': 'UZB',
+    'Panama': 'PAN',
+    'El Salvador': 'SLV',
+    'Hungary': 'HUN',
+    'Poland': 'POL',
+    'Romania': 'ROU',
+    'Slovakia': 'SVK',
+    'Saint Kitts and Nevis': 'KNA',
+    'Kazakhstan': 'KAZ',
+    'Anguilla': 'AIA',
+    'Montserrat': 'MSR',
+    'Virgin Islands, British': 'VGB',
+    'Grenada': 'GRD',
+    'Dominica': 'DMA',
+    'Saint Vincent and the Grenadines': 'VCT',
+    'Thailand': 'THA',
+    'Antigua and Barbuda': 'ATG',
+    'South Sudan': 'SSD',
+    'Mongolia': 'MNG',
+    'Ghana': 'GHA',
+    'Niger': 'NER',
+    'Guinea': 'GIN',
+    'United States': 'USA',
+    'Algeria': 'DZA',
+    'Eswatini, Kingdom of': 'SWZ'
+};
 
 // Function to fetch schools from API for a specific country with pagination
-async function fetchSchoolsForCountry(countryCode) {
+async function fetchSchoolsForCountry(countryName) {
+    // Convert country name to ISO3 code
+    const countryCode = countryNameToISO3[countryName] || countryName;
+
     if (loadedSchoolCountries.has(countryCode)) {
-        console.log(`Schools for ${countryCode} already loaded`);
+        console.log(`Schools for ${countryName} (${countryCode}) already loaded`);
         return;
     }
 
@@ -101,16 +153,14 @@ async function fetchSchoolsForCountry(countryCode) {
         let hasMore = true;
         let totalLoaded = 0;
 
-        console.log(`Fetching schools for ${countryCode}...`);
+        console.log(`Fetching schools for ${countryName} (${countryCode})...`);
 
         while (hasMore) {
             const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}`;
             console.log(`Fetching: ${url}`);
             const response = await fetch(url, {
                 headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json',
-                    'token': API_TOKEN
+                    'Accept': 'application/json'
                 }
             });
 
