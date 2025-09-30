@@ -939,12 +939,12 @@ function updateSchoolsCount() {
     // Update "in buffer" counter
     const countElement = document.getElementById('schools-count');
     if (countElement) {
-        countElement.textContent = schoolsInBufferCount;
+        countElement.textContent = schoolsInBufferCount.toLocaleString();
     }
 
     // Update "outside buffer" counter
     const outsideCountElement = document.getElementById('schools-outside-count');
     if (outsideCountElement) {
-        outsideCountElement.textContent = schoolsOutsideCount;
+        outsideCountElement.textContent = schoolsOutsideCount.toLocaleString();
     }
 }
