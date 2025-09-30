@@ -201,16 +201,9 @@ const layerControl = L.control.layers(null, overlays, { collapsed: false }).addT
 map.on('overlayadd', function(e) {
     if (e.name === 'Schools') {
         console.log('Schools layer toggled ON');
-        // When schools layer is enabled, add schools based on current country filter
-        const countrySelect = document.getElementById('country-select');
-        const selectedCountry = countrySelect ? countrySelect.value : 'all';
-
-        // Add schools to the layer based on country filter
+        // When schools layer is enabled, add all schools (no country filter needed)
         allSchools.forEach(schoolData => {
-            const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
-            if (showCountry) {
-                schoolData.marker.addTo(schoolsLayer);
-            }
+            schoolData.marker.addTo(schoolsLayer);
         });
         console.log(`Added ${allSchools.length} schools to layer`);
         updateSchoolsCount();
@@ -476,24 +469,7 @@ function applyFilters() {
         }
     });
 
-    // Update school visibility based on country filter (only if schools layer is on the map)
-    if (map.hasLayer(schoolsLayer)) {
-        allSchools.forEach(schoolData => {
-            const showCountry = selectedCountry === 'all' || schoolData.country === selectedCountry;
-
-            if (showCountry) {
-                if (!schoolsLayer.hasLayer(schoolData.marker)) {
-                    schoolsLayer.addLayer(schoolData.marker);
-                }
-            } else {
-                if (schoolsLayer.hasLayer(schoolData.marker)) {
-                    schoolsLayer.removeLayer(schoolData.marker);
-                }
-            }
-        });
-    }
-
-    // Update schools count after filter changes
+    // Update schools count after filter changes (schools are not filtered by country)
     updateSchoolsCount();
 }
 
