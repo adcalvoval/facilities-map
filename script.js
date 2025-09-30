@@ -53,23 +53,12 @@ for (const [type, config] of Object.entries(healthFacilityConfig)) {
 
 // School icon with pencil emoji
 const schoolIcon = L.divIcon({
-    className: 'health-facility-icon',
+    className: 'school-icon',
     html: `
-        <div style="
-            background-color: #64B5F6;
-            color: white;
-            width: 0;
-            height: 0;
-            border-left: 16px solid transparent;
-            border-right: 16px solid transparent;
-            border-bottom: 28px solid #64B5F6;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
-            position: relative;
-        "><span style="position: absolute; top: 10px; left: -7px;">✏️</span></div>
+        <svg width="32" height="32" viewBox="0 0 32 32" style="filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));">
+            <polygon points="16,2 30,28 2,28" fill="#64B5F6" stroke="#0d47a1" stroke-width="2"/>
+            <text x="16" y="22" text-anchor="middle" font-size="14">✏️</text>
+        </svg>
     `,
     iconSize: [32, 32],
     iconAnchor: [16, 28]
@@ -208,80 +197,102 @@ info.addTo(map);
 
 // Initialize filter controls
 function initializeFilters() {
-    const filterControl = L.control({ position: 'topright' });
+    // Create filters container
+    const filtersContainer = document.createElement('div');
+    filtersContainer.className = 'filters-container';
 
-    filterControl.onAdd = function(map) {
-        const div = L.DomUtil.create('div', 'filters');
-        div.innerHTML = '<h4>Filter Health Facilities</h4>';
+    // Country dropdown filter
+    const countryFilterDiv = document.createElement('div');
+    countryFilterDiv.className = 'country-filter-control';
 
-        // Facility Type filter
-        div.innerHTML += '<div class="filter-section"><h5>Facility Type</h5>';
-        const sortedTypes = Array.from(activeFilters.types).sort();
-        sortedTypes.forEach(type => {
-            div.innerHTML += `
-                <div class="filter-item">
-                    <label>
-                        <input type="checkbox" class="type-filter" value="${type}" checked>
-                        <span>${type}</span>
-                    </label>
-                </div>
-            `;
-        });
-        div.innerHTML += '</div>';
+    const countryLabel = document.createElement('label');
+    countryLabel.textContent = 'Country:';
+    countryLabel.setAttribute('for', 'country-select');
 
-        // Country filter
-        div.innerHTML += '<div class="filter-section"><h5>Country</h5>';
-        const sortedCountries = Array.from(activeFilters.countries).sort();
-        sortedCountries.forEach(country => {
-            div.innerHTML += `
-                <div class="filter-item">
-                    <label>
-                        <input type="checkbox" class="country-filter" value="${country}" checked>
-                        <span>${country}</span>
-                    </label>
-                </div>
-            `;
-        });
-        div.innerHTML += '</div>';
+    const countrySelect = document.createElement('select');
+    countrySelect.id = 'country-select';
 
-        // Prevent map interactions when clicking on filter control
-        L.DomEvent.disableClickPropagation(div);
-        L.DomEvent.disableScrollPropagation(div);
+    // Add "All Countries" option
+    const allOption = document.createElement('option');
+    allOption.value = 'all';
+    allOption.textContent = 'All Countries';
+    allOption.selected = true;
+    countrySelect.appendChild(allOption);
 
-        return div;
-    };
+    // Add individual country options
+    const sortedCountries = Array.from(activeFilters.countries).sort();
+    sortedCountries.forEach(country => {
+        const option = document.createElement('option');
+        option.value = country;
+        option.textContent = country;
+        countrySelect.appendChild(option);
+    });
 
-    filterControl.addTo(map);
+    countryFilterDiv.appendChild(countryLabel);
+    countryFilterDiv.appendChild(countrySelect);
 
-    // Add event listeners for filters
-    setTimeout(() => {
-        document.querySelectorAll('.type-filter').forEach(checkbox => {
-            checkbox.addEventListener('change', applyFilters);
-        });
+    // Facility types checkbox filter
+    const typesFilterDiv = document.createElement('div');
+    typesFilterDiv.className = 'facility-types-control';
 
-        document.querySelectorAll('.country-filter').forEach(checkbox => {
-            checkbox.addEventListener('change', applyFilters);
-        });
-    }, 100);
+    const typesHeader = document.createElement('h5');
+    typesHeader.textContent = 'Facility Types';
+    typesFilterDiv.appendChild(typesHeader);
+
+    const sortedTypes = Array.from(activeFilters.types).sort();
+    sortedTypes.forEach(type => {
+        const filterItem = document.createElement('div');
+        filterItem.className = 'filter-item';
+
+        const label = document.createElement('label');
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.className = 'type-filter';
+        checkbox.value = type;
+        checkbox.checked = true;
+
+        const span = document.createElement('span');
+        span.textContent = type;
+
+        label.appendChild(checkbox);
+        label.appendChild(span);
+        filterItem.appendChild(label);
+        typesFilterDiv.appendChild(filterItem);
+    });
+
+    // Add both filters to container
+    filtersContainer.appendChild(countryFilterDiv);
+    filtersContainer.appendChild(typesFilterDiv);
+
+    // Add container to map
+    document.getElementById('map').appendChild(filtersContainer);
+
+    // Add event listeners
+    countrySelect.addEventListener('change', applyFilters);
+
+    document.querySelectorAll('.type-filter').forEach(checkbox => {
+        checkbox.addEventListener('change', applyFilters);
+    });
 }
 
 // Apply filters to health facilities
 function applyFilters() {
     const selectedTypes = new Set();
-    const selectedCountries = new Set();
 
+    // Get selected facility types from checkboxes
     document.querySelectorAll('.type-filter:checked').forEach(checkbox => {
         selectedTypes.add(checkbox.value);
     });
 
-    document.querySelectorAll('.country-filter:checked').forEach(checkbox => {
-        selectedCountries.add(checkbox.value);
-    });
+    // Get selected country from dropdown
+    const countrySelect = document.getElementById('country-select');
+    const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
     // Update facility visibility
     allFacilities.forEach(facilityData => {
         const showType = selectedTypes.has(facilityData.type);
-        const showCountry = selectedCountries.has(facilityData.country);
+        const showCountry = selectedCountry === 'all' || facilityData.country === selectedCountry;
 
         if (showType && showCountry) {
             if (!healthFacilitiesLayer.hasLayer(facilityData.marker)) {

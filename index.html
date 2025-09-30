@@ -45,25 +45,45 @@
             margin: 0 0 5px;
             color: #777;
         }
-        .filters {
+        .filters-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+            align-items: flex-end;
+        }
+        .country-filter-control {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .country-filter-control label {
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+            color: #555;
+        }
+        .country-filter-control select {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .facility-types-control {
             background: white;
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            max-height: 400px;
+            max-height: 300px;
             overflow-y: auto;
-            min-width: 200px;
         }
-        .filters h4 {
+        .facility-types-control h5 {
             margin: 0 0 10px;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .filter-section {
-            margin-bottom: 15px;
-        }
-        .filter-section h5 {
-            margin: 0 0 8px;
             font-size: 12px;
             font-weight: bold;
             color: #555;
