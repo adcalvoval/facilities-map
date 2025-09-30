@@ -905,9 +905,9 @@ function updateCountryStats() {
     // Update the display
     document.getElementById('stats-total-schools').textContent = totalSchools.toLocaleString();
     document.getElementById('stats-total-facilities').textContent = totalFacilities.toLocaleString();
-    document.getElementById('stats-within-5km').textContent = schoolsWithin5km.size.toLocaleString();
-    document.getElementById('stats-within-10km').textContent = schoolsWithin10km.size.toLocaleString();
-    document.getElementById('stats-within-50km').textContent = schoolsWithin50km.size.toLocaleString();
+    document.getElementById('stats-within-5km').textContent = `${schoolsWithin5km.size.toLocaleString()} / ${totalSchools.toLocaleString()}`;
+    document.getElementById('stats-within-10km').textContent = `${schoolsWithin10km.size.toLocaleString()} / ${totalSchools.toLocaleString()}`;
+    document.getElementById('stats-within-50km').textContent = `${schoolsWithin50km.size.toLocaleString()} / ${totalSchools.toLocaleString()}`;
 }
 
 // Update the count of schools within and outside buffer zones
