@@ -251,11 +251,16 @@ async function fetchSchoolsForCountry(countryName) {
     console.log(`Looking up country: "${countryName}"`);
     const countryCode = countryNameToISO3[countryName] || countryName;
     console.log(`Mapped to ISO3: "${countryCode}"`);
+    console.log(`Loaded countries set:`, Array.from(loadedSchoolCountries));
+    console.log(`Has ${countryCode}?`, loadedSchoolCountries.has(countryCode));
 
     if (loadedSchoolCountries.has(countryCode)) {
-        console.log(`Schools for ${countryName} (${countryCode}) already loaded`);
+        console.log(`Schools for ${countryName} (${countryCode}) already loaded - skipping fetch`);
+        console.log(`Current schools count: ${allSchools.filter(s => s.country === countryCode).length}`);
         return;
     }
+
+    console.log(`Starting fresh fetch for ${countryName} (${countryCode})`);
 
     // Show loading indicator
     showLoading('Loading Schools...', `Fetching schools for ${countryName}`);
@@ -271,12 +276,20 @@ async function fetchSchoolsForCountry(countryName) {
         while (hasMore) {
             const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}`;
             console.log(`Fetching: ${url}`);
-            const response = await fetch(url, {
-                headers: {
-                    'Accept': 'application/json',
-                    'Authorization': `Bearer ${API_TOKEN}`
-                }
-            });
+
+            let response;
+            try {
+                response = await fetch(url, {
+                    headers: {
+                        'Accept': 'application/json',
+                        'Authorization': `Bearer ${API_TOKEN}`
+                    }
+                });
+                console.log(`Response received: ${response.status} ${response.statusText}`);
+            } catch (fetchError) {
+                console.error(`Fetch error for ${countryCode}:`, fetchError);
+                break;
+            }
 
             if (!response.ok) {
                 const errorText = await response.text();
@@ -285,6 +298,8 @@ async function fetchSchoolsForCountry(countryName) {
             }
 
             const data = await response.json();
+            console.log(`API Response for ${countryCode} page ${page}:`, data);
+            console.log(`Response keys:`, Object.keys(data));
 
             // Handle different possible response structures
             let schools = [];
@@ -295,6 +310,8 @@ async function fetchSchoolsForCountry(countryName) {
             } else if (data.content && Array.isArray(data.content)) {
                 schools = data.content;
             }
+
+            console.log(`Extracted ${schools.length} schools from response`);
 
             if (schools.length === 0) {
                 hasMore = false;
@@ -354,6 +371,8 @@ async function fetchSchoolsForCountry(countryName) {
 
     } catch (error) {
         console.error(`Error fetching schools for ${countryCode}:`, error);
+        console.error('Error stack:', error.stack);
+        alert(`Error loading schools for ${countryName}: ${error.message}`);
         hideLoading();
     }
 }
@@ -453,9 +472,12 @@ map.on('overlayadd', async function(e) {
         const countrySelect = document.getElementById('country-select');
         const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
-        if (selectedCountry !== 'all' && !loadedSchoolCountries.has(selectedCountry)) {
-            console.log(`Loading schools for ${selectedCountry}...`);
-            await fetchSchoolsForCountry(selectedCountry);
+        if (selectedCountry !== 'all') {
+            const countryISO3 = countryNameToISO3[selectedCountry] || selectedCountry;
+            if (!loadedSchoolCountries.has(countryISO3)) {
+                console.log(`Loading schools for ${selectedCountry}...`);
+                await fetchSchoolsForCountry(selectedCountry);
+            }
         }
 
         // Add all schools to layer
@@ -692,8 +714,11 @@ function initializeFilters() {
         const selectedCountry = countrySelect.value;
 
         // Fetch schools for selected country if not "all"
-        if (selectedCountry !== 'all' && !loadedSchoolCountries.has(selectedCountry)) {
-            await fetchSchoolsForCountry(selectedCountry);
+        if (selectedCountry !== 'all') {
+            const countryISO3 = countryNameToISO3[selectedCountry] || selectedCountry;
+            if (!loadedSchoolCountries.has(countryISO3)) {
+                await fetchSchoolsForCountry(selectedCountry);
+            }
         }
 
         applyFilters();
