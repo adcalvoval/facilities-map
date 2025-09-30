@@ -104,12 +104,13 @@ async function fetchSchoolsForCountry(countryCode) {
         console.log(`Fetching schools for ${countryCode}...`);
 
         while (hasMore) {
-            const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}&token=${encodeURIComponent(API_TOKEN)}`;
+            const url = `${API_BASE_URL}/country/${countryCode}?page=${page}&size=${size}`;
             console.log(`Fetching: ${url}`);
             const response = await fetch(url, {
                 headers: {
                     'Content-Type': 'application/json',
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'token': API_TOKEN
                 }
             });
 
