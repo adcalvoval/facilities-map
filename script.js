@@ -253,15 +253,9 @@ function initializeFilters() {
     allOption.selected = true;
     countrySelect.appendChild(allOption);
 
-    // Get countries that have both schools and health facilities
-    const facilityCountries = new Set(activeFilters.countries);
-    const schoolCountries = new Set(allSchools.map(s => s.country));
-    const countriesWithBoth = Array.from(facilityCountries).filter(country =>
-        schoolCountries.has(country)
-    ).sort();
-
-    // Add individual country options (only countries with both)
-    countriesWithBoth.forEach(country => {
+    // Add individual country options from health facilities
+    const sortedCountries = Array.from(activeFilters.countries).sort();
+    sortedCountries.forEach(country => {
         const option = document.createElement('option');
         option.value = country;
         option.textContent = country;
