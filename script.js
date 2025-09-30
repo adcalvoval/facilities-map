@@ -684,20 +684,26 @@ function zoomToCountry() {
         // Add all schools
         allSchools.forEach(s => allPoints.push(L.latLng(s.lat, s.lng)));
     } else {
+        // Convert country name to ISO3 for school comparison
+        const countryISO3 = countryNameToISO3[selectedCountry] || selectedCountry;
+
         // Add facilities for selected country
         allFacilities
             .filter(f => f.country === selectedCountry)
             .forEach(f => allPoints.push(f.marker.getLatLng()));
 
-        // Add schools for selected country
+        // Add schools for selected country (schools use ISO3 codes)
         allSchools
-            .filter(s => s.country === selectedCountry)
+            .filter(s => s.country === countryISO3)
             .forEach(s => allPoints.push(L.latLng(s.lat, s.lng)));
     }
 
     if (allPoints.length > 0) {
         const bounds = L.latLngBounds(allPoints);
-        map.fitBounds(bounds, { padding: [50, 50] });
+        map.fitBounds(bounds, { padding: [80, 80], maxZoom: 12 });
+        console.log(`Zoomed to ${selectedCountry} with ${allPoints.length} points`);
+    } else {
+        console.log(`No points found for ${selectedCountry}`);
     }
 }
 
