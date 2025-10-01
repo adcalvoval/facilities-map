@@ -528,27 +528,7 @@ map.on('overlayremove', function(e) {
     }
 });
 
-// Add legend
-const legend = L.control({ position: 'bottomright' });
-
-legend.onAdd = function(map) {
-    const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = '<h4>Legend</h4>';
-
-    // Schools legend
-    div.innerHTML += '<div class="legend-item"><span style="font-size: 18px; margin-right: 5px;">✏️</span> Schools</div>';
-
-    // Health facilities legend
-    div.innerHTML += '<br><strong style="font-size: 12px;">Health Facilities:</strong><br>';
-
-    Object.entries(healthFacilityConfig).forEach(([type, config]) => {
-        div.innerHTML += `<div class="legend-item"><span style="font-size: 18px; margin-right: 5px;">${config.symbol}</span> ${type}</div>`;
-    });
-
-    return div;
-};
-
-legend.addTo(map);
+// Legend removed
 
 // Initialize filter controls
 function initializeFilters() {
