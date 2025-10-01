@@ -654,6 +654,10 @@ function initializeFilters() {
     bufferValue.className = 'buffer-value';
     bufferValue.textContent = '5 km';
 
+    // Prevent slider interactions from affecting the map
+    L.DomEvent.disableClickPropagation(bufferSlider);
+    L.DomEvent.disableScrollPropagation(bufferSlider);
+
     bufferControlDiv.appendChild(bufferLabel);
     bufferControlDiv.appendChild(bufferSlider);
     bufferControlDiv.appendChild(bufferValue);
@@ -746,6 +750,9 @@ function applyFilters() {
     const countrySelect = document.getElementById('country-select');
     const selectedCountry = countrySelect ? countrySelect.value : 'all';
 
+    // Get ISO3 code for school filtering
+    const countryISO3 = selectedCountry !== 'all' ? (countryNameToISO3[selectedCountry] || selectedCountry) : null;
+
     // Update facility and buffer visibility
     allFacilities.forEach(facilityData => {
         const showType = selectedTypes.has(facilityData.type);
@@ -772,7 +779,22 @@ function applyFilters() {
         }
     });
 
-    // Update schools count after filter changes (schools are not filtered by country)
+    // Filter schools by selected country
+    allSchools.forEach(schoolData => {
+        const showSchool = selectedCountry === 'all' || schoolData.country === countryISO3;
+
+        if (showSchool) {
+            if (!schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolsLayer.addLayer(schoolData.marker);
+            }
+        } else {
+            if (schoolsLayer.hasLayer(schoolData.marker)) {
+                schoolsLayer.removeLayer(schoolData.marker);
+            }
+        }
+    });
+
+    // Update schools count after filter changes
     updateSchoolsCount();
 }
 
