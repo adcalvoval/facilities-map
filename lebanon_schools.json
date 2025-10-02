@@ -1,0 +1,6655 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "0",
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Garderie",
+        "name_en": "Santa Garderie",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5968294385,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5109679,
+          33.8947325
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8308882953,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5333002,
+          33.7542558
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8279428726,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5437763,
+          33.751434
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة بريقع المتوسطة الرسميّة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": "public",
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة بريقع المتوسطة الرسميّة",
+        "osm_id": 7570164632,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3729536,
+          33.3394458
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة كفر صير الرسمية",
+        "name_en": "Kfarsir School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "كفر صير",
+        "source": null,
+        "name_ar": "مدرسة كفر صير الرسمية",
+        "osm_id": 5013727943,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4019075,
+          33.3260959
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "type": "Feature",
+      "properties": {
+        "name": "al ebtda2ya",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8119016164,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.901017,
+          33.7787584
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "type": "Feature",
+      "properties": {
+        "name": "Lemonts Kindergarten",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5278040024,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5090062,
+          33.8936842
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "type": "Feature",
+      "properties": {
+        "name": "معهد الضرير",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "معهد الضرير",
+        "osm_id": 3103789329,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5364838,
+          33.8292209
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة راهبات القديسة تريزيا",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة راهبات القديسة تريزيا",
+        "osm_id": 7592160004,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5207161,
+          33.8708646
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "type": "Feature",
+      "properties": {
+        "name": "kfarouman public school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7954650519,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4955723,
+          33.3877955
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "type": "Feature",
+      "properties": {
+        "name": "الآباء الكرمليين",
+        "name_en": "Pères Carmelites",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "الآباء الكرمليين",
+        "osm_id": 1240694313,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8424396,
+          34.4375222
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة بطرماز الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة بطرماز الرسمية",
+        "osm_id": 4036059289,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0358578,
+          34.4213137
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "type": "Feature",
+      "properties": {
+        "name": "تكميلية حرار الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "تكميلية حرار الرسمية",
+        "osm_id": 4104812476,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1243756,
+          34.459587
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "type": "Feature",
+      "properties": {
+        "name": "معهد النجاة",
+        "name_en": "Alnajat institute",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "معهد النجاة",
+        "osm_id": 5166314229,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8437948,
+          34.420766
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "type": "Feature",
+      "properties": {
+        "name": "CIS colege chtoura",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8245813287,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8424557,
+          33.8180208
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "type": "Feature",
+      "properties": {
+        "name": "lebanese international college",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8207751718,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8221307,
+          33.5516737
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8310650110,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.49684,
+          33.3766574
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "Feature",
+      "properties": {
+        "name": "Beirut Arab University, Campus Bekaa",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8245813248,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8628798,
+          33.803106
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة اللبنانية كلية الأعمال راشيا",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "راشيا",
+        "source": null,
+        "name_ar": "الجامعة اللبنانية كلية الأعمال راشيا",
+        "osm_id": 5822782999,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8081014,
+          33.5265959
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "type": "Feature",
+      "properties": {
+        "name": "american university of science and technology,bhamdoun campus",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8317853068,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6607093,
+          33.8094
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "type": "Feature",
+      "properties": {
+        "name": "كلية الأداب الفرع الثالث",
+        "name_en": "Lebanese university- Faculty of Literature III",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "كلية الأداب الفرع الثالث",
+        "osm_id": 2936113282,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8539229,
+          34.4359097
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "type": "Feature",
+      "properties": {
+        "name": "Mini Moon Nursery",
+        "name_en": "Mini Moon Nursery",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5322753192,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6156909,
+          33.9813412
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "type": "Feature",
+      "properties": {
+        "name": "الثانویة امام صادق عليه السلام",
+        "name_en": "Assanaviye emam sadegh alayhe salal",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "الثانویة امام صادق عليه السلام",
+        "osm_id": 5248725335,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5176883,
+          33.8334937
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "type": "Feature",
+      "properties": {
+        "name": "روضة الصنوبر",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "روضة الصنوبر",
+        "osm_id": 559968906,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5060036,
+          33.8720587
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية المقاصد الحرش",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية المقاصد الحرش",
+        "osm_id": 712637606,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5062751,
+          33.8778368
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "type": "Feature",
+      "properties": {
+        "name": "البتول",
+        "name_en": "albatool",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "البتول",
+        "osm_id": 2440977096,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4999875,
+          33.8578399
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "type": "Feature",
+      "properties": {
+        "name": "المصطفى الحارة (ع)",
+        "name_en": "al moustafa al hara",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المصطفى الحارة (ع)",
+        "osm_id": 4361429504,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5050423,
+          33.8569782
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "type": "Feature",
+      "properties": {
+        "name": "معهد الصنائع الدكوانة",
+        "name_en": "Dekouané Technical School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "معهد الصنائع الدكوانة",
+        "osm_id": 2774680095,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5481257,
+          33.8789041
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "type": "Feature",
+      "properties": {
+        "name": "etstc",
+        "name_en": "etstc",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5156761140,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5478812,
+          33.8786154
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "type": "Feature",
+      "properties": {
+        "name": "بيت الأطفال",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "بيت الأطفال",
+        "osm_id": 559978491,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4978497,
+          33.8765625
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "type": "Feature",
+      "properties": {
+        "name": "Sagesse Brazilia",
+        "name_en": "Sagesse Brazilia",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3670174503,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5366586,
+          33.8467531
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3670329663,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5415457,
+          33.8518264
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة العالمية",
+        "name_en": "Global University",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "الجامعة العالمية",
+        "osm_id": 5937928985,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.497119,
+          33.8901844
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "type": "Feature",
+      "properties": {
+        "name": "إنترناشونال كوليج",
+        "name_en": "International College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "إنترناشونال كوليج",
+        "osm_id": 7008053689,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4773547,
+          33.8999471
+        ]
+      }
+    },
+    {
+      "id": "34",
+      "type": "Feature",
+      "properties": {
+        "name": "عمر بن الخطاب",
+        "name_en": "Omar Bin Khattab",
+        "amenity": "school",
+        "building": "yes",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "عمر بن الخطاب",
+        "osm_id": 605502324,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5003789,
+          33.8719975
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "type": "Feature",
+      "properties": {
+        "name": "الأخوة اللبنانية الحدث",
+        "name_en": null,
+        "amenity": "school",
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "الأخوة اللبنانية الحدث",
+        "osm_id": 3660400342,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5276113,
+          33.8283839
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية خالد بن الوليد - المقاصد",
+        "name_en": "Khaled Ibn AlWaleed School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية خالد بن الوليد - المقاصد",
+        "osm_id": 712637429,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5071334,
+          33.876474
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة المعارف",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889946180,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4179408,
+          34.1804258
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة اللبنانية العالمية",
+        "name_en": "Lebanese International University",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": "الجامعة اللبنانية العالمية",
+        "osm_id": 2707293662,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4973682,
+          33.8846691
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "type": "Feature",
+      "properties": {
+        "name": "Art Building",
+        "name_en": "Art Building",
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3675036302,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6234662,
+          33.8815221
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "type": "Feature",
+      "properties": {
+        "name": "Fleisseh",
+        "name_en": "Fleisseh",
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3675042130,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6206622,
+          33.8813977
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "type": "Feature",
+      "properties": {
+        "name": "AL",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4661434515,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4995409,
+          33.7902886
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "type": "Feature",
+      "properties": {
+        "name": "HIS",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4661434516,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4972204,
+          33.7703391
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة العائلة المقدسة الإبتدائية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة العائلة المقدسة الإبتدائية",
+        "osm_id": 3660099594,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5700191,
+          33.808284
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "type": "Feature",
+      "properties": {
+        "name": "Collège des Sœurs des Saints-Cœurs Aïn Najm",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8615858201,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5844851,
+          33.8598426
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الرهبان الأنطونية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الرهبان الأنطونية",
+        "osm_id": 3419658655,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5937257,
+          33.7339224
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "type": "Feature",
+      "properties": {
+        "name": "مار مارون",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "الحدث",
+        "source": null,
+        "name_ar": "مار مارون",
+        "osm_id": 3095546054,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5350007,
+          33.8333003
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة المتوسطة فرن الشباك",
+        "name_en": "Furn El Chebbak Intermediate School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة المتوسطة فرن الشباك",
+        "osm_id": 5034757799,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5231349,
+          33.8722051
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8046915321,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8816904,
+          33.7601132
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "type": "Feature",
+      "properties": {
+        "name": "ليسه باسكال",
+        "name_en": "Lycée Pascal",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ليسه باسكال",
+        "osm_id": 608634179,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.516782,
+          33.6220051
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "type": "Feature",
+      "properties": {
+        "name": "سيدة الملائكة",
+        "name_en": "Notre dame des anges",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "سيدة الملائكة",
+        "osm_id": 5098084022,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5159578,
+          33.8749903
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "type": "Feature",
+      "properties": {
+        "name": "المهنية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889946103,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4024483,
+          34.1955575
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "type": "Feature",
+      "properties": {
+        "name": "الرسمية الثانوية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889946134,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.424303,
+          34.1697743
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "type": "Feature",
+      "properties": {
+        "name": "Ecole de l'esperance",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10941829869,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0078327,
+          33.8482878
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة اليسوعية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة اليسوعية",
+        "osm_id": 993839765,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0036164,
+          33.8566485
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الإمام علي",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بريتال",
+        "source": null,
+        "name_ar": "مدرسة الإمام علي",
+        "osm_id": 5838641699,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1523219,
+          33.9353281
+        ]
+      }
+    },
+    {
+      "id": "56",
+      "type": "Feature",
+      "properties": {
+        "name": "sana school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8753555801,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7734437,
+          33.6251632
+        ]
+      }
+    },
+    {
+      "id": "57",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة الأرمنيّة المتحدة",
+        "name_en": "United Armenian College",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "برج حموﺪ‎‎",
+        "source": null,
+        "name_ar": "الجامعة الأرمنيّة المتحدة",
+        "osm_id": 6497872990,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5480273,
+          33.8870254
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "type": "Feature",
+      "properties": {
+        "name": "al-manahel school",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8179129821,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9011571,
+          33.7041515
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "type": "Feature",
+      "properties": {
+        "name": "AYN AL-DAHAB P.S.",
+        "name_en": "AYN AL-DAHAB P.S.",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5306267542,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0874962,
+          34.4825302
+        ]
+      }
+    },
+    {
+      "id": "60",
+      "type": "Feature",
+      "properties": {
+        "name": "Amercican University School",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10931253986,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0076827,
+          33.8621308
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8010980494,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8076539,
+          33.52663
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4984837327,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5216198,
+          33.8841659
+        ]
+      }
+    },
+    {
+      "id": "63",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة ليفون وصوفيا هاكوبيان",
+        "name_en": "Levon & Sophia Hagopian School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": "مدرسة ليفون وصوفيا هاكوبيان",
+        "osm_id": 3400476793,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5396689,
+          33.892978
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "type": "Feature",
+      "properties": {
+        "name": "Collège Notre Dame des Soeurs Antonines Nabatieh",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Nabatieh",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2706865308,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4869888,
+          33.382832
+        ]
+      }
+    },
+    {
+      "id": "65",
+      "type": "Feature",
+      "properties": {
+        "name": "ايستوود",
+        "name_en": "Eastwood College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5930924415,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.524914,
+          33.8187742
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6189876263,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.370208,
+          33.5640788
+        ]
+      }
+    },
+    {
+      "id": "67",
+      "type": "Feature",
+      "properties": {
+        "name": "كلية مرجعيون الوطنية",
+        "name_en": "Marjayoun National College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "كلية مرجعيون الوطنية",
+        "osm_id": 7126637666,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5855193,
+          33.3577116
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة المرج",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "جناتا",
+        "source": null,
+        "name_ar": "مدرسة المرج",
+        "osm_id": 4818582922,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3211841,
+          33.289764
+        ]
+      }
+    },
+    {
+      "id": "69",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية البابلية الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية البابلية الرسمية",
+        "osm_id": 5009763006,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3440991,
+          33.423293
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "type": "Feature",
+      "properties": {
+        "name": "متوسطة الصرفند الثانية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9147804365,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3057515,
+          33.4398742
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية الصرفند الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9140835941,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3067953,
+          33.4397352
+        ]
+      }
+    },
+    {
+      "id": "72",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889492859,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.430227,
+          33.6903841
+        ]
+      }
+    },
+    {
+      "id": "73",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية حسين مسعود الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية حسين مسعود الرسمية",
+        "osm_id": 3657736899,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5268115,
+          33.7881975
+        ]
+      }
+    },
+    {
+      "id": "74",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة المهنية",
+        "name_en": "Nabatieh Technical School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المدرسة المهنية",
+        "osm_id": 2706895777,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4801711,
+          33.3769026
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8022478174,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7202149,
+          33.6383761
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "type": "Feature",
+      "properties": {
+        "name": "النخبة",
+        "name_en": "Elite School",
+        "amenity": "school",
+        "building": "yes",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2665510434,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4956035,
+          33.7861797
+        ]
+      }
+    },
+    {
+      "id": "77",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8004615644,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8230852,
+          33.5341705
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية برجا الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "برجا",
+        "source": null,
+        "name_ar": "ثانوية برجا الرسمية",
+        "osm_id": 2035791638,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4405422,
+          33.642161
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "type": "Feature",
+      "properties": {
+        "name": "SOS children's village Bhorsaf",
+        "name_en": "SOS children's village Bhorsaf",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4253803090,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6633357,
+          33.9088816
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "type": "Feature",
+      "properties": {
+        "name": "Ecole Officiele Ain Zhalta",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2215963977,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7019135,
+          33.7398305
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة السيدة - الفرير",
+        "name_en": "College Notre Dame -Freres",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7572674553,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5175708,
+          33.871001
+        ]
+      }
+    },
+    {
+      "id": "82",
+      "type": "Feature",
+      "properties": {
+        "name": "tyre second school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7931943521,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2163723,
+          33.2606789
+        ]
+      }
+    },
+    {
+      "id": "83",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية راهبات سيدة المعونة الدائمة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية راهبات سيدة المعونة الدائمة",
+        "osm_id": 7592159999,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5214776,
+          33.8712886
+        ]
+      }
+    },
+    {
+      "id": "84",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة سيدة الشياح",
+        "name_en": "St.marie school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة سيدة الشياح",
+        "osm_id": 6286719385,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5161557,
+          33.8642007
+        ]
+      }
+    },
+    {
+      "id": "85",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة القديس يوسف",
+        "name_en": "St. Joseph school",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "برج حمود",
+        "source": null,
+        "name_ar": "مدرسة القديس يوسف",
+        "osm_id": 6330067628,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5436804,
+          33.8921897
+        ]
+      }
+    },
+    {
+      "id": "86",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة رفيق الحريري",
+        "name_en": "Rafiq Hariri University",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جامعة رفيق الحريري",
+        "osm_id": 5581124722,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4837198,
+          33.7139783
+        ]
+      }
+    },
+    {
+      "id": "87",
+      "type": "Feature",
+      "properties": {
+        "name": "AUCE",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7725586335,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2204742,
+          33.2633084
+        ]
+      }
+    },
+    {
+      "id": "88",
+      "type": "Feature",
+      "properties": {
+        "name": "cis college",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7931943523,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2254345,
+          33.2527988
+        ]
+      }
+    },
+    {
+      "id": "89",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة فاهان تيكيان",
+        "name_en": "Vahan Tékéyan School",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة فاهان تيكيان",
+        "osm_id": 3400484631,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5383235,
+          33.8960165
+        ]
+      }
+    },
+    {
+      "id": "90",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3257801461,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5142574,
+          33.8946719
+        ]
+      }
+    },
+    {
+      "id": "91",
+      "type": "Feature",
+      "properties": {
+        "name": "beirut modern school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7930328859,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.908596,
+          33.7605525
+        ]
+      }
+    },
+    {
+      "id": "92",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الأهلية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7930789027,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9021283,
+          33.7715537
+        ]
+      }
+    },
+    {
+      "id": "93",
+      "type": "Feature",
+      "properties": {
+        "name": "المقاصد الخيريه الاسلامية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7930789025,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9020211,
+          33.7763289
+        ]
+      }
+    },
+    {
+      "id": "94",
+      "type": "Feature",
+      "properties": {
+        "name": "kayani school malal",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8049636933,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9106167,
+          33.7813253
+        ]
+      }
+    },
+    {
+      "id": "95",
+      "type": "Feature",
+      "properties": {
+        "name": "basma w zytouna",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7934845606,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9026993,
+          33.7723172
+        ]
+      }
+    },
+    {
+      "id": "96",
+      "type": "Feature",
+      "properties": {
+        "name": "ملعب",
+        "name_en": "terre saint",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ملعب",
+        "osm_id": 5276311121,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8103192,
+          34.4502371
+        ]
+      }
+    },
+    {
+      "id": "97",
+      "type": "Feature",
+      "properties": {
+        "name": "Alaa el dine school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "علاء الدين",
+        "osm_id": 8158681328,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.815644,
+          34.4491768
+        ]
+      }
+    },
+    {
+      "id": "98",
+      "type": "Feature",
+      "properties": {
+        "name": "القديسة تيريز",
+        "name_en": "St. Thereze",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "القديسة تيريز",
+        "osm_id": 279240516,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8148265,
+          34.3003697
+        ]
+      }
+    },
+    {
+      "id": "99",
+      "type": "Feature",
+      "properties": {
+        "name": "القديسة تيريز",
+        "name_en": "St Therese",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "القديسة تيريز",
+        "osm_id": 1733863106,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8006324,
+          34.2761062
+        ]
+      }
+    },
+    {
+      "id": "100",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة اللبنانية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "الجامعة اللبنانية",
+        "osm_id": 3419611856,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6077372,
+          33.8034817
+        ]
+      }
+    },
+    {
+      "id": "101",
+      "type": "Feature",
+      "properties": {
+        "name": "Kmatia Public School",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8367418343,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.577161,
+          33.8023054
+        ]
+      }
+    },
+    {
+      "id": "102",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الأنطوانيّة - جمهور",
+        "name_en": "Collège Notre Dame des Soeurs Antonines - Jamhour",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5200408421,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5601773,
+          33.8271998
+        ]
+      }
+    },
+    {
+      "id": "103",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية رأس المتن الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "رأس المتن",
+        "source": null,
+        "name_ar": "ثانوية رأس المتن الرسمية",
+        "osm_id": 3380864558,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6610027,
+          33.8476876
+        ]
+      }
+    },
+    {
+      "id": "104",
+      "type": "Feature",
+      "properties": {
+        "name": "دار السلام الرسمية زحله",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6322524911,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9035542,
+          33.8481778
+        ]
+      }
+    },
+    {
+      "id": "105",
+      "type": "Feature",
+      "properties": {
+        "name": "حسن قصير",
+        "name_en": "Hassan Kassir",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "حسن قصير",
+        "osm_id": 5450399907,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4945881,
+          33.84649
+        ]
+      }
+    },
+    {
+      "id": "106",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4581825995,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4955189,
+          33.8539141
+        ]
+      }
+    },
+    {
+      "id": "107",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الثانوية تعلبايا",
+        "name_en": "taalabaya secondary school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "تعلبايا",
+        "source": null,
+        "name_ar": "المدرسة الثانوية تعلبايا",
+        "osm_id": 3059556100,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8705125,
+          33.8174196
+        ]
+      }
+    },
+    {
+      "id": "108",
+      "type": "Feature",
+      "properties": {
+        "name": "اجيال",
+        "name_en": "Ajyal",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6506380585,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5112535,
+          33.8428834
+        ]
+      }
+    },
+    {
+      "id": "109",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة كفرشيما الرسمية",
+        "name_en": "kfarchima official school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة كفرشيما الرسمية",
+        "osm_id": 3077204059,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5345049,
+          33.8139192
+        ]
+      }
+    },
+    {
+      "id": "110",
+      "type": "Feature",
+      "properties": {
+        "name": "Sagesse",
+        "name_en": "Sagesse",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3670174501,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5365658,
+          33.8460314
+        ]
+      }
+    },
+    {
+      "id": "111",
+      "type": "Feature",
+      "properties": {
+        "name": "PLS",
+        "name_en": "PLS",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4661434141,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5166911,
+          33.8165617
+        ]
+      }
+    },
+    {
+      "id": "112",
+      "type": "Feature",
+      "properties": {
+        "name": "جنة الطلبة",
+        "name_en": "Jannat At Talaba",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جنة الطلبة",
+        "osm_id": 288824592,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5049253,
+          33.8748945
+        ]
+      }
+    },
+    {
+      "id": "113",
+      "type": "Feature",
+      "properties": {
+        "name": "دار الأيتام",
+        "name_en": "Orphan. Al Makassed",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "دار الأيتام",
+        "osm_id": 3670418791,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5027188,
+          33.8760133
+        ]
+      }
+    },
+    {
+      "id": "114",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة اللويزة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جامعة اللويزة",
+        "osm_id": 4734008823,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6513478,
+          33.9816326
+        ]
+      }
+    },
+    {
+      "id": "115",
+      "type": "Feature",
+      "properties": {
+        "name": "ecole saint charbel",
+        "name_en": "Ecole Saint Charbel",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "daroun",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5836502281,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6451609,
+          33.9769305
+        ]
+      }
+    },
+    {
+      "id": "116",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الرسل",
+        "name_en": "Apostles school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الرسل",
+        "osm_id": 4840307321,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.633128,
+          33.9821264
+        ]
+      }
+    },
+    {
+      "id": "117",
+      "type": "Feature",
+      "properties": {
+        "name": "Notre-Dame de Louaizé",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "سيدة اللويزة",
+        "osm_id": 5830257813,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7230732,
+          33.9857493
+        ]
+      }
+    },
+    {
+      "id": "118",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة عمرحمد",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 295362498,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.501846,
+          33.870179
+        ]
+      }
+    },
+    {
+      "id": "119",
+      "type": "Feature",
+      "properties": {
+        "name": "ماما نجاح",
+        "name_en": "Mama Najah",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ماما نجاح",
+        "osm_id": 559966159,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5015489,
+          33.871681
+        ]
+      }
+    },
+    {
+      "id": "120",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة اللبنانية فرع الحقوق والعلوم السياسية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9722531217,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4849658,
+          33.872696
+        ]
+      }
+    },
+    {
+      "id": "121",
+      "type": "Feature",
+      "properties": {
+        "name": "almarj high school",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8046915319,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8835935,
+          33.7615157
+        ]
+      }
+    },
+    {
+      "id": "122",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10867259431,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8685543,
+          33.8814694
+        ]
+      }
+    },
+    {
+      "id": "123",
+      "type": "Feature",
+      "properties": {
+        "name": "Secondary Evangelical School",
+        "name_en": "Secondary Evangelical School",
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3061064058,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9025163,
+          33.8502935
+        ]
+      }
+    },
+    {
+      "id": "124",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة التكميلية تعلبايا",
+        "name_en": "taalabaya complementary school",
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "تعلبايا",
+        "source": null,
+        "name_ar": "المدرسة التكميلية تعلبايا",
+        "osm_id": 3059557462,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.870995,
+          33.8170408
+        ]
+      }
+    },
+    {
+      "id": "125",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة رجح خلف",
+        "name_en": "school rajem khalaf",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة رجح خلف",
+        "osm_id": 4422890489,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3882808,
+          34.6228566
+        ]
+      }
+    },
+    {
+      "id": "126",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الألمانية",
+        "name_en": "Deutsche Schule",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المدرسة الألمانية",
+        "osm_id": 3191434652,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.641909,
+          33.9940398
+        ]
+      }
+    },
+    {
+      "id": "127",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4874884045,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6879189,
+          34.0276377
+        ]
+      }
+    },
+    {
+      "id": "128",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة أسطفان جوان عاصي الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة أسطفان جوان عاصي الرسمية",
+        "osm_id": 4054111811,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6855432,
+          34.1704595
+        ]
+      }
+    },
+    {
+      "id": "129",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة اللبنانيّة العامّة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6292049279,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4914365,
+          33.8974169
+        ]
+      }
+    },
+    {
+      "id": "130",
+      "type": "Feature",
+      "properties": {
+        "name": "jeel al jadeed school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7947504319,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5037945,
+          33.8868451
+        ]
+      }
+    },
+    {
+      "id": "131",
+      "type": "Feature",
+      "properties": {
+        "name": "École des pères Antonins",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5485626802,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7553687,
+          33.9101026
+        ]
+      }
+    },
+    {
+      "id": "132",
+      "type": "Feature",
+      "properties": {
+        "name": "أنترناسيونال سكول",
+        "name_en": "International School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "أنترناسيونال سكول",
+        "osm_id": 1620891503,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8048495,
+          34.3541348
+        ]
+      }
+    },
+    {
+      "id": "133",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8240253991,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7309858,
+          34.3598524
+        ]
+      }
+    },
+    {
+      "id": "134",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية الحدادين",
+        "name_en": "haddadine",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية الحدادين",
+        "osm_id": 5398078842,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.842077,
+          34.4224384
+        ]
+      }
+    },
+    {
+      "id": "135",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية القبة",
+        "name_en": "Al kobbe high school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية القبة",
+        "osm_id": 5212709951,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8595608,
+          34.4341286
+        ]
+      }
+    },
+    {
+      "id": "136",
+      "type": "Feature",
+      "properties": {
+        "name": "I C  KASLIK",
+        "name_en": "I C  Kaslik",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5798506153,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.620111,
+          33.9852411
+        ]
+      }
+    },
+    {
+      "id": "137",
+      "type": "Feature",
+      "properties": {
+        "name": "Mtein Technical school",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": "public",
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9275745617,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7506223,
+          33.9011294
+        ]
+      }
+    },
+    {
+      "id": "138",
+      "type": "Feature",
+      "properties": {
+        "name": "Université Libano-Française (ULF)",
+        "name_en": "Université Libano-Française (ULF)",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Deddeh",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3888669476,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8176896,
+          34.3908401
+        ]
+      }
+    },
+    {
+      "id": "139",
+      "type": "Feature",
+      "properties": {
+        "name": "كلية العلوم الفرع الثالث",
+        "name_en": "Lebanese university- Faculty of Science III",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "كلية العلوم الفرع الثالث",
+        "osm_id": 2936113281,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.856799,
+          34.4359932
+        ]
+      }
+    },
+    {
+      "id": "140",
+      "type": "Feature",
+      "properties": {
+        "name": "Brummana High School",
+        "name_en": "Brummana High School",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3675036300,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6232751,
+          33.8810869
+        ]
+      }
+    },
+    {
+      "id": "141",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4892618883,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5893689,
+          33.9244036
+        ]
+      }
+    },
+    {
+      "id": "142",
+      "type": "Feature",
+      "properties": {
+        "name": "North Lebanon College",
+        "name_en": "North Lebanon College",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2163519847,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8895441,
+          34.3592106
+        ]
+      }
+    },
+    {
+      "id": "143",
+      "type": "Feature",
+      "properties": {
+        "name": "Math",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8358370856,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5946794,
+          33.8927099
+        ]
+      }
+    },
+    {
+      "id": "144",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة العائلة المقدسة",
+        "name_en": "HOLY FAMILY SCHOOL",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5294603522,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.833669,
+          34.4371323
+        ]
+      }
+    },
+    {
+      "id": "145",
+      "type": "Feature",
+      "properties": {
+        "name": "شارع مركز اختبار الايلتس في طرابلس",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "شارع مركز اختبار الايلتس في طرابلس",
+        "osm_id": 4734349024,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8316533,
+          34.4373249
+        ]
+      }
+    },
+    {
+      "id": "146",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة المطران",
+        "name_en": "al moutran school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة المطران",
+        "osm_id": 5276328421,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8361239,
+          34.4392177
+        ]
+      }
+    },
+    {
+      "id": "147",
+      "type": "Feature",
+      "properties": {
+        "name": "Al moutran al khayriya",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة المطران الخيرية",
+        "osm_id": 8158505247,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8404833,
+          34.4372254
+        ]
+      }
+    },
+    {
+      "id": "148",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة عدنان الجسر الرسمية المختلطة",
+        "name_en": "Adnan El Jisr School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9838853417,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.832652,
+          34.4203715
+        ]
+      }
+    },
+    {
+      "id": "149",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة أبن خلدون",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة أبن خلدون",
+        "osm_id": 4011516128,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8494371,
+          34.4137785
+        ]
+      }
+    },
+    {
+      "id": "150",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة ملكارت",
+        "name_en": "college Melkart",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5728998721,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5628824,
+          33.8402841
+        ]
+      }
+    },
+    {
+      "id": "151",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة لبنانية نيو روضة",
+        "name_en": "Elene Uni",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جامعة لبنانية نيو روضة",
+        "osm_id": 4906043121,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5571109,
+          33.8770074
+        ]
+      }
+    },
+    {
+      "id": "152",
+      "type": "Feature",
+      "properties": {
+        "name": "الثقافة قصر مدرسة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889816343,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.399691,
+          34.2674424
+        ]
+      }
+    },
+    {
+      "id": "153",
+      "type": "Feature",
+      "properties": {
+        "name": "Sabis Adma",
+        "name_en": "Sabis Adma",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2462977625,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6378846,
+          34.0234982
+        ]
+      }
+    },
+    {
+      "id": "154",
+      "type": "Feature",
+      "properties": {
+        "name": "الجامعة اللبنانية فرع العلوم الاقتصادية",
+        "name_en": "school of business lebanese university",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5500126323,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5287044,
+          33.8864237
+        ]
+      }
+    },
+    {
+      "id": "155",
+      "type": "Feature",
+      "properties": {
+        "name": "رجم عيسى",
+        "name_en": "Rajem Issa",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "رجم عيسى",
+        "osm_id": 4422883694,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3856975,
+          34.6235015
+        ]
+      }
+    },
+    {
+      "id": "156",
+      "type": "Feature",
+      "properties": {
+        "name": "INSTITUTO CERVANTES BEIRUT",
+        "name_en": "INSTITUTO CERVANTES BEIRUT",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5306267529,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5054933,
+          33.8915326
+        ]
+      }
+    },
+    {
+      "id": "157",
+      "type": "Feature",
+      "properties": {
+        "name": "Saint Maximos",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7456598329,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5677839,
+          33.8536451
+        ]
+      }
+    },
+    {
+      "id": "158",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة القديس يوسف",
+        "name_en": "USJ-Génie",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جامعة القديس يوسف-هندسة",
+        "osm_id": 6892863185,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5644999,
+          33.8647974
+        ]
+      }
+    },
+    {
+      "id": "159",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3492901416,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8974937,
+          33.7774314
+        ]
+      }
+    },
+    {
+      "id": "160",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": "borj international School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6828437385,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5073851,
+          33.8334614
+        ]
+      }
+    },
+    {
+      "id": "161",
+      "type": "Feature",
+      "properties": {
+        "name": "al metwasta",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8119016165,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9023903,
+          33.7785801
+        ]
+      }
+    },
+    {
+      "id": "162",
+      "type": "Feature",
+      "properties": {
+        "name": "معهد العلوم التطبيقية والاقتصادية - الجامعة اللبنانية",
+        "name_en": "Le CNAM - Nahr Ibrahim",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "معهد العلوم التطبيقية والاقتصادية - الجامعة اللبنانية",
+        "osm_id": 5264033021,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6496642,
+          34.063214
+        ]
+      }
+    },
+    {
+      "id": "163",
+      "type": "Feature",
+      "properties": {
+        "name": "Al Nahda",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة النهضة الرسمية",
+        "osm_id": 8158505254,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8126899,
+          34.448414
+        ]
+      }
+    },
+    {
+      "id": "164",
+      "type": "Feature",
+      "properties": {
+        "name": "روضة الفيحاء",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "روضة الفيحاء",
+        "osm_id": 1857604539,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8262108,
+          34.4255218
+        ]
+      }
+    },
+    {
+      "id": "165",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الصلاح المتوسطة الرسمية للبنات",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الصلاح المتوسطة الرسمية للبنات",
+        "osm_id": 4032443697,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8451566,
+          34.4264898
+        ]
+      }
+    },
+    {
+      "id": "166",
+      "type": "Feature",
+      "properties": {
+        "name": "ابن سينا",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ابن سينا",
+        "osm_id": 5212686967,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8519361,
+          34.431214
+        ]
+      }
+    },
+    {
+      "id": "167",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسه السينك كور",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسه السينك كور",
+        "osm_id": 4520900295,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8111441,
+          34.4539103
+        ]
+      }
+    },
+    {
+      "id": "168",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889908309,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4154624,
+          34.1809939
+        ]
+      }
+    },
+    {
+      "id": "169",
+      "type": "Feature",
+      "properties": {
+        "name": "Cnam University Bikfaya",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5471965541,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6765279,
+          33.9170663
+        ]
+      }
+    },
+    {
+      "id": "170",
+      "type": "Feature",
+      "properties": {
+        "name": "Administration Building",
+        "name_en": "Administration Building",
+        "amenity": null,
+        "building": "school",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3675036301,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.623788,
+          33.8811222
+        ]
+      }
+    },
+    {
+      "id": "171",
+      "type": "Feature",
+      "properties": {
+        "name": "Innocent Minds",
+        "name_en": "Innocent Mints",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3122181835,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.547357,
+          33.8511072
+        ]
+      }
+    },
+    {
+      "id": "172",
+      "type": "Feature",
+      "properties": {
+        "name": "Yohmour Public School",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8009028970,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5191158,
+          33.314879
+        ]
+      }
+    },
+    {
+      "id": "173",
+      "type": "Feature",
+      "properties": {
+        "name": "ايليت",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ايليت",
+        "osm_id": 4818638524,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2719211,
+          33.300687
+        ]
+      }
+    },
+    {
+      "id": "174",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8040212049,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6973176,
+          33.6107516
+        ]
+      }
+    },
+    {
+      "id": "175",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8004617016,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8268983,
+          33.5172951
+        ]
+      }
+    },
+    {
+      "id": "176",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12335836735,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51902,
+          33.8545154
+        ]
+      }
+    },
+    {
+      "id": "177",
+      "type": "Feature",
+      "properties": {
+        "name": "Ashbal El Sahel High School",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12335859304,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5073997,
+          33.8543416
+        ]
+      }
+    },
+    {
+      "id": "178",
+      "type": "Feature",
+      "properties": {
+        "name": "high school jeb-jannine",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8753555774,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7821355,
+          33.6291243
+        ]
+      }
+    },
+    {
+      "id": "179",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الرسمية",
+        "name_en": "Public School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المدرسة الرسمية",
+        "osm_id": 1684610372,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4537226,
+          33.7497515
+        ]
+      }
+    },
+    {
+      "id": "180",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة دون بوسكو - راهبات حدث بعلبك",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "الحدث - بعلبك",
+        "source": null,
+        "name_ar": "مدرسة دون بوسكو - راهبات حدث بعلبك",
+        "osm_id": 5857341178,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.03252,
+          34.0019199
+        ]
+      }
+    },
+    {
+      "id": "181",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة أي إل بي إس للغات - بيروت",
+        "name_en": "ALPS Language School - Beirut",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": "مدرسة أي إل بي إس للغات - بيروت",
+        "osm_id": 4941393722,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4862668,
+          33.8967104
+        ]
+      }
+    },
+    {
+      "id": "182",
+      "type": "Feature",
+      "properties": {
+        "name": "St. Georges School",
+        "name_en": "St. Georges School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12374677830,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5232608,
+          33.8475017
+        ]
+      }
+    },
+    {
+      "id": "183",
+      "type": "Feature",
+      "properties": {
+        "name": "Niha Public High School",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9180849308,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6260096,
+          33.5959007
+        ]
+      }
+    },
+    {
+      "id": "184",
+      "type": "Feature",
+      "properties": {
+        "name": "Al manar",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8310691341,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4932874,
+          33.371193
+        ]
+      }
+    },
+    {
+      "id": "185",
+      "type": "Feature",
+      "properties": {
+        "name": "al-andalus school",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8049636940,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9136908,
+          33.7923234
+        ]
+      }
+    },
+    {
+      "id": "186",
+      "type": "Feature",
+      "properties": {
+        "name": "al marj",
+        "name_en": "al marj",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5838171886,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8820187,
+          33.7604001
+        ]
+      }
+    },
+    {
+      "id": "187",
+      "type": "Feature",
+      "properties": {
+        "name": "Université Libano-Française",
+        "name_en": "Université Libano-Française",
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Tripoli",
+        "source": null,
+        "name_ar": "جامعة التكنولوجيا والعلوم التطبيقية اللبنانية الفرنسية",
+        "osm_id": 3888669477,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8322329,
+          34.4286331
+        ]
+      }
+    },
+    {
+      "id": "188",
+      "type": "Feature",
+      "properties": {
+        "name": "Garderie Les Calinous",
+        "name_en": null,
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12195553459,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.547855,
+          33.845289
+        ]
+      }
+    },
+    {
+      "id": "189",
+      "type": "Feature",
+      "properties": {
+        "name": "SSCC School",
+        "name_en": "SSCC School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7126637667,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5893861,
+          33.3614051
+        ]
+      }
+    },
+    {
+      "id": "190",
+      "type": "Feature",
+      "properties": {
+        "name": "North Lebanon College",
+        "name_en": "North Lebanon College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2166775118,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.889799,
+          34.3595981
+        ]
+      }
+    },
+    {
+      "id": "191",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الرهبات الانطونيات",
+        "name_en": "Collège Notre Dame des Soeurs Antonines Nabatieh",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Nabatieh",
+        "source": null,
+        "name_ar": "مدرسة الرهبات الانطونيات",
+        "osm_id": 2706862342,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4866497,
+          33.3837911
+        ]
+      }
+    },
+    {
+      "id": "192",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة القلبين الأقدسين جبيل",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة القلبين الأقدسين جبيل",
+        "osm_id": 3080333585,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6452174,
+          34.122114
+        ]
+      }
+    },
+    {
+      "id": "193",
+      "type": "Feature",
+      "properties": {
+        "name": "روضة جبيل الثانوية المختلطة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "روضة جبيل الثانوية المختلطة",
+        "osm_id": 3080216899,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6448269,
+          34.1233379
+        ]
+      }
+    },
+    {
+      "id": "194",
+      "type": "Feature",
+      "properties": {
+        "name": "Collège des Frères Maristes",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "جبيل",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7528817999,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6544508,
+          34.1198413
+        ]
+      }
+    },
+    {
+      "id": "195",
+      "type": "Feature",
+      "properties": {
+        "name": "LU rawda",
+        "name_en": "LU rawda",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5156627732,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5569573,
+          33.8770376
+        ]
+      }
+    },
+    {
+      "id": "196",
+      "type": "Feature",
+      "properties": {
+        "name": "كشافة الامام المهدي (ع)",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6411167386,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4975209,
+          33.8591682
+        ]
+      }
+    },
+    {
+      "id": "197",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة اللبنانية الفرنسية",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": "جامعة اللبنانية الفرنسية",
+        "osm_id": 3888643288,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4883694,
+          33.8973077
+        ]
+      }
+    },
+    {
+      "id": "198",
+      "type": "Feature",
+      "properties": {
+        "name": "Alouette",
+        "name_en": null,
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12723284573,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5500755,
+          33.8523712
+        ]
+      }
+    },
+    {
+      "id": "199",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة رمادية",
+        "name_en": "Rmadiyeh School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "رمادية",
+        "source": null,
+        "name_ar": "مدرسة رمادية",
+        "osm_id": 2766917124,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2785585,
+          33.1953679
+        ]
+      }
+    },
+    {
+      "id": "200",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية الرسالة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8158370767,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8166477,
+          34.4443881
+        ]
+      }
+    },
+    {
+      "id": "201",
+      "type": "Feature",
+      "properties": {
+        "name": "official secondary saadnayel",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8872427143,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8813023,
+          33.8216457
+        ]
+      }
+    },
+    {
+      "id": "202",
+      "type": "Feature",
+      "properties": {
+        "name": "Wellspring Learning Community",
+        "name_en": "Wellspring Learning Community",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2461204398,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5175541,
+          33.8801241
+        ]
+      }
+    },
+    {
+      "id": "203",
+      "type": "Feature",
+      "properties": {
+        "name": "lycee la Fontaine",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "برج أبي حيدر",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8815528802,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5001779,
+          33.8832648
+        ]
+      }
+    },
+    {
+      "id": "204",
+      "type": "Feature",
+      "properties": {
+        "name": "Ecole secondaire de Ras-Baalbeck",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Ras-Baalbeck",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6340174627,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4082221,
+          34.2595894
+        ]
+      }
+    },
+    {
+      "id": "205",
+      "type": "Feature",
+      "properties": {
+        "name": "Ecole élémentaire de Ras-Baalbeck",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Ras-Baalbeck",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6340174628,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.407735,
+          34.2600198
+        ]
+      }
+    },
+    {
+      "id": "206",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8140221345,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3832382,
+          34.2475101
+        ]
+      }
+    },
+    {
+      "id": "207",
+      "type": "Feature",
+      "properties": {
+        "name": "مؤسسة رباب الصدر",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "صور",
+        "source": null,
+        "name_ar": "مؤسسة رباب الصدر",
+        "osm_id": 4817924121,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2077227,
+          33.2666301
+        ]
+      }
+    },
+    {
+      "id": "208",
+      "type": "Feature",
+      "properties": {
+        "name": "Al Sanabel High School",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12334558476,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5159692,
+          33.8394634
+        ]
+      }
+    },
+    {
+      "id": "209",
+      "type": "Feature",
+      "properties": {
+        "name": "École primaire d'Es Souaïssé",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5306266229,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.11957,
+          34.5533387
+        ]
+      }
+    },
+    {
+      "id": "210",
+      "type": "Feature",
+      "properties": {
+        "name": "AUT",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 9127848951,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8518128,
+          34.3084296
+        ]
+      }
+    },
+    {
+      "id": "211",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الأرمينية الأربعين شهيد",
+        "name_en": "Forty Martyrs Armenian School",
+        "amenity": "kindergarten",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بيروت",
+        "source": null,
+        "name_ar": "المدرسة الأرمينية الأربعين شهيد",
+        "osm_id": 3400482003,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5382374,
+          33.8926663
+        ]
+      }
+    },
+    {
+      "id": "212",
+      "type": "Feature",
+      "properties": {
+        "name": "École publique d'El Aarîda",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 11056661687,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9774115,
+          34.6333935
+        ]
+      }
+    },
+    {
+      "id": "213",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الكابري للأونروا",
+        "name_en": "Kabri UNRWA School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الكابري للأونروا",
+        "osm_id": 6356250201,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4886964,
+          33.8768507
+        ]
+      }
+    },
+    {
+      "id": "214",
+      "type": "Feature",
+      "properties": {
+        "name": "المبرات ثانوية الكوثر",
+        "name_en": "Al Kawthar",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المبرات ثانوية الكوثر",
+        "osm_id": 3665552885,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4945585,
+          33.8478963
+        ]
+      }
+    },
+    {
+      "id": "215",
+      "type": "Feature",
+      "properties": {
+        "name": "Ecole technique supérieure de Machghara",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 6380123878,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6454025,
+          33.5180866
+        ]
+      }
+    },
+    {
+      "id": "216",
+      "type": "Feature",
+      "properties": {
+        "name": "Collège Saint-Jean",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8022491887,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7178959,
+          33.6411598
+        ]
+      }
+    },
+    {
+      "id": "217",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة حسن كامل الصباح",
+        "name_en": "Hasan Kamel el Sabbah School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة حسن كامل الصباح",
+        "osm_id": 2707903000,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4940425,
+          33.3733154
+        ]
+      }
+    },
+    {
+      "id": "218",
+      "type": "Feature",
+      "properties": {
+        "name": "Saint joseph school",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10908018549,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.909717,
+          33.8374827
+        ]
+      }
+    },
+    {
+      "id": "219",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة القديسة ريتا",
+        "name_en": "St. Rita School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "الضبية",
+        "source": null,
+        "name_ar": "مدرسة القديسة ريتا",
+        "osm_id": 5723811260,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5932199,
+          33.9446192
+        ]
+      }
+    },
+    {
+      "id": "220",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الجالية الأميركية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الجالية الأميركية",
+        "osm_id": 6229018086,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4769186,
+          33.9007446
+        ]
+      }
+    },
+    {
+      "id": "221",
+      "type": "Feature",
+      "properties": {
+        "name": "Al Ghourabaa Highschool",
+        "name_en": "Al Ghourabaa Highschool",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10665705686,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8459014,
+          34.4446147
+        ]
+      }
+    },
+    {
+      "id": "222",
+      "type": "Feature",
+      "properties": {
+        "name": "Garderie Les P'tits Bourgeons",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8462141494,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5475761,
+          33.8501399
+        ]
+      }
+    },
+    {
+      "id": "223",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الراهبات الأنطونيات",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الراهبات الأنطونيات",
+        "osm_id": 3660349325,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5464124,
+          33.8547905
+        ]
+      }
+    },
+    {
+      "id": "224",
+      "type": "Feature",
+      "properties": {
+        "name": "المعهد الشرعى الاسلامى",
+        "name_en": "Institut Juridique Islamique",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المعهد الشرعى الاسلامى",
+        "osm_id": 5235355121,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.508951,
+          33.851583
+        ]
+      }
+    },
+    {
+      "id": "225",
+      "type": "Feature",
+      "properties": {
+        "name": "Rosaires",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 4231448043,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.537903,
+          33.884743
+        ]
+      }
+    },
+    {
+      "id": "226",
+      "type": "Feature",
+      "properties": {
+        "name": "École Jésuite",
+        "name_en": "Jesuit school",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3061141278,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8939898,
+          33.8493731
+        ]
+      }
+    },
+    {
+      "id": "227",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الطيري",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "الطيري",
+        "source": null,
+        "name_ar": "مدرسة الطيري",
+        "osm_id": 5776828040,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4083467,
+          33.1412294
+        ]
+      }
+    },
+    {
+      "id": "228",
+      "type": "Feature",
+      "properties": {
+        "name": "École School",
+        "name_en": "Hededin School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "Tripoli",
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3365622826,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8416979,
+          34.43082
+        ]
+      }
+    },
+    {
+      "id": "229",
+      "type": "Feature",
+      "properties": {
+        "name": "École Noubarian Khirimian",
+        "name_en": "École Noubarian Khirimian",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 5402275024,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8322345,
+          34.4356797
+        ]
+      }
+    },
+    {
+      "id": "230",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الأوروبية",
+        "name_en": "European School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المدرسة الأوروبية",
+        "osm_id": 4661434498,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4876063,
+          33.7829518
+        ]
+      }
+    },
+    {
+      "id": "231",
+      "type": "Feature",
+      "properties": {
+        "name": "سيدة الجمهور",
+        "name_en": "Collège Notre-Dame de Jamhour",
+        "amenity": "school",
+        "building": "yes",
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "سيدة الجمهور",
+        "osm_id": 2523437870,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5645885,
+          33.8329087
+        ]
+      }
+    },
+    {
+      "id": "232",
+      "type": "Feature",
+      "properties": {
+        "name": "العائلة المقدسة بعبدا",
+        "name_en": "ste famille baabda",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "بعبدا",
+        "source": null,
+        "name_ar": "العائلة المقدسة بعبدا",
+        "osm_id": 3667249910,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5449612,
+          33.8318801
+        ]
+      }
+    },
+    {
+      "id": "233",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية الإيمان النموذجية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": "برجا",
+        "source": null,
+        "name_ar": "ثانوية الإيمان النموذجية",
+        "osm_id": 2035791634,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4405797,
+          33.6444209
+        ]
+      }
+    },
+    {
+      "id": "234",
+      "type": "Feature",
+      "properties": {
+        "name": "متوسطة الديماس المختلطة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "متوسطة الديماس المختلطة",
+        "osm_id": 2035791641,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.440172,
+          33.6447827
+        ]
+      }
+    },
+    {
+      "id": "235",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة وثانوية البقيعة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة وثانوية البقيعة",
+        "osm_id": 4048857272,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3317645,
+          34.6626323
+        ]
+      }
+    },
+    {
+      "id": "236",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية وادي خالد الرسمية",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية وادي خالد الرسمية",
+        "osm_id": 4422891589,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3893785,
+          34.6212148
+        ]
+      }
+    },
+    {
+      "id": "237",
+      "type": "Feature",
+      "properties": {
+        "name": "المدرسة الانجيلية في النبطيه",
+        "name_en": "The National Evangelical School in Nabatieh",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "المدرسة الانجيلية في النبطيه",
+        "osm_id": 2706911782,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4871872,
+          33.3765107
+        ]
+      }
+    },
+    {
+      "id": "238",
+      "type": "Feature",
+      "properties": {
+        "name": "ثانوية حسن كامل الصباح",
+        "name_en": "Hasan Kamel el Sabbah College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "ثانوية حسن كامل الصباح",
+        "osm_id": 2706929158,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4904515,
+          33.3724961
+        ]
+      }
+    },
+    {
+      "id": "239",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة الروضة",
+        "name_en": "Al Rawda School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة الروضة",
+        "osm_id": 8158505243,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8333996,
+          34.4460547
+        ]
+      }
+    },
+    {
+      "id": "240",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": "Goethe Institute",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 11208888037,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5052319,
+          33.8906152
+        ]
+      }
+    },
+    {
+      "id": "241",
+      "type": "Feature",
+      "properties": {
+        "name": "Houch el oumara Secondary School",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10905017887,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.906463,
+          33.8366331
+        ]
+      }
+    },
+    {
+      "id": "242",
+      "type": "Feature",
+      "properties": {
+        "name": "barelias official high school",
+        "name_en": null,
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8049636931,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9006966,
+          33.7778561
+        ]
+      }
+    },
+    {
+      "id": "243",
+      "type": "Feature",
+      "properties": {
+        "name": "جامعة القديس يوسف",
+        "name_en": "USJ - Campus des sciences médicales",
+        "amenity": "college",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "جامعة القديس يوسف",
+        "osm_id": 6892863285,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5120021,
+          33.8826257
+        ]
+      }
+    },
+    {
+      "id": "244",
+      "type": "Feature",
+      "properties": {
+        "name": "NDU Shouf Campus",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 7935858666,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5698874,
+          33.7027412
+        ]
+      }
+    },
+    {
+      "id": "245",
+      "type": "Feature",
+      "properties": {
+        "name": "Lebanese International University LIU",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 10917709743,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8427276,
+          34.3966897
+        ]
+      }
+    },
+    {
+      "id": "246",
+      "type": "Feature",
+      "properties": {
+        "name": "American University of Culture & Education",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 3240732591,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5550968,
+          33.8827501
+        ]
+      }
+    },
+    {
+      "id": "247",
+      "type": "Feature",
+      "properties": {
+        "name": "كلية العلوم جامعة القديس يوسف",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "كلية العلوم جامعة القديس يوسف",
+        "osm_id": 3258246242,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5644065,
+          33.8649159
+        ]
+      }
+    },
+    {
+      "id": "248",
+      "type": "Feature",
+      "properties": {
+        "name": "The Canadian Lebanese Academy of Excellence",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2706915947,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4992735,
+          33.3779491
+        ]
+      }
+    },
+    {
+      "id": "249",
+      "type": "Feature",
+      "properties": {
+        "name": "AUST - American University of Science and Technology",
+        "name_en": null,
+        "amenity": "university",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 8317853067,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6614809,
+          33.8078726
+        ]
+      }
+    },
+    {
+      "id": "250",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدرسة",
+        "osm_id": 8158681325,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8164273,
+          34.4478601
+        ]
+      }
+    },
+    {
+      "id": "251",
+      "type": "Feature",
+      "properties": {
+        "name": "Yunus Emre Institute",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12376967282,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4856006,
+          33.8940234
+        ]
+      }
+    },
+    {
+      "id": "252",
+      "type": "Feature",
+      "properties": {
+        "name": "Lebanese Hikmeh School",
+        "name_en": "Lebanese Hikmeh School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12368516514,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5107833,
+          33.8392566
+        ]
+      }
+    },
+    {
+      "id": "253",
+      "type": "Feature",
+      "properties": {
+        "name": "مار نهرا",
+        "name_en": "Mar Nohra",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مار نهرا",
+        "osm_id": 564370496,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6761934,
+          34.0348978
+        ]
+      }
+    },
+    {
+      "id": "254",
+      "type": "Feature",
+      "properties": {
+        "name": "Ras Beirut International High School",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12347070215,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4999504,
+          33.8546704
+        ]
+      }
+    },
+    {
+      "id": "255",
+      "type": "Feature",
+      "properties": {
+        "name": "Bustan High School",
+        "name_en": "Bustan High School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12344666097,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5045298,
+          33.8612973
+        ]
+      }
+    },
+    {
+      "id": "256",
+      "type": "Feature",
+      "properties": {
+        "name": "Elite Scientific College",
+        "name_en": "Elite Scientific College",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12337600777,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.507961,
+          33.8472833
+        ]
+      }
+    },
+    {
+      "id": "257",
+      "type": "Feature",
+      "properties": {
+        "name": "Lebanese Progress School",
+        "name_en": "Lebanese Progress School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12319475487,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5101623,
+          33.832187
+        ]
+      }
+    },
+    {
+      "id": "258",
+      "type": "Feature",
+      "properties": {
+        "name": "Seven Moons School",
+        "name_en": "Seven Moons School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12292715097,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5096797,
+          33.843026
+        ]
+      }
+    },
+    {
+      "id": "259",
+      "type": "Feature",
+      "properties": {
+        "name": "Imam Rida High School",
+        "name_en": "Imam Rida High School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12292805614,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5103954,
+          33.8426265
+        ]
+      }
+    },
+    {
+      "id": "260",
+      "type": "Feature",
+      "properties": {
+        "name": "Albayan High School",
+        "name_en": "Albayan High School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 12292751893,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5173118,
+          33.8446614
+        ]
+      }
+    },
+    {
+      "id": "261",
+      "type": "Feature",
+      "properties": {
+        "name": "Le Lycee National",
+        "name_en": "The National School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": "مدارس الليسه ناسيونال",
+        "osm_id": 7052047746,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4926084,
+          33.79721
+        ]
+      }
+    },
+    {
+      "id": "262",
+      "type": "Feature",
+      "properties": {
+        "name": "Beirut International School (BIS)",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889751398,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5092727,
+          33.7759748
+        ]
+      }
+    },
+    {
+      "id": "263",
+      "type": "Feature",
+      "properties": {
+        "name": "دار بعشتار",
+        "name_en": "Dar Baachtar School",
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1733863107,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7905259,
+          34.2689646
+        ]
+      }
+    },
+    {
+      "id": "264",
+      "type": "Feature",
+      "properties": {
+        "name": "مدرسة المختار",
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 1889908307,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4168679,
+          34.1825648
+        ]
+      }
+    },
+    {
+      "id": "265",
+      "type": "Feature",
+      "properties": {
+        "name": null,
+        "name_en": null,
+        "amenity": "school",
+        "building": null,
+        "operator_t": null,
+        "capacity_p": null,
+        "addr_full": null,
+        "addr_city": null,
+        "source": null,
+        "name_ar": null,
+        "osm_id": 2214966757,
+        "osm_type": "nodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3697513,
+          33.563709
+        ]
+      }
+    }
+  ]
+}

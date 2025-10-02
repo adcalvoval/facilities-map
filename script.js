@@ -285,6 +285,67 @@ async function fetchSchoolsForCountry(countryName) {
     showLoading('Loading Schools...', `Fetching schools for ${countryName}`);
 
     try {
+        // Special case: Lebanon - load from local GeoJSON file
+        if (countryCode === 'LBN') {
+            console.log('Loading Lebanon schools from local GeoJSON file...');
+            try {
+                const response = await fetch('lebanon_schools.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load Lebanon schools: ${response.status}`);
+                }
+                const geojson = await response.json();
+
+                let totalLoaded = 0;
+                geojson.features.forEach(feature => {
+                    if (feature.geometry && feature.geometry.coordinates) {
+                        const [lng, lat] = feature.geometry.coordinates;
+                        const properties = feature.properties || {};
+
+                        const marker = L.marker([lat, lng], {
+                            icon: schoolIcon
+                        });
+
+                        marker.bindPopup(`
+                            <strong>${properties.name || properties.name_en || 'Unknown School'}</strong><br>
+                            Type: ${properties.amenity || 'N/A'}<br>
+                            Country: Lebanon<br>
+                            Coordinates: ${lat.toFixed(6)}, ${lng.toFixed(6)}
+                        `);
+
+                        allSchools.push({
+                            lat: lat,
+                            lng: lng,
+                            marker: marker,
+                            country: countryCode
+                        });
+
+                        // Add to layer if Schools layer is currently visible
+                        if (map.hasLayer(schoolsLayer)) {
+                            marker.addTo(schoolsLayer);
+                        }
+
+                        totalLoaded++;
+                    }
+                });
+
+                loadedSchoolCountries.add(countryCode);
+                console.log(`Loaded ${totalLoaded} schools for Lebanon from local file`);
+
+                // Update schools count after loading
+                updateSchoolsCount();
+
+                // Hide loading indicator
+                hideLoading();
+
+                return;
+            } catch (error) {
+                console.error('Error loading Lebanon schools from local file:', error);
+                alert(`Error loading schools for Lebanon: ${error.message}`);
+                hideLoading();
+                return;
+            }
+        }
+
         let page = 1; // API uses 1-indexed pages, not 0-indexed
         const size = 1000;
         let hasMore = true;
